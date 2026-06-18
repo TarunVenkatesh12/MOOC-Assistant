@@ -71,7 +71,7 @@ The orchestrator drives the entire pipeline sequentially. After each topic is pr
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/mooc-assistant
+git clone https://github.com/TarunVenkatesh12/MOOC-Assistant
 cd mooc-assistant
 
 # Install Python dependencies
