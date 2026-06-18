@@ -9,3 +9,5 @@ venv/
 responses.json 
 rag_index.pkl 
 course_data/ 
+.playwright-mcp/ 
+node_modules/ 
