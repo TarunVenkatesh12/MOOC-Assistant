@@ -7,12 +7,11 @@ A multi-agent pipeline that automatically extracts student questions from FUN-MO
 
 ---
 
-## Reports & Documentation
+## Documentation
 
 | Document | Description |
 |---|---|
 | [MOOC Assistant Report](Assets/MOOC_Assistant_Report.pdf) | Full technical report covering RAG implementation, validation pipeline, and system architecture. |
-| [Presentation Slides](Assets/MOOC_Assistant_Presentation.pptx) | 10-slide deck presented at IMT Atlantique, Academic Year 2025–2026. |
 
 ---
 
