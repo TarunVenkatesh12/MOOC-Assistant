@@ -1,0 +1,2 @@
+[     338ms] [LOG] Error: Cannot find module './en_EN.json'
+    at https://forum.fun-mooc.fr/static/ashley/js/build/ashley.a74f35e2e786.js:2:144 @ https://forum.fun-mooc.fr/static/ashley/js/build/ashley.a74f35e2e786.js:1

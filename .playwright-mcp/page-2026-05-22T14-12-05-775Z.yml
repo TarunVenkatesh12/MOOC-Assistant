@@ -1,0 +1,131 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Quizz - semaine 3" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/quizz-semaine-3-135772/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Quizz - semaine 3" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/quizz-semaine-3-135772/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/quizz-semaine-3-135772/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/quizz-semaine-3-135772/277211/post/delete/
+            - generic [ref=e43]: 
+        - heading "Quizz - semaine 3" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 9, 2024, 8:29 a.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Bonjour,
+          - paragraph [ref=e51]
+          - paragraph [ref=e52]: À la question 4, la réponse attendue est "Ok", mais le serveur renvoie "success:true"
+          - paragraph [ref=e53]
+          - paragraph [ref=e54]
+          - paragraph [ref=e55]
+          - img [ref=e56]
+          - paragraph [ref=e57]
+      - generic [ref=e58]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e60] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e61]: "Posts: 69"
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - link " Edit" [ref=e67] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/quizz-semaine-3-135772/277569/post/update/
+            - generic [ref=e68]: 
+            - text: Edit
+          - link "" [ref=e69] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/quizz-semaine-3-135772/277569/post/delete/
+            - generic [ref=e70]: 
+        - 'heading "Re: Quizz - semaine 3" [level=4] [ref=e71]'
+        - paragraph [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e75] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e76]:
+              - text: 
+              - generic [ref=e77]: Instructor
+            - text: on Dec. 10, 2024, 4:57 p.m.
+        - paragraph [ref=e79]:
+          - text: Attention, ma question porte bien sur la réponse du serveur dans le cas d'une requête
+          - strong [ref=e80]: POST
+          - text: ". Vous obtenez la réponse {\"success\": true} lors du'une requête"
+          - strong [ref=e81]: GET
+          - img "🙂" [ref=e83]
+        - paragraph [ref=e85]: "--Baptiste"
+      - generic [ref=e86]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e88] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e89]: "Posts: 301"
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - link " Edit" [ref=e95] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/quizz-semaine-3-135772/277595/post/update/
+            - generic [ref=e96]: 
+            - text: Edit
+          - link "" [ref=e97] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/quizz-semaine-3-135772/277595/post/delete/
+            - generic [ref=e98]: 
+        - 'heading "Re: Quizz - semaine 3" [level=4] [ref=e99]'
+        - paragraph [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e102]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e103] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 10, 2024, 6:49 p.m.
+        - paragraph [ref=e105]: Oups ! Au temps pour moi.
+      - generic [ref=e106]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e108] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e109]: "Posts: 69"
+  - generic [ref=e111]:
+    - link " Post reply" [ref=e112] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/quizz-semaine-3-135772/post/create/
+      - generic [ref=e113]: 
+      - text: Post reply
+    - button "" [ref=e115] [cursor=pointer]:
+      - generic [ref=e116]: 

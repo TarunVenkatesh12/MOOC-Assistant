@@ -1,0 +1,287 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - 'link "S3 • La Barrière : retour de la position du bouton" [ref=e14] [cursor=pointer]':
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - 'heading "S3 • La Barrière : retour de la position du bouton" [level=1] [ref=e24]'
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/276358/post/delete/
+            - generic [ref=e43]: 
+        - 'heading "S3 • La Barrière : retour de la position du bouton" [level=4] [ref=e44]'
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Dec. 3, 2024, 1:26 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Bonjour à tous,
+          - paragraph [ref=e51]
+          - paragraph [ref=e52]: J'ai surement mal compris un truc avec l'API de emoncms, mais pour valider le TP barrière, j'ai du forcer la valeur à 1 alors que sur l'onglet "Expérimentation", le programme semble fonctionner. Je partage mon code sans les déclaration de variable (et donc sans la clé API). Quand je supprime la ligne "button_value = 1", sa valeur est systématiquement à 0 quelque soit la valeur sur le site emoncms. J'ai aussi du commenter les lignes vérifiant l'état de la connection pour que le code soit validé.
+          - paragraph [ref=e53]
+          - paragraph [ref=e54]: Evidement j'ai l'impression d'avoir un peu triché. Est-ce que j'ai fait une erreur quelque part ?
+          - paragraph [ref=e55]
+          - code [ref=e57]:
+            - text: def set
+            - generic [ref=e58]: ServoAngle(pin, angle)
+            - text: ": if (angle >= 0 and angle <= 180): pin.duty"
+            - generic [ref=e59]: _u16(int(0.025*65535 + (angle*0.1*65535)
+            - text: "/180)) else: raise"
+            - generic [ref=e60]: ValueError("Servomotor angle have to be set between 0 and 180")
+            - text: "def close_gate(): for t in range(0,91,1): set"
+            - generic [ref=e61]: ServoAngle(p19, t)
+            - text: "sleep(0.01) def open_gate(): for t in range(0,91,1): set"
+            - generic [ref=e62]: ServoAngle(p19, 90-t)
+            - text: "sleep(0.01) def get_button_value(): url = \"https://emoncms.fr/feed/value.json?id=186&apikey=\"+api_key r = get(url) if r.status_code == 200: value = r.json() return value def set"
+            - generic [ref=e63]: _button_value(value=0)
+            - text: ": url = \"https://emoncms.fr/input/post\" data = { \"node\": \"gate\", \"data\": '{\"gate\":'+str(value)+'}', \"apikey\": api_key } r = post(url, data) # MAIN ============================================================ wlan = WLAN(STA_IF) wlan.active(True) set"
+            - generic [ref=e64]: ServoAngle(p19, 0)
+            - text: "wlan.connect(ssid, password) # while not wlan.isconnected(): # sleep(1) while True: button_value = get_button_value() button_value = 1 if button_value == 1: close_gate() sleep(0.89) open_gate() set_button_value(0) sleep(10)"
+          - paragraph [ref=e65]
+          - paragraph [ref=e66]: (vous allez vraiment trouver que je suis chiant à force ;) )
+        - generic [ref=e67]:
+          - paragraph [ref=e68]: "--"
+          - paragraph [ref=e69]: Christophe Cussat-Blanc
+          - paragraph [ref=e70]: Compositeur, photographe, ancien ingénieur système et programmeur. Bref, je suis quelqu'un de compliqué... ;)
+        - generic [ref=e72]:
+          - generic [ref=e73]: 
+          - text: "Last edited by:"
+          - link "ChrisCB" [ref=e74] [cursor=pointer]:
+            - /url: /forum/member/profile/677082/
+          - text: on Dec. 3, 2024, 1:28 p.m., edited 1 time in total.
+      - generic [ref=e75]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e77] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e78]: "Posts: 23"
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - link " Edit" [ref=e84] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/276372/post/update/
+            - generic [ref=e85]: 
+            - text: Edit
+          - link "" [ref=e86] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/276372/post/delete/
+            - generic [ref=e87]: 
+        - 'heading "Re: S3 • La Barrière : retour de la position du bouton" [level=4] [ref=e88]'
+        - paragraph [ref=e89]:
+          - generic [ref=e90]:
+            - generic [ref=e91]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e92] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 3, 2024, 2:37 p.m.
+        - generic [ref=e93]:
+          - paragraph [ref=e94]: Bonjour, vous utilisez le module requests ou urequests ?
+          - paragraph [ref=e95]
+      - generic [ref=e96]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e98] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e99]: "Posts: 44"
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - link " Edit" [ref=e105] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/276428/post/update/
+            - generic [ref=e106]: 
+            - text: Edit
+          - link "" [ref=e107] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/276428/post/delete/
+            - generic [ref=e108]: 
+        - 'heading "Re: S3 • La Barrière : retour de la position du bouton" [level=4] [ref=e109]'
+        - paragraph [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e112]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e113] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Dec. 3, 2024, 6:41 p.m.
+        - paragraph [ref=e115]: Le module request qui est requis pour l'auto-validation.
+        - generic [ref=e116]:
+          - paragraph [ref=e117]: "--"
+          - paragraph [ref=e118]: Christophe Cussat-Blanc
+          - paragraph [ref=e119]: Compositeur, photographe, ancien ingénieur système et programmeur. Bref, je suis quelqu'un de compliqué... ;)
+      - generic [ref=e120]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e122] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e123]: "Posts: 23"
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - link " Edit" [ref=e129] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/276714/post/update/
+            - generic [ref=e130]: 
+            - text: Edit
+          - link "" [ref=e131] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/276714/post/delete/
+            - generic [ref=e132]: 
+        - 'heading "Re: S3 • La Barrière : retour de la position du bouton" [level=4] [ref=e133]'
+        - paragraph [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e137] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e138]:
+              - text: 
+              - generic [ref=e139]: Instructor
+            - text: on Dec. 5, 2024, 11:24 a.m.
+        - generic [ref=e140]:
+          - paragraph [ref=e141]:
+            - text: Oups, je ne suis pas sûr de comprendre le problème. Votre code me semble correct pour la version
+            - img "⭐" [ref=e143]
+            - img "⭐" [ref=e145]
+            - img "⭐" [ref=e147]
+            - img "⭐" [ref=e149]
+            - text: (celle où il faut mettre à jour la valeur du flux barrière sur emoncms) et l'autoccorecteur devrait le valider en l'état !
+          - paragraph [ref=e150]
+          - paragraph [ref=e151]: Quelle valeur avez-vous besoin de forcer ?
+          - paragraph [ref=e152]
+          - paragraph [ref=e153]:
+            - text: Merci de votre réponse
+            - img "😺" [ref=e155]
+        - paragraph [ref=e157]: "--Baptiste"
+      - generic [ref=e158]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e160] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e161]: "Posts: 301"
+    - generic [ref=e164]:
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - link " Edit" [ref=e167] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/276892/post/update/
+            - generic [ref=e168]: 
+            - text: Edit
+          - link "" [ref=e169] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/276892/post/delete/
+            - generic [ref=e170]: 
+        - 'heading "Re: S3 • La Barrière : retour de la position du bouton" [level=4] [ref=e171]'
+        - paragraph [ref=e172]:
+          - generic [ref=e173]:
+            - generic [ref=e174]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e175] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Dec. 6, 2024, 10:15 a.m.
+        - generic [ref=e176]:
+          - paragraph [ref=e177]: Dans la boucle infinie, juste après la ligne suivante
+          - paragraph [ref=e178]
+          - paragraph [ref=e179]: Je force la valeur du retour à 1 pour que la condition passe. Dans l'expérimentation, je n'ai pas besoin de le faire, je suppose parce qu'il n'y a pas besoin d'avoir le retour dans la première ms.
+          - code [ref=e181]: "while True:"
+          - code [ref=e183]: button_value = get_button_value()
+          - code [ref=e185]: button_value = 1
+          - code [ref=e187]: "if button_value == 1:"
+          - code [ref=e189]: "[...]"
+          - paragraph [ref=e190]
+        - generic [ref=e191]:
+          - paragraph [ref=e192]: "--"
+          - paragraph [ref=e193]: Christophe Cussat-Blanc
+          - paragraph [ref=e194]: Compositeur, photographe, ancien ingénieur système et programmeur. Bref, je suis quelqu'un de compliqué... ;)
+        - generic [ref=e196]:
+          - generic [ref=e197]: 
+          - text: "Last edited by:"
+          - link "ChrisCB" [ref=e198] [cursor=pointer]:
+            - /url: /forum/member/profile/677082/
+          - text: on Dec. 6, 2024, 10:16 a.m., edited 2 times in total.
+      - generic [ref=e199]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e201] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e202]: "Posts: 23"
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - link " Edit" [ref=e208] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/277558/post/update/
+            - generic [ref=e209]: 
+            - text: Edit
+          - link "" [ref=e210] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/277558/post/delete/
+            - generic [ref=e211]: 
+        - 'heading "Re: S3 • La Barrière : retour de la position du bouton" [level=4] [ref=e212]'
+        - paragraph [ref=e213]:
+          - generic [ref=e214]:
+            - generic [ref=e215]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e216] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e217]:
+              - text: 
+              - generic [ref=e218]: Instructor
+            - text: on Dec. 10, 2024, 4:13 p.m.
+        - generic [ref=e219]:
+          - paragraph [ref=e220]:
+            - text: Ah, je vois
+            - link "@ChrisCB" [ref=e221] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: ", et est-ce que vous modifiez la valeur depuis la tableau de bord grâce au widget"
+            - emphasis [ref=e222]: button
+            - text: "?"
+          - paragraph [ref=e223]
+          - paragraph [ref=e224]: "L'idée est d'avoir le comportement suivant :"
+          - list [ref=e225]:
+            - listitem [ref=e226]: Par défaut, le flux barrière est à 0.
+            - listitem [ref=e227]: On appuie sur le bouton depuis le tableau de bord, la valeur du flux barrière passe à 1.
+            - listitem [ref=e228]: La barrière descend grâce au servomoteur
+            - listitem [ref=e229]: On envoie la valeur 0 avec un POST et on retourne à l'étape 1.
+          - paragraph [ref=e230]: Qu'en ditez-vous ?
+        - paragraph [ref=e232]: "--Baptiste"
+      - generic [ref=e233]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e235] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e236]: "Posts: 301"
+  - generic [ref=e238]:
+    - link " Post reply" [ref=e239] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-la-barri%C3%A8re-retour-de-la-position-du-bouton-135323/post/create/
+      - generic [ref=e240]: 
+      - text: Post reply
+    - button "" [ref=e242] [cursor=pointer]:
+      - generic [ref=e243]: 

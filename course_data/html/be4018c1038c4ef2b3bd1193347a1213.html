@@ -1,0 +1,34 @@
+<h2>Activit&eacute; : le tableau de bord</h2>
+<table role="presentation">
+<tbody>
+<tr>
+<td style="vertical-align: top; border-right: 0.5px solid #cecbca; border-left: 0px; border-bottom: 0px; border-top: 0px; width: 65px;" data-darkreader-inline-border-right="" data-darkreader-inline-border-left="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-top=""><img src="/asset-v1:MinesTelecom+04048+session02+type@asset+block@Picto_evaluation.png" alt="pictogramme" width="46" height="46" /></td>
+<td style="border: none;" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+<p style="text-align: justify;">L'activit&eacute; ci-dessous est not&eacute;e et dispose de plusieurs versions avec des difficult&eacute;s croissantes :<br /><br />&nbsp;&nbsp;&nbsp; ⭐️⭐️ : Facile<br />&nbsp;&nbsp;&nbsp; ⭐️⭐️⭐️ : Moyen<br /><br />Pour obtenir la note maximale, vous devez valider les deux versions !</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<h3>Contexte</h3>
+<p>Issam souhaite visualiser les informations d'un quai de gare en temps r&eacute;el depuis son poste de commande. Il souhaite utiliser les capteurs de la carte Galaxia pour conna&icirc;tre la temp&eacute;rature, la luminosit&eacute; et la pr&eacute;sence d'un train sur le quai. Ces informations seront envoy&eacute;es sur internet et elles pourront &ecirc;tre visualis&eacute;es depuis une page web.</p>
+<p><img src="/static/train_tableau_de_bord.png" alt="Feu de circulation" type="saveimage" target="[object Object]" style="border: 5px solid #a82184; border-radius: 50px; border-width: 5px;" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="" height="300" /></p>
+<h3>Consignes</h3>
+<p>&Agrave; partir des concepts abord&eacute;s dans le MOOC et du <a href="/jump_to_id/6e57757f4c9a470ab25bd04162eb3e10" target="_blank">tutoriel sur l'application web emoncms</a>, &eacute;crivez un programme avec l'interface FranceIOI ci-dessous qui viendra :</p>
+<ul><ol>
+<li><a href="/jump_to_id/8ce98cd015aa47ee95d9eb38615e7156/" target="_blank">Connecter la Galaxia</a>&nbsp;&agrave; un r&eacute;seau wifi en mode <em>station</em>.</li>
+<li>Lire et stocker dans un dictionnaire les valeurs du <a href="https://imt-atlantique.github.io/micropython_doc/capteurs/capteur_lumiere/" target="_blank">capteur de luminosit&eacute;</a>, du&nbsp;<a href="https://imt-atlantique.github.io/micropython_doc/thingz/thingz_temperature/" target="_blank">capteur de temp&eacute;rature</a> et du <a href="https://imt-atlantique.github.io/micropython_doc/capteurs/capteur_ultrasons/" target="_blank">capteur de distance</a> (branch&eacute; sur le port <code>Grove 2</code>).</li>
+<li>Envoyer ces donn&eacute;es en utilisant une requ&ecirc;te HTTP <strong><code style="background-color: #2a77d3; border-radius: 2.63333px; box-sizing: border-box; color: #ffffff; display: inline; font-size: 14px; line-height: 14px; text-align: center; vertical-align: baseline; white-space: nowrap; padding: 2.1px 6.3px 3.15px; --darkreader-inline-bgcolor: #225fa9; --darkreader-inline-color: #e8e6e3;" data-darkreader-inline-bgcolor="" data-darkreader-inline-color="">POST</code></strong> vers le site&nbsp;<a href="https://imt-atlantique.github.io/micropython_doc/reseau/requete_http_post/" target="_blank">emoncms.fr</a> (en utilisant le module <code>requests</code>).</li>
+<li>V&eacute;rifier que les donn&eacute;es sont bien re&ccedil;ues en v&eacute;rifiant la r&eacute;ponse du serveur.</li>
+<li>Attendez une seconde avant de revenir &agrave; l'&eacute;tape 2 et cela ind&eacute;finiment.</li>
+</ol></ul>
+<h3>Montage &eacute;lectronique</h3>
+<p><img src="/static/M_ultrason.svg" alt="Montage &eacute;lectronique activit&eacute; le tableau de bord" type="saveimage" target="[object Object]" height="480" width="491" /></p>
+<p></p>
+<p></p>
+<p></p>
+<p><details open=""> <summary><strong style="padding: 10px; color: #fff; background: #a82184;" data-darkreader-inline-color="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage=""><span class="icon fa fa-search" aria-hidden="true"></span> Indices</strong></summary><ol>
+<li><strong>⚠️ Attention :</strong> N'oubliez pas que vous devez utiliser votre cl&eacute; d'API pour qu'emoncms stocke vos donn&eacute;es.</li>
+</ol></details></p>
+<p></p>
+<p></p>

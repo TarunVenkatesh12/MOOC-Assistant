@@ -1,0 +1,107 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "S4 - Wokwi - Méthode POST" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-m%C3%A9thode-post-136001/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "S4 - Wokwi - Méthode POST" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-m%C3%A9thode-post-136001/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-m%C3%A9thode-post-136001/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-m%C3%A9thode-post-136001/277677/post/delete/
+            - generic [ref=e43]: 
+        - heading "S4 - Wokwi - Méthode POST" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 11, 2024, 9:10 a.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]:
+            - text: Contrairement au simulateur
+            - link "France IOI" [ref=e51] [cursor=pointer]:
+              - /url: https://static-items.algorea.org/files/checkouts/9615a6818698411aafd48449bfbecfb0/galaxia-test/index_codecast.html
+            - text: ou la méthode
+            - strong [ref=e52]: post
+            - text: "prenait 2 arguments :"
+            - emphasis [ref=e53]: post (url,data)
+            - text: ","
+          - paragraph [ref=e54]: "avec WokWi, il n'y a plus d'un argument. Il faut concaténer les deux :"
+          - code [ref=e56]:
+            - text: r=post(url+"?"+
+            - generic [ref=e57]: data)
+        - generic [ref=e59]:
+          - generic [ref=e60]: 
+          - text: "Last edited by:"
+          - link "Gilles57" [ref=e61] [cursor=pointer]:
+            - /url: /forum/member/profile/377300/
+          - text: on Dec. 11, 2024, 9:10 a.m., edited 1 time in total.
+      - generic [ref=e62]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e64] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e65]: "Posts: 69"
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - link " Edit" [ref=e71] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-m%C3%A9thode-post-136001/277871/post/update/
+            - generic [ref=e72]: 
+            - text: Edit
+          - link "" [ref=e73] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-m%C3%A9thode-post-136001/277871/post/delete/
+            - generic [ref=e74]: 
+        - 'heading "Re: S4 - Wokwi - Méthode POST" [level=4] [ref=e75]'
+        - paragraph [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e79] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 11, 2024, 11:25 p.m.
+        - paragraph [ref=e81]: Ca ressemble fort à un GET...
+      - generic [ref=e82]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e84] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e85]: "Posts: 53"
+  - generic [ref=e87]:
+    - link " Post reply" [ref=e88] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-m%C3%A9thode-post-136001/post/create/
+      - generic [ref=e89]: 
+      - text: Post reply
+    - button "" [ref=e91] [cursor=pointer]:
+      - generic [ref=e92]: 

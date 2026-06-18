@@ -1,0 +1,37 @@
+<p style="text-align: center;"><img src="/asset-v1:MinesTelecom+04048+session02+type@asset+block@Picto-fleche.png" alt="fl&egrave;che haut" width="50" height="67" /></p>
+<p style="text-align: center;"><strong>N&rsquo;oubliez pas de cliquer sur&nbsp;chaque onglet de la barre de navigation pour&nbsp;voir toutes les ressources !&nbsp;</strong></p>
+<p></p>
+<h2>Activit&eacute; : Le menu du wagon bar</h2>
+<table role="presentation">
+<tbody>
+<tr>
+<td style="vertical-align: top; border-right: 0.5px solid #cecbca; border-left: 0px; border-bottom: 0px; border-top: 0px; width: 65px;" data-darkreader-inline-border-right="" data-darkreader-inline-border-left="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-top=""><img src="/asset-v1:MinesTelecom+04048+session02+type@asset+block@Picto_evaluation.png" alt="pictogramme" width="46" height="46" /></td>
+<td style="border: none;" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+<p style="text-align: justify;"><strong>Niveau de difficult&eacute; : </strong>☆☆☆ (difficile)<strong><br /></strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<h3>Contexte</h3>
+<p>M&eacute;d&eacute;e souhaite &eacute;quiper le wagon bar d'un menu interactif o&ugrave; les voyageur&middot;ses peuvent consulter les plats du moment et quelques d&eacute;tails sur chaque plat depuis une carte Galaxia. Elle souhaite que la personne qui consulte le menu puisse s&eacute;lectionner un plat gr&acirc;ce aux touches &laquo; haut &raquo; et &laquo; bas &raquo; du pav&eacute; tactile puis que celle-ci obtienne le prix et les allerg&egrave;nes du plat s&eacute;lectionn&eacute; lorsqu'elle appuie sur le bouton&nbsp;&laquo; A &raquo;.</p>
+<p style="font-size: 70%; padding-left: 30px;"><video controls="controls" autoplay="autoplay" loop="loop" muted="" height="300" style="border: 5px solid #a82184; border-radius: 50px; border-width: 5px;" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+  <source src="/static/menu.mp4" type="video/mp4" />
+Votre navigateur ne supporte pas la balise video.
+</video><br />T&eacute;l&eacute;charger cet <a href="/static/menu.mp4" target="_blank">extrait vid&eacute;o</a>.</p>
+<h3>Consignes</h3>
+<p>&Agrave; partir des concepts abord&eacute;s cette semaine, &eacute;crivez un programme avec l'<a href="https://fr.vittascience.com/galaxia/?link=66c87c47230b9&amp;mode=codeOnly&amp;console=bottom&amp;toolbox=scratchoolbox=scratch" target="_blank" style="color: #22b573;" data-darkreader-inline-color="">interface Vittascience <span class="icon fa fa-external-link" aria-hidden="true"></span></a>&nbsp; permettant de charger le JSON pr&eacute;sent dans l'exemple ci-dessous et de le convertir en <a href="https://docs.python.org/fr/3.10/tutorial/datastructures.html#dictionaries&amp;embed=1" target="_blank">un dictionnaire</a>. Vous devez extraire la liste des plats pr&eacute;sents dans la liste <code><span style="color: #cccccc; --darkreader-inline-color: #c8c3bc; white-space: pre;" data-darkreader-inline-color="">[</span><span style="color: #ce9178; --darkreader-inline-color: #cf947b; white-space: pre;" data-darkreader-inline-color="">"results"</span><span style="color: #cccccc; --darkreader-inline-color: #c8c3bc; white-space: pre;" data-darkreader-inline-color="">] </span></code>en utilisant le champs <code><span style="color: #cccccc; --darkreader-inline-color: #c8c3bc; white-space: pre;" data-darkreader-inline-color="">[</span><span style="color: #ce9178; --darkreader-inline-color: #cf947b; white-space: pre;" data-darkreader-inline-color="">"produit"</span><span style="color: #cccccc; --darkreader-inline-color: #c8c3bc; white-space: pre;" data-darkreader-inline-color="">] </span></code>de chacun des plats.</p>
+<p>&Eacute;crivez ensuite&nbsp;<a href="https://imt-atlantique.github.io/micropython_doc/fonctions/fonction/" target="_blank">une fonction</a> nomm&eacute;e <code>display_menu()</code> qui prendra deux arguments : la liste des plats (sous la forme d'une liste de cha&icirc;nes de caract&egrave;res) et la position du curseur (sous la forme d'un nombre entier). Cette fonction devra afficher la liste des plats avec un curseur (le caract&egrave;re &gt; suivi d'un espace) pr&eacute;c&eacute;dant le plat dont l'indice est &eacute;gal &agrave; la position du curseur.</p>
+<p>Vous devrez ensuite permettre &agrave; l'utilisateur&middot;trice d'utiliser les boutons tactiles &laquo; haut &raquo; et &laquo; bas &raquo; pour monter et descendre le curseur (la position du curseur ne pourra pas &ecirc;tre n&eacute;gative ni d&eacute;passer la longueur de la liste). Si le bouton&nbsp;&laquo; A &raquo; est appuy&eacute; alors le prix et les allerg&egrave;nes (s'ils existent) devront &ecirc;tre affich&eacute;s.</p>
+<p>Ce comportement devra &ecirc;tre ex&eacute;cut&eacute; ind&eacute;finiment gr&acirc;ce &agrave; une boucle <a href="https://imt-atlantique.github.io/micropython_doc/capteurs/bouton/" target="_blank">R&eacute;p&eacute;ter ind&eacute;finiment</a>.</p>
+<p></p>
+<h3>Montage &eacute;lectronique</h3>
+<p><img src="/asset-v1:MinesTelecom+04048+session02+type@asset+block@galaxia_board.svg" alt="Montage &eacute;lectronique activit&eacute; 1.2.1" type="saveimage" target="[object Object]" height="300" /></p>
+<p></p>
+<p></p>
+<p><details open=""> <summary><strong style="padding: 10px; color: #fff; background: #a82184;" data-darkreader-inline-color="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage=""><span class="icon fa fa-search" aria-hidden="true"></span> Indices</strong></summary><ol><ol>
+<li>Pour d&eacute;tecter l'appui sur un bouton, vous aurez besoin du module <a href="https://imt-atlantique.github.io/micropython_doc/capteurs/bouton/#branchement" target="_blank"><code>thingz</code></a>.</li>
+<li>Pour convertir le JSON en un dictionnaire, vous aurez besoin du module <a href="https://imt-atlantique.github.io/micropython_doc/reseau/json/" target="_blank"><code>json</code></a>.</li>
+</ol></ol></details></p>
+<p></p>
+<p></p>

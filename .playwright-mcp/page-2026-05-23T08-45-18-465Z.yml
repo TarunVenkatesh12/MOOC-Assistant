@@ -1,0 +1,181 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Pas de semaine 4 ?" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pas-de-semaine-4-135324/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Pas de semaine 4 ?" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pas-de-semaine-4-135324/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pas-de-semaine-4-135324/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pas-de-semaine-4-135324/276359/post/delete/
+            - generic [ref=e43]: 
+        - heading "Pas de semaine 4 ?" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Dec. 3, 2024, 1:31 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Bonjour,
+          - paragraph [ref=e51]
+          - paragraph [ref=e52]: La semaine 4 n'arrivera que la semaine prochaine ?
+        - generic [ref=e53]:
+          - paragraph [ref=e54]: "--"
+          - paragraph [ref=e55]: Christophe Cussat-Blanc
+          - paragraph [ref=e56]: Compositeur, photographe, ancien ingénieur système et programmeur. Bref, je suis quelqu'un de compliqué... ;)
+      - generic [ref=e57]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e59] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e60]: "Posts: 23"
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - link " Edit" [ref=e66] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pas-de-semaine-4-135324/276712/post/update/
+            - generic [ref=e67]: 
+            - text: Edit
+          - link "" [ref=e68] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pas-de-semaine-4-135324/276712/post/delete/
+            - generic [ref=e69]: 
+        - 'heading "Re: Pas de semaine 4 ?" [level=4] [ref=e70]'
+        - paragraph [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e74] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e75]:
+              - text: 
+              - generic [ref=e76]: Instructor
+            - text: on Dec. 5, 2024, 11:17 a.m.
+        - generic [ref=e77]:
+          - paragraph [ref=e78]:
+            - text: Bonjour
+            - link "@ChrisCB" [ref=e79] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: ","
+          - paragraph [ref=e80]
+          - paragraph [ref=e81]:
+            - text: La malédiction des API me poursuit ! Avec cette fois, l'
+            - link "API du tramway nantais" [ref=e82] [cursor=pointer]:
+              - /url: https://open.tan.fr/ewp/tempsattente.json/BENA
+            - text: qui ne fonctionne plus comme lors de mes tests
+            - img "🤦" [ref=e84]
+            - text: ‍.
+          - paragraph [ref=e85]
+          - paragraph [ref=e86]: Je croise les doigts pour ouvrir la semaine 4 mardi 10 décembre 11h !
+          - paragraph [ref=e87]
+          - paragraph [ref=e88]: À très vite,
+        - paragraph [ref=e90]: "--Baptiste"
+      - generic [ref=e91]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e93] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e94]: "Posts: 301"
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - link " Edit" [ref=e100] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pas-de-semaine-4-135324/276890/post/update/
+            - generic [ref=e101]: 
+            - text: Edit
+          - link "" [ref=e102] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pas-de-semaine-4-135324/276890/post/delete/
+            - generic [ref=e103]: 
+        - 'heading "Re: Pas de semaine 4 ?" [level=4] [ref=e104]'
+        - paragraph [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e108] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Dec. 6, 2024, 10:09 a.m.
+        - paragraph [ref=e110]: Surement parce qu'elle a passé trop de temps dans la rue de la soif. ;) Bon courage à vous.
+        - generic [ref=e111]:
+          - paragraph [ref=e112]: "--"
+          - paragraph [ref=e113]: Christophe Cussat-Blanc
+          - paragraph [ref=e114]: Compositeur, photographe, ancien ingénieur système et programmeur. Bref, je suis quelqu'un de compliqué... ;)
+      - generic [ref=e115]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e117] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e118]: "Posts: 23"
+    - generic [ref=e121]:
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - link " Edit" [ref=e124] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pas-de-semaine-4-135324/277476/post/update/
+            - generic [ref=e125]: 
+            - text: Edit
+          - link "" [ref=e126] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pas-de-semaine-4-135324/277476/post/delete/
+            - generic [ref=e127]: 
+        - 'heading "Re: Pas de semaine 4 ?" [level=4] [ref=e128]'
+        - paragraph [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e131]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e132] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e133]:
+              - text: 
+              - generic [ref=e134]: Instructor
+            - text: on Dec. 10, 2024, 10:29 a.m.
+        - generic [ref=e135]:
+          - paragraph [ref=e136]:
+            - text: La semaine 4 est en ligne
+            - img "🎉" [ref=e138]
+          - paragraph [ref=e139]
+          - paragraph [ref=e140]: Bon courage,
+        - paragraph [ref=e142]: "--Baptiste"
+      - generic [ref=e143]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e145] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e146]: "Posts: 301"
+  - generic [ref=e148]:
+    - link " Post reply" [ref=e149] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pas-de-semaine-4-135324/post/create/
+      - generic [ref=e150]: 
+      - text: Post reply
+    - button "" [ref=e152] [cursor=pointer]:
+      - generic [ref=e153]: 

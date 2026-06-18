@@ -1,0 +1,137 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Mise à l'heure de la carte Galaxia et autres réflexions" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/mise-%C3%A0-lheure-de-la-carte-galaxia-et-autres-r%C3%A9flexions-136449/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Mise à l'heure de la carte Galaxia et autres réflexions" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/mise-%C3%A0-lheure-de-la-carte-galaxia-et-autres-r%C3%A9flexions-136449/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/mise-%C3%A0-lheure-de-la-carte-galaxia-et-autres-r%C3%A9flexions-136449/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/mise-%C3%A0-lheure-de-la-carte-galaxia-et-autres-r%C3%A9flexions-136449/278568/post/delete/
+            - generic [ref=e43]: 
+        - heading "Mise à l'heure de la carte Galaxia et autres réflexions" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 17, 2024, 4:59 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Bonjour,
+          - paragraph [ref=e51]
+          - paragraph [ref=e52]: Par curiosité, est-il possible de mettre à l'heure la carte (lorsqu'elle est connectée bien sûr) et de lui faire conserver?
+          - paragraph [ref=e53]:
+            - emphasis [ref=e54]: (un peu comme dans le BIOS d'un PC)
+          - paragraph [ref=e55]:
+            - emphasis [ref=e56]: Perso je pense que non; ça n'a pas trop d'intérêt a priori! Je me suis posé la question, car j'ai fait un localtime() en manipulant sur la console REPL et, bien sûr, j'étais à l'EPOCH.
+          - paragraph [ref=e57]
+          - paragraph [ref=e58]: D'autre part ayant eu la curiosité de regarder les méthodes du package "machine", j'ai constaté qu'il existe une méthode "freq" qui lit ou écrit la fréquence CPU.
+          - paragraph [ref=e59]: Sur ma Galaxia j'obtiens 160MHz, alors qu'elle est vendue pour 240MHz (on peut d'ailleurs avec cette méthode fixer cette valeur, qui disparait dès qu'on la débranche!)
+          - paragraph [ref=e60]: Est-ce normal?
+      - generic [ref=e61]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e63] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e64]: "Posts: 53"
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - link " Edit" [ref=e70] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/mise-%C3%A0-lheure-de-la-carte-galaxia-et-autres-r%C3%A9flexions-136449/278616/post/update/
+            - generic [ref=e71]: 
+            - text: Edit
+          - link "" [ref=e72] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/mise-%C3%A0-lheure-de-la-carte-galaxia-et-autres-r%C3%A9flexions-136449/278616/post/delete/
+            - generic [ref=e73]: 
+        - 'heading "Re: Mise à l''heure de la carte Galaxia et autres réflexions" [level=4] [ref=e74]'
+        - paragraph [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e78] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 17, 2024, 11:15 p.m.
+        - generic [ref=e79]:
+          - paragraph [ref=e80]: Bonsoir, les microcontrôleurs recourent généralement à une RTC (Real Time clock) externe pour gérer heure et calendrier (avec une pile bouton de sauvegarde)
+          - paragraph [ref=e81]: L'esp32 possède une RTC intégrée (donc la Galaxia doit en avoir une), avec une librairie permettant d'initialiser l'heure/date et d'obtenir heure/jour courant.
+          - paragraph [ref=e82]: La RTC permet à un microcontrôleur isolé (sans connexion) de savoir où il se situe dans le temps (sortie de veille, horodatage, ...)
+          - paragraph [ref=e83]: Cette horloge peut se mettre à jour "manuellement lors d'une maintenance ou via internet si réseau disponible de temps en temps
+          - paragraph [ref=e84]
+          - paragraph [ref=e85]: Pour ce qui est de la fréquence d'horloge interne, 240Mhz est la fréquence maxi. Mais peut être pas besoin qu'elle tourne "à fond" pour une Galaxia (éviter surchauffe et surconsommation).
+          - paragraph [ref=e86]: Pour la régler au démarrage vous avez vu qu'il y a un boot.py.
+          - paragraph [ref=e87]
+          - paragraph [ref=e88]: Voilà encore de quoi réfléchir !
+          - paragraph [ref=e89]
+      - generic [ref=e90]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e92] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e93]: "Posts: 44"
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - link " Edit" [ref=e99] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/mise-%C3%A0-lheure-de-la-carte-galaxia-et-autres-r%C3%A9flexions-136449/278664/post/update/
+            - generic [ref=e100]: 
+            - text: Edit
+          - link "" [ref=e101] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/mise-%C3%A0-lheure-de-la-carte-galaxia-et-autres-r%C3%A9flexions-136449/278664/post/delete/
+            - generic [ref=e102]: 
+        - 'heading "Re: Mise à l''heure de la carte Galaxia et autres réflexions" [level=4] [ref=e103]'
+        - paragraph [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e107] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 18, 2024, 12:03 p.m.
+        - generic [ref=e108]:
+          - paragraph [ref=e109]: Merci.
+          - paragraph [ref=e110]: Les 2 MOOCs Galaxia auront été très enrichissant pour moi. Découverte des IOTs programmables.
+      - generic [ref=e111]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e113] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e114]: "Posts: 53"
+  - generic [ref=e116]:
+    - link " Post reply" [ref=e117] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/mise-%C3%A0-lheure-de-la-carte-galaxia-et-autres-r%C3%A9flexions-136449/post/create/
+      - generic [ref=e118]: 
+      - text: Post reply
+    - button "" [ref=e120] [cursor=pointer]:
+      - generic [ref=e121]: 

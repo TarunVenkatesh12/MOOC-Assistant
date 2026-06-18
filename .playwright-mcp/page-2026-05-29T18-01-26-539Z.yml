@@ -1,0 +1,178 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - 'link "Activité : le menu du wagon bar : l''autocorrecteur me donne une note 10/10 mais la progression TP02 -JSONet argonautes me donne 10% (1/10)" [ref=e14] [cursor=pointer]':
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-le-menu-du-wagon-bar-lautocorrecteur-me-donne-une-note-1010-mais-la-progression-tp02-jsonet-argonautes-me-donne-10-110-133554/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - 'heading "Activité : le menu du wagon bar : l''autocorrecteur me donne une note 10/10 mais la progression TP02 -JSONet argonautes me donne 10% (1/10)" [level=1] [ref=e24]'
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-le-menu-du-wagon-bar-lautocorrecteur-me-donne-une-note-1010-mais-la-progression-tp02-jsonet-argonautes-me-donne-10-110-133554/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-le-menu-du-wagon-bar-lautocorrecteur-me-donne-une-note-1010-mais-la-progression-tp02-jsonet-argonautes-me-donne-10-110-133554/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-le-menu-du-wagon-bar-lautocorrecteur-me-donne-une-note-1010-mais-la-progression-tp02-jsonet-argonautes-me-donne-10-110-133554/273328/post/delete/
+            - generic [ref=e43]: 
+        - 'heading "Activité : le menu du wagon bar : l''autocorrecteur me donne une note 10/10 mais la progression TP02 -JSONet argonautes me donne 10% (1/10)" [level=4] [ref=e44]'
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "jeg44" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/681025/
+            - text: on Nov. 19, 2024, 12:35 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Hello,
+          - paragraph [ref=e51]: "Tout est dans le titre .... Pour l'activité : le menu du wagon bar : l'autocorrecteur me donne une note 10/10 mais la progression TP02 -JSON et argonautes me donne 10% (1/10)"
+          - paragraph [ref=e52]: J'ai un donc un delta entre la progression et le code validé (voir screen ci dessous)
+          - paragraph [ref=e53]
+          - paragraph [ref=e54]
+          - img [ref=e55]
+          - paragraph [ref=e56]
+          - img [ref=e57]
+          - paragraph [ref=e58]: Mon code est OK sur la carte thingz & la note est de 10/10 ....
+          - img [ref=e59]
+          - paragraph [ref=e60]
+      - generic [ref=e61]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/681025/
+        - link "jeg44" [ref=e63] [cursor=pointer]:
+          - /url: /forum/member/profile/681025/
+        - generic [ref=e64]: "Posts: 3"
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - link " Edit" [ref=e70] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-le-menu-du-wagon-bar-lautocorrecteur-me-donne-une-note-1010-mais-la-progression-tp02-jsonet-argonautes-me-donne-10-110-133554/273394/post/update/
+            - generic [ref=e71]: 
+            - text: Edit
+          - link "" [ref=e72] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-le-menu-du-wagon-bar-lautocorrecteur-me-donne-une-note-1010-mais-la-progression-tp02-jsonet-argonautes-me-donne-10-110-133554/273394/post/delete/
+            - generic [ref=e73]: 
+        - 'heading "Re: Activité : le menu du wagon bar : l''autocorrecteur me donne une note 10/10 mais la progression TP02 -JSONet argonautes me donne 10% (1/10)" [level=4] [ref=e74]'
+        - paragraph [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e78] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e79]:
+              - text: 
+              - generic [ref=e80]: Instructor
+            - text: on Nov. 19, 2024, 3:59 p.m.
+        - generic [ref=e81]:
+          - paragraph [ref=e82]:
+            - text: Effectivement, j'ai fais des modifications pour éviter que l'autocorrecteur donne une note sur 100 (voir une
+            - link "autre discussion sur le forum" [ref=e83] [cursor=pointer]:
+              - /url: https://lms.fun-mooc.fr/courses/course-v1:MinesTelecom+04057+session01/ada0fd1827ec4185afff6728de923028/
+            - text: ) mais il semblerait que ces changements aient provoqué des effets de bord.
+          - paragraph [ref=e84]
+          - paragraph [ref=e85]: Pouvez-vous refaire un essai de l'autocorrection et me dire ce qu'il en est maintenant ?
+          - paragraph [ref=e86]
+          - paragraph [ref=e87]: Merci,
+        - paragraph [ref=e89]: "--Baptiste"
+      - generic [ref=e90]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e92] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e93]: "Posts: 301"
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - link " Edit" [ref=e99] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-le-menu-du-wagon-bar-lautocorrecteur-me-donne-une-note-1010-mais-la-progression-tp02-jsonet-argonautes-me-donne-10-110-133554/273400/post/update/
+            - generic [ref=e100]: 
+            - text: Edit
+          - link "" [ref=e101] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-le-menu-du-wagon-bar-lautocorrecteur-me-donne-une-note-1010-mais-la-progression-tp02-jsonet-argonautes-me-donne-10-110-133554/273400/post/delete/
+            - generic [ref=e102]: 
+        - 'heading "Re: Activité : le menu du wagon bar : l''autocorrecteur me donne une note 10/10 mais la progression TP02 -JSONet argonautes me donne 10% (1/10)" [level=4] [ref=e103]'
+        - paragraph [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: 
+            - text: "By:"
+            - link "jeg44" [ref=e107] [cursor=pointer]:
+              - /url: /forum/member/profile/681025/
+            - text: on Nov. 19, 2024, 4:32 p.m.
+        - generic [ref=e108]:
+          - paragraph [ref=e109]:
+            - text: Top !
+            - img "👌" [ref=e111]
+          - paragraph [ref=e112]: Merci bcp!
+          - paragraph [ref=e113]
+          - img [ref=e114]
+          - paragraph [ref=e115]
+      - generic [ref=e116]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/681025/
+        - link "jeg44" [ref=e118] [cursor=pointer]:
+          - /url: /forum/member/profile/681025/
+        - generic [ref=e119]: "Posts: 3"
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - link " Edit" [ref=e125] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-le-menu-du-wagon-bar-lautocorrecteur-me-donne-une-note-1010-mais-la-progression-tp02-jsonet-argonautes-me-donne-10-110-133554/273409/post/update/
+            - generic [ref=e126]: 
+            - text: Edit
+          - link "" [ref=e127] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-le-menu-du-wagon-bar-lautocorrecteur-me-donne-une-note-1010-mais-la-progression-tp02-jsonet-argonautes-me-donne-10-110-133554/273409/post/delete/
+            - generic [ref=e128]: 
+        - 'heading "Re: Activité : le menu du wagon bar : l''autocorrecteur me donne une note 10/10 mais la progression TP02 -JSONet argonautes me donne 10% (1/10)" [level=4] [ref=e129]'
+        - paragraph [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e132]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e133] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e134]:
+              - text: 
+              - generic [ref=e135]: Instructor
+            - text: on Nov. 19, 2024, 5:09 p.m.
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: Super, content que cela fonctionne !
+          - paragraph [ref=e138]
+          - paragraph [ref=e139]: Bon MOOC,
+        - paragraph [ref=e141]: "--Baptiste"
+      - generic [ref=e142]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e144] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e145]: "Posts: 301"
+  - generic [ref=e147]:
+    - link " Post reply" [ref=e148] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-le-menu-du-wagon-bar-lautocorrecteur-me-donne-une-note-1010-mais-la-progression-tp02-jsonet-argonautes-me-donne-10-110-133554/post/create/
+      - generic [ref=e149]: 
+      - text: Post reply
+    - button "" [ref=e151] [cursor=pointer]:
+      - generic [ref=e152]: 

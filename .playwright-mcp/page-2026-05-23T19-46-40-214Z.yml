@@ -1,0 +1,76 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Charger des modules sur la carte galaxia" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/charger-des-modules-sur-la-carte-galaxia-134443/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Charger des modules sur la carte galaxia" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/charger-des-modules-sur-la-carte-galaxia-134443/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e37]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - link " Edit" [ref=e40] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/charger-des-modules-sur-la-carte-galaxia-134443/update/
+          - generic [ref=e41]: 
+          - text: Edit
+        - link "" [ref=e42] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/charger-des-modules-sur-la-carte-galaxia-134443/274682/post/delete/
+          - generic [ref=e43]: 
+      - heading "Charger des modules sur la carte galaxia" [level=4] [ref=e44]
+      - paragraph [ref=e45]:
+        - generic [ref=e46]:
+          - generic [ref=e47]: 
+          - text: "By:"
+          - link "martial86" [ref=e48] [cursor=pointer]:
+            - /url: /forum/member/profile/12603/
+          - text: on Nov. 25, 2024, 11:01 a.m.
+      - generic [ref=e49]:
+        - paragraph [ref=e50]: Bonjour,
+        - paragraph [ref=e51]: Je veux utiliser la carte galaxia sans passer par l'interface vittacience.
+        - paragraph [ref=e52]:
+          - text: J'ai un problème pour importer le module
+          - strong [ref=e53]: machine
+        - paragraph [ref=e54]:
+          - text: Apparament il faut le mettre dans le dossier
+          - strong [ref=e55]: lib
+          - text: . C'est ce que je fait pour mes modules .
+        - paragraph [ref=e56]:
+          - text: En revanche je ne sais pas où trouver ce module. Il ne figure pas dans micropython comme
+          - strong [ref=e57]: thingz
+          - text: par exemple.
+        - paragraph [ref=e58]: Donc en clair, ou charger ce module ?
+        - paragraph [ref=e59]: Merci
+    - generic [ref=e60]:
+      - generic:
+        - link:
+          - /url: /forum/member/profile/12603/
+      - link "martial86" [ref=e62] [cursor=pointer]:
+        - /url: /forum/member/profile/12603/
+      - generic [ref=e63]: "Posts: 12"
+  - generic [ref=e65]:
+    - link " Post reply" [ref=e66] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/charger-des-modules-sur-la-carte-galaxia-134443/post/create/
+      - generic [ref=e67]: 
+      - text: Post reply
+    - button "" [ref=e69] [cursor=pointer]:
+      - generic [ref=e70]: 

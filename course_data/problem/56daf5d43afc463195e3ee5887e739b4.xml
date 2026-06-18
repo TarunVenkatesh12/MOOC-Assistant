@@ -1,0 +1,62 @@
+<problem display_name="Autocorrecteur" markdown="null" weight="10.0">
+  <script type="loncapa/python">
+def give_partial_credit(expect, ans):
+    ans = str(ans)
+    grade = 0
+    if 'from thingz import *' in ans or 'import thingz' in ans:
+        grade += 1
+    else:
+        return {
+            'input_list': [
+                {'ok': False, 'msg': "Vous n'avez pas importé le module thingz",
+    'grade_decimal': grade/10},
+            ]
+        }
+    if 'json' in ans and 'loads' in ans:
+        grade += 3
+    else:
+        return {
+            'input_list': [
+                {'ok': 'Partial', 'msg': "Vous n'utilisez pas correctement le module json",
+    'grade_decimal': grade/10},
+            ]
+        }
+    if 'def display_menu(' in ans:
+        grade += 3
+    else:
+        return {
+            'input_list': [
+                {'ok': 'Partial', 'msg': "Vous n'avez pas déclarer la fonction display_menu() comme demandé dans la consigne",
+    'grade_decimal': grade/10},
+            ]
+        }
+    if 'while True:' in ans:
+        grade += 1
+    else:
+        return {
+            'input_list': [
+                {'ok': 'Partial', 'msg': "Vous devez vérifier l'état des bouton grâce à une boucle while",
+    'grade_decimal': grade/10},
+            ]
+        }
+    if 'allergenes' in ans and 'prix_au_produit' in ans and 'Prix' in ans:
+        grade += 2
+    else:
+        return {
+            'input_list': [
+                {'ok': 'Partial', 'msg': "L'affichage des données JSON n'est pas conforme aux consignes",
+    'grade_decimal': grade/10},
+            ]
+        }
+    if grade == 10:
+        return {
+            'input_list': [
+                {'ok': True, 'msg': 'Votre note est de ' +
+    str(grade) + '/10', 'grade_decimal': grade/10},
+            ]
+        }
+</script>
+  <customresponse cfn="give_partial_credit">
+    <jsinput gradefn="getCode" height="640" width="100%" html_file="https://lms.fun-mooc.fr/asset-v1:MinesTelecom+04048+session02+type@asset+block@grader.html" title="Autocorrection MicroPython"/>
+  </customresponse>
+</problem>

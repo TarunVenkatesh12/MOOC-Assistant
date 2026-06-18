@@ -1,0 +1,38 @@
+<p style="text-align: center;"><img src="/asset-v1:MinesTelecom+04048+session02+type@asset+block@Picto-fleche.png" alt="fl&egrave;che haut" width="50" height="67" /></p>
+<p style="text-align: center;"><strong>N&rsquo;oubliez pas de cliquer sur&nbsp;chaque onglet de la barre de navigation pour&nbsp;voir toutes les ressources !&nbsp;</strong></p>
+<p><br /><br /></p>
+<h2>Activit&eacute; : Le prochain m&eacute;tro</h2>
+<table role="presentation">
+<tbody>
+<tr>
+<td style="vertical-align: top; border-right: 0.5px solid #cecbca; border-left: 0px; border-bottom: 0px; border-top: 0px; width: 65px;" data-darkreader-inline-border-right="" data-darkreader-inline-border-left="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-top=""><img src="/asset-v1:MinesTelecom+04048+session02+type@asset+block@Picto_evaluation.png" alt="pictogramme" width="46" height="46" /></td>
+<td style="border: none;" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+<p style="text-align: justify;">L'activit&eacute; ci-dessous est not&eacute;e et dispose de plusieurs versions avec des difficult&eacute;s croissantes :<br /><br />&nbsp;&nbsp;&nbsp; ⭐️⭐️ : Facile<br />&nbsp;&nbsp;&nbsp; ⭐️⭐️⭐️ : Moyen<br />&nbsp;&nbsp;&nbsp; ⭐️⭐️⭐️⭐️ : Difficile<br /><br />Pour obtenir la note maximale, vous devez valider les trois versions !</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<h3>Contexte</h3>
+<p>Encore un exercice sur les rails, mais les rails de m&eacute;tro cette fois ! Nous voici &agrave; Rennes, ville de makers, pour ce TP : Baptiste travaille &agrave; IMT Atlantique &agrave; l'est de la ville et souhaite &ecirc;tre notifi&eacute; lorsque le m&eacute;tro B arrive &agrave; proximit&eacute; de l'arr&ecirc;t <code>"Beaulieu - Universit&eacute;" </code>portant le num&eacute;ro <code>5052</code>. Il est suffisamment proche pour pouvoir &ecirc;tre &agrave; l&rsquo;arr&ecirc;t en quelques minutes apr&egrave;s avoir claqu&eacute; la porte de son bureau. Mais manque de bol, il a l&rsquo;impression que le m&eacute;tro lui passe toujours sous le nez ! Pour ne plus jamais le rater, il aimerait mettre au point un petit dispositif qui le pr&eacute;vient quand son m&eacute;tro arrive !</p>
+<h3>Consignes</h3>
+<p>&Agrave; partir des concepts abord&eacute;s dans ce MOOC et du portail web qui met &agrave; disposition les informations temps-r&eacute;els du m&eacute;tro rennais. Vous devrez :</p>
+<ul>
+<li>Trouver l'url permettant de r&eacute;cup&eacute;rer les deux prochains passages du m&eacute;tro ligne B &agrave; l'arr&ecirc;t <code>5052</code> depuis <a href="https://data.explore.star.fr/explore/dataset/tco-metro-circulation-deux-prochains-passages-tr/api/" target="_blank">le portail web du STAR</a>.<code><br /></code></li>
+<li>Ensuite, &eacute;crivez un programme en utilisant l'interface FranceIOI ci-dessous qui devra :</li>
+<ul>
+<li><a href="/jump_to_id/8ce98cd015aa47ee95d9eb38615e7156" target="_blank">Connecter la Galaxia</a> &agrave; un r&eacute;seau wifi en mode <em>station</em>.</li>
+<li>R&eacute;cup&eacute;rer les horaires de passage de deux prochaines rames de m&eacute;tro ligne B &agrave; l'arr&ecirc;t&nbsp;<code>5052</code> gr&acirc;ce &agrave; une&nbsp;requ&ecirc;te HTTP <strong><code style="background-color: #2a77d3; border-radius: 2.63333px; box-sizing: border-box; color: #ffffff; display: inline; font-size: 14px; line-height: 14px; text-align: center; vertical-align: baseline; white-space: nowrap; padding: 2.1px 6.3px 3.15px; --darkreader-inline-bgcolor: #225fa9; --darkreader-inline-color: #e8e6e3;" data-darkreader-inline-bgcolor="" data-darkreader-inline-color="">GET</code></strong> sur l'url que vous avez trouv&eacute; plus haut.</li>
+<li>Afficher ces horaires de passages gr&acirc;ce aux &eacute;l&eacute;ments JSON <code>"arriveefirsttrain"</code> et <code>"arriveesecondtrain"</code>.<br /><strong>⚠️ Attention :</strong> les horaires sont pr&eacute;c&eacute;d&eacute;s de la date que vous devrez enlever de la cha&icirc;ne de caract&egrave;res (veuillez vous r&eacute;f&eacute;rer &agrave;&nbsp;<a href="https://docs.python.org/fr/3/tutorial/introduction.html#text" target="_blank">la documentation officielle python</a> pour "trancher" un texte).</li>
+<li>Dans la version ⭐️⭐️⭐️⭐️, vous devrez &eacute;galement allumer la LED RGB en rouge (R=255, G=0, B=0) quand le temps d&rsquo;attente pour le prochain m&eacute;tro est inf&eacute;rieur &agrave; 2 minutes. Vous devrez utiliser l'&eacute;l&eacute;ment <code>"heureextraction"</code> pour calculer ce temps d'attente !</li>
+</ul>
+</ul>
+<p></p>
+<h3>Montage &eacute;lectronique</h3>
+<p><img src="/asset-v1:MinesTelecom+04048+session02+type@asset+block@galaxia_board.svg" alt="Montage &eacute;lectronique activit&eacute; 1.2.1" type="saveimage" target="[object Object]" height="300" /></p>
+<p></p>
+<p></p>
+<p></p>
+<p><details open=""> <summary><strong style="padding: 10px; color: #fff; background: #a82184;" data-darkreader-inline-color="" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage=""><span class="icon fa fa-search" aria-hidden="true"></span> Indices</strong></summary><ol><ol>
+<li>Pour la version ⭐️⭐️⭐️⭐️, nous vous invitons &agrave; poser des questions &agrave; notre <a id="compagnon" href="https://bgaultier-compagnon.hf.space/" target="_blank"><img src="https://bgaultier-compagnon.hf.space/file/lama_icon.png" alt="Compagnon IA" style="width: 24px; height: 24px;" />Compagnon IA&nbsp;</a> (en b&ecirc;ta) pour vous accompagner dans le calcul du temps d'attente car vous aurez besoin de d'extraire, de convertir, de "trancher" et de soustraire des variables, bref &ccedil;a se corse !</li>
+</ol></ol></details></p>

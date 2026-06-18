@@ -1,0 +1,471 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Précision TP La barrière 2 , niveau 3 étoiles" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Précision TP La barrière 2 , niveau 3 étoiles" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278250/post/delete/
+            - generic [ref=e43]: 
+        - heading "Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "lauwette" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/379458/
+            - text: on Dec. 15, 2024, 2:24 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Bonjour,
+          - paragraph [ref=e51]: Pouvez vous préciser ce que nous sommes censer faire pour cet exercice "Connectez la Galaxia au wifi en mode station puis fermez la barrière lorsque la valeur de votre flux "barriere" est égale à 1 grâce à une requête HTTP GET"
+          - paragraph [ref=e52]: Qu'est ce que vous entendez par fermer la barrière? Passer de 0 à 90° ou l'inverse?
+          - paragraph [ref=e53]: "Si je comprends bien nous devons déclarer un bouton sur le tableau de bord. Quand on clique sur ce bouton, la valeur de notre flux barriere doit passer à 1. C'est bien ça? Pouvez-vous préciser comment effectuer ceci, car j'ai bien créé un bouton sur un tableau de bord et connecter à mon flux barriere. Mais comment passer la valeur à 1? Quand je clique sur le bouton, j'ai l'erreur {\"success\":false,\"message\":\"Feed does not exist\"}"
+          - paragraph [ref=e54]
+          - paragraph [ref=e55]: Je vous remercie
+          - paragraph [ref=e56]: Cordialement
+          - paragraph [ref=e57]
+          - paragraph [ref=e58]
+        - generic [ref=e60]:
+          - generic [ref=e61]: 
+          - text: "Last edited by:"
+          - link "lauwette" [ref=e62] [cursor=pointer]:
+            - /url: /forum/member/profile/379458/
+          - text: on Dec. 15, 2024, 2:24 p.m., edited 1 time in total.
+      - generic [ref=e63]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/379458/
+        - link "lauwette" [ref=e65] [cursor=pointer]:
+          - /url: /forum/member/profile/379458/
+        - generic [ref=e66]: "Posts: 7"
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - link " Edit" [ref=e72] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278251/post/update/
+            - generic [ref=e73]: 
+            - text: Edit
+          - link "" [ref=e74] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278251/post/delete/
+            - generic [ref=e75]: 
+        - 'heading "Re: Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e76]'
+        - paragraph [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e80] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 15, 2024, 2:50 p.m.
+        - generic [ref=e81]:
+          - paragraph [ref=e82]: Bonjour,
+          - paragraph [ref=e83]
+          - paragraph [ref=e84]: "Pour la barrière, j'ai utilisé :"
+          - paragraph [ref=e85]: "- fermer : de 0 à 91"
+          - paragraph [ref=e86]: "- ouvrir : de 90 à -1"
+          - paragraph [ref=e87]
+          - paragraph [ref=e88]: "Pour le flux :"
+          - paragraph [ref=e89]: Avez-vous bien connecté votre bouton à votre flux ?
+          - paragraph [ref=e90]: "icone \"engrenage\" en haut à droite, puis l'icone \"clé plate\" dans la boîte à outils qui s'affiche :"
+          - paragraph [ref=e91]
+          - paragraph [ref=e92]
+          - img [ref=e93]
+          - paragraph [ref=e94]:
+            - text: Ensuite, renseignez votre flux (le nom peut être différent du mien)
+            - img "👍" [ref=e96]
+          - paragraph [ref=e97]
+          - paragraph [ref=e98]
+          - img [ref=e99]
+          - paragraph [ref=e100]
+          - paragraph [ref=e101]: "Quand je clique sur le bouton, il passse en vert et je récupère la valeur 1 avec le code suivant :"
+          - code [ref=e103]: url = "https://emoncms.fr/feed/value.json?id=196&apikey="+apikey
+          - code [ref=e105]: r = get(url)
+          - paragraph [ref=e106]:
+            - img [ref=e107]
+          - paragraph [ref=e108]
+      - generic [ref=e109]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e111] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e112]: "Posts: 69"
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - link " Edit" [ref=e118] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278252/post/update/
+            - generic [ref=e119]: 
+            - text: Edit
+          - link "" [ref=e120] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278252/post/delete/
+            - generic [ref=e121]: 
+        - 'heading "Re: Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e122]'
+        - paragraph [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125]: 
+            - text: "By:"
+            - link "lauwette" [ref=e126] [cursor=pointer]:
+              - /url: /forum/member/profile/379458/
+            - text: on Dec. 15, 2024, 3:59 p.m.
+        - generic [ref=e127]:
+          - paragraph [ref=e128]: Merci pour votre réponse.
+          - paragraph [ref=e129]: "J'ai bien essayé de connecter mon bouton au flux, j'ai essayé de le déclarer de plusieurs manières mais rien n'y fait. J'ai toujours l'erreur {\"success\":false,\"message\":\"Feed does not exist\"} , détail"
+          - img [ref=e130]
+          - paragraph [ref=e131]: Une particularité dans la déclaration du flux?
+          - paragraph [ref=e132]: Merci
+      - generic [ref=e133]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/379458/
+        - link "lauwette" [ref=e135] [cursor=pointer]:
+          - /url: /forum/member/profile/379458/
+        - generic [ref=e136]: "Posts: 7"
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - link " Edit" [ref=e142] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278264/post/update/
+            - generic [ref=e143]: 
+            - text: Edit
+          - link "" [ref=e144] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278264/post/delete/
+            - generic [ref=e145]: 
+        - 'heading "Re: Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e146]'
+        - paragraph [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e149]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e150] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 15, 2024, 7:01 p.m.
+        - generic [ref=e151]:
+          - paragraph [ref=e152]: J'ai créé mon flux comme expliqué dans le cours.
+          - paragraph [ref=e153]: Je n'ai pas fait d'adaptation particulière sur ce point.
+      - generic [ref=e154]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e156] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e157]: "Posts: 69"
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - generic [ref=e162]:
+          - link " Edit" [ref=e163] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278282/post/update/
+            - generic [ref=e164]: 
+            - text: Edit
+          - link "" [ref=e165] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278282/post/delete/
+            - generic [ref=e166]: 
+        - 'heading "Re: Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e167]'
+        - paragraph [ref=e168]:
+          - generic [ref=e169]:
+            - generic [ref=e170]: 
+            - text: "By:"
+            - link "lauwette" [ref=e171] [cursor=pointer]:
+              - /url: /forum/member/profile/379458/
+            - text: on Dec. 15, 2024, 9:25 p.m.
+        - generic [ref=e172]:
+          - paragraph [ref=e173]: J'ai enfin réussi à mettre à jour à 1 mon flux en cliquant sur le bouton et réussi à récupérer la valeur via le code
+          - code [ref=e175]: url = " https://emoncms.fr/feed/value.json?id=209&apikey="+apikey
+          - code [ref=e177]: "r = requests.get(url) if r.text == \"1\":"
+          - code [ref=e179]:
+            - generic [ref=e180]: print("ok")
+          - paragraph [ref=e181]: Par contre, je ne comprend pas le scénario.
+          - paragraph [ref=e182]: A quel moment dois-je récupérer cette valeur et fermer ou ouvrir la barrière. Selon le scénario, la barrière s'ouvre en 900ms, reste 900ms puis se ferme.
+          - paragraph [ref=e183]
+          - paragraph [ref=e184]: Mais quand doit être fait l'appel à la valeur du flux pour influence le scénario. J'ai essayé plusieurs scénarios et impossible de valider le 3 étoiles
+        - generic [ref=e186]:
+          - generic [ref=e187]: 
+          - text: "Last edited by:"
+          - link "lauwette" [ref=e188] [cursor=pointer]:
+            - /url: /forum/member/profile/379458/
+          - text: on Dec. 15, 2024, 9:33 p.m., edited 1 time in total.
+      - generic [ref=e189]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/379458/
+        - link "lauwette" [ref=e191] [cursor=pointer]:
+          - /url: /forum/member/profile/379458/
+        - generic [ref=e192]: "Posts: 7"
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - generic [ref=e197]:
+          - link " Edit" [ref=e198] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278319/post/update/
+            - generic [ref=e199]: 
+            - text: Edit
+          - link "" [ref=e200] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278319/post/delete/
+            - generic [ref=e201]: 
+        - 'heading "Re: Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e202]'
+        - paragraph [ref=e203]:
+          - generic [ref=e204]:
+            - generic [ref=e205]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e206] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e207]:
+              - text: 
+              - generic [ref=e208]: Instructor
+            - text: on Dec. 16, 2024, 6:21 a.m.
+        - generic [ref=e209]:
+          - paragraph [ref=e210]:
+            - text: Bonjour
+            - link "@lauwette" [ref=e211] [cursor=pointer]:
+              - /url: /forum/member/profile/379458/
+          - paragraph [ref=e212]
+          - paragraph [ref=e213]: "Voici une proposition de correction pour cet exercice :"
+          - paragraph [ref=e214]
+          - code [ref=e216]:
+            - text: "On vient # hard from thingz import * from machine import * from time import * from network import * from requests import * from json import * # Initialisation du servomoteur sur la broche P19 p19 = PWM(Pin(13), 50, 205)"
+            - generic [ref=e217]: "def setServoAngle(pin, angle):"
+            - text: "if (angle >= 0 and angle <= 180): pin.duty_u16(int(0.025*65535 + (angle*0.1*65535)/180)) else: raise ValueError(\"Servomotor angle have to be set between 0 and 180\") # On spécifie les informations du réseau wifi # (remplacez \"mon_reseau\" et \"mon_mot_de_passe\" # par les informations de votre réseau) ssid = \"mon_reseau\" password = \"mon_mot_de_passe\" # On vient créer une instance de l'interface wifi en mode station sta_if = WLAN(STA_IF) # On active l'interface wifi sta_if.active(True) # Et on se connecte au réseau wifi print("
+            - generic [ref=e218]: "f\"Connexion au réseau {ssid}...\""
+            - text: ", end=\"\") sta_if.connect(ssid, password) # On vient regarder dans quel état doit se trouver la barière"
+          - code [ref=e220]: "r = get(\"http://emoncms.fr/feed/timevalue.json?id=154&apikey=<votre_clé_api>\") # On affiche la réponse du serveur si le code HTTP est 200 (OK) if r.status_code == 200:"
+          - code [ref=e222]: "# si le flux est égal à 1 alors on doit fermer la barrière if r.json()['value'] == 1: for i in range(0,91): setServoAngle(p19, i) sleep(0.01) sleep(0.89) for i in range(90,-1, -1): setServoAngle(p19, i) sleep(0.01) # Je vous laisse compléter la fin du programme pour repasser la valeur du flux à 0"
+        - paragraph [ref=e224]: "--Baptiste"
+      - generic [ref=e225]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e227] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e228]: "Posts: 301"
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - generic [ref=e233]:
+          - link " Edit" [ref=e234] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278321/post/update/
+            - generic [ref=e235]: 
+            - text: Edit
+          - link "" [ref=e236] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278321/post/delete/
+            - generic [ref=e237]: 
+        - 'heading "Re: Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e238]'
+        - paragraph [ref=e239]:
+          - generic [ref=e240]:
+            - generic [ref=e241]: 
+            - text: "By:"
+            - link "lauwette" [ref=e242] [cursor=pointer]:
+              - /url: /forum/member/profile/379458/
+            - text: on Dec. 16, 2024, 7:20 a.m.
+        - generic [ref=e243]:
+          - paragraph [ref=e244]: Bonjour
+          - paragraph [ref=e245]: Je vous remercie de cette réponse. Mais ce dont j'avais besoin c'est juste d'une explication de l'énoncé qui n'est pas clair.
+          - paragraph [ref=e246]: "\"Fermer la barrière\" semble finalement signifier \"Fermer la barrière, attendre puis rouvrir la barrière\"."
+          - paragraph [ref=e247]: "\"Quand la valeur du flux passe à 1, fermer la barrière\" semble signifier : Tester si la valeur est à 1 et dans ce cas \"Fermer la barrière\". Il faut donc en fait que le flux soit déjà à 1 quand on lance le programme et non tester une détection du passage à 1 de notre flux au cours du programme."
+          - paragraph [ref=e248]
+          - paragraph [ref=e249]: Cordialement,
+          - paragraph [ref=e250]
+      - generic [ref=e251]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/379458/
+        - link "lauwette" [ref=e253] [cursor=pointer]:
+          - /url: /forum/member/profile/379458/
+        - generic [ref=e254]: "Posts: 7"
+    - generic [ref=e257]:
+      - generic [ref=e258]:
+        - generic [ref=e259]:
+          - link " Edit" [ref=e260] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278325/post/update/
+            - generic [ref=e261]: 
+            - text: Edit
+          - link "" [ref=e262] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278325/post/delete/
+            - generic [ref=e263]: 
+        - 'heading "Re: Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e264]'
+        - paragraph [ref=e265]:
+          - generic [ref=e266]:
+            - generic [ref=e267]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e268] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 16, 2024, 7:57 a.m.
+        - generic [ref=e269]:
+          - paragraph [ref=e270]: "Il suffit de faire une boucle :"
+          - code [ref=e272]:
+            - generic [ref=e273]: connexion()
+            - generic [ref=e274]: while
+            - generic [ref=e275]: "True"
+            - text: ":"
+            - generic [ref=e276]: "if(get_bouton() ==1): fermer()"
+            - generic [ref=e277]:
+              - generic [ref=e278]: sleep
+              - text: (0.89)
+            - generic [ref=e279]: ouvrir()
+          - paragraph [ref=e280]
+          - paragraph [ref=e281]: (Je ne mets pas les def des fonctions)
+      - generic [ref=e282]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e284] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e285]: "Posts: 69"
+    - generic [ref=e288]:
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - link " Edit" [ref=e291] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278432/post/update/
+            - generic [ref=e292]: 
+            - text: Edit
+          - link "" [ref=e293] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278432/post/delete/
+            - generic [ref=e294]: 
+        - 'heading "Re: Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e295]'
+        - paragraph [ref=e296]:
+          - generic [ref=e297]:
+            - generic [ref=e298]: 
+            - text: "By:"
+            - link "lauwette" [ref=e299] [cursor=pointer]:
+              - /url: /forum/member/profile/379458/
+            - text: on Dec. 16, 2024, 6:54 p.m.
+        - generic [ref=e300]:
+          - paragraph [ref=e301]: Merci, je crois que je n'arrive pas à me faire comprendre. Je n'ai pas besoin de code, je sais bien faire une boucle.
+          - paragraph [ref=e302]: C'est un problème d'énoncé et de formulation de l'exercice à réaliser...
+          - paragraph [ref=e303]: Vous pouvez clore le sujet.
+          - paragraph [ref=e304]
+          - paragraph [ref=e305]: Cordialement,
+      - generic [ref=e306]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/379458/
+        - link "lauwette" [ref=e308] [cursor=pointer]:
+          - /url: /forum/member/profile/379458/
+        - generic [ref=e309]: "Posts: 7"
+    - generic [ref=e312]:
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - link " Edit" [ref=e315] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278512/post/update/
+            - generic [ref=e316]: 
+            - text: Edit
+          - link "" [ref=e317] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278512/post/delete/
+            - generic [ref=e318]: 
+        - 'heading "Re: Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e319]'
+        - paragraph [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e323] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 17, 2024, 12:29 p.m.
+        - generic [ref=e324]:
+          - paragraph [ref=e325]: Bonjour,
+          - paragraph [ref=e326]: "si je peux me permettre une remarque d'ordre général après plusieurs années de pratique en milieu professionnel, votre question n'est pas du tout anodine, car en matière de programmation un problème récurrent émerge avec le cllient (ou ici le vérificateur mais c'est pareil) : a t'on bien compris ce qu'il veut ?"
+          - paragraph [ref=e327]: Face à ça il y a 2 types de programmeurs, celui qui va attaquer à coder ce qu'il pense être ce que le client veut, et l'autre qui va aupravant s'assurer de bien traduire en code ce que le client veut (ou a exprimé ce qui n'est pas toujours la même chose !)
+          - paragraph [ref=e328]: Le premier comportement va donner lieu à d'âpres discussions pour savoir qui a mal compris ou qui s'est mal expliqué, à des retours, des corrections, ... bref des pertes de temps et d'argent.
+          - paragraph [ref=e329]: Le deuxième comportement peut être considéré par certains comme fastidieux, mais au final sera celui qui répondra le plus fidèlement au besoin.
+          - paragraph [ref=e330]: Entre les 2 il faut savoir trouver le juste milieu, en fonction de la situation. Un des langages commun à peu près compréhensible par tout le monde est l'algorithme (ce qu'on fait, ce que le système répond, les branches de décision avec tables de vérité, ...). Mais n'attendez pas du client qu'il vous écrive l'algorithme ! mais ça peut être un support contractuel dans les spécifications détaillées.
+          - paragraph [ref=e331]: C'est donc bien un vaste sujet en matière de programmation, merci d'avoir lu jusqu'au bout !
+          - paragraph [ref=e332]
+          - paragraph [ref=e333]
+      - generic [ref=e334]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e336] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e337]: "Posts: 44"
+    - generic [ref=e340]:
+      - generic [ref=e341]:
+        - generic [ref=e342]:
+          - link " Edit" [ref=e343] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278680/post/update/
+            - generic [ref=e344]: 
+            - text: Edit
+          - link "" [ref=e345] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278680/post/delete/
+            - generic [ref=e346]: 
+        - 'heading "Re: Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e347]'
+        - paragraph [ref=e348]:
+          - generic [ref=e349]:
+            - generic [ref=e350]: 
+            - text: "By:"
+            - link "lauwette" [ref=e351] [cursor=pointer]:
+              - /url: /forum/member/profile/379458/
+            - text: on Dec. 18, 2024, 1:55 p.m.
+        - generic [ref=e352]:
+          - paragraph [ref=e353]: Bonjour,
+          - paragraph [ref=e354]: Je suis tout à fait d'accord avec vous et c'est bien pourquoi je ne m'attendais pas du tout à ce qu'on m'écrive l'algorithme mais bien à ce qu'on m'explique de manière plus détaillée le comportement qui était attendu pour que je puisse le transcrire en algorithme.
+          - paragraph [ref=e355]: Car j'ai plutôt tendance à définir exactement ce que le client a besoin ( ce qui est parfois eloigné de ce qu'il a exprimé comme besoin, car effectivement souvent en précisant les choses le client se rend compte que le besoin réél est un peu différent) que de supposer ce dont il a besoin.
+          - paragraph [ref=e356]: Cordialement,
+      - generic [ref=e357]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/379458/
+        - link "lauwette" [ref=e359] [cursor=pointer]:
+          - /url: /forum/member/profile/379458/
+        - generic [ref=e360]: "Posts: 7"
+    - generic [ref=e363]:
+      - generic [ref=e364]:
+        - generic [ref=e365]:
+          - link " Edit" [ref=e366] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278816/post/update/
+            - generic [ref=e367]: 
+            - text: Edit
+          - link "" [ref=e368] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/278816/post/delete/
+            - generic [ref=e369]: 
+        - 'heading "Re: Précision TP La barrière 2 , niveau 3 étoiles" [level=4] [ref=e370]'
+        - paragraph [ref=e371]:
+          - generic [ref=e372]:
+            - generic [ref=e373]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e374] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 19, 2024, 12:18 p.m.
+        - generic [ref=e375]:
+          - paragraph [ref=e376]: Bonjour @lauwette,
+          - paragraph [ref=e377]: Effectivement, je n'avais pas compris votre demande.
+          - paragraph [ref=e378]: Je vous rejoins sur le fait que certains énoncés laisse trop de place à l'interprétation.
+          - paragraph [ref=e379]
+      - generic [ref=e380]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e382] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e383]: "Posts: 69"
+  - generic [ref=e385]:
+    - link " Post reply" [ref=e386] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/post/create/
+      - generic [ref=e387]: 
+      - text: Post reply
+    - button "" [ref=e389] [cursor=pointer]:
+      - generic [ref=e390]: 

@@ -1,0 +1,327 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Bonjour à tous" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Bonjour à tous" [level=1] [ref=e24]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - link " Post reply" [ref=e27] [cursor=pointer]:
+        - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/post/create/
+        - generic [ref=e28]: 
+        - text: Post reply
+      - button "" [ref=e30] [cursor=pointer]:
+        - generic [ref=e31]: 
+    - list [ref=e33]:
+      - listitem [ref=e34]:
+        - link "«" [ref=e35] [cursor=pointer]:
+          - /url: "?page=1"
+      - listitem [ref=e36]:
+        - link "1" [ref=e37] [cursor=pointer]:
+          - /url: "?page=1"
+      - listitem [ref=e38]:
+        - link "2" [ref=e39] [cursor=pointer]:
+          - /url: "?page=2"
+      - listitem [ref=e40]:
+        - link "»":
+          - /url: ""
+  - generic [ref=e42]:
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - link " Edit" [ref=e48] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/275943/post/update/
+            - generic [ref=e49]: 
+            - text: Edit
+          - link "" [ref=e50] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/275943/post/delete/
+            - generic [ref=e51]: 
+        - 'heading "Re: Bonjour à tous" [level=4] [ref=e52]'
+        - paragraph [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e56] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 1, 2024, 3:27 p.m.
+        - generic [ref=e57]:
+          - paragraph [ref=e58]: Bonjour,
+          - paragraph [ref=e59]: Pareil pour moi svp, j'avais suivi partiellement la session "Programmer Galaxia avec Micro python" de 2023 mais besoin de rafraîchir les choses avec la session de 2024 !
+          - paragraph [ref=e60]: Merci
+          - paragraph [ref=e61]
+        - generic [ref=e63]:
+          - generic [ref=e64]: 
+          - text: "Last edited by:"
+          - link "fun_bbe" [ref=e65] [cursor=pointer]:
+            - /url: /forum/member/profile/12271/
+          - text: on Dec. 1, 2024, 3:34 p.m., edited 1 time in total.
+      - generic [ref=e66]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e68] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e69]: "Posts: 44"
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - link " Edit" [ref=e75] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/276598/post/update/
+            - generic [ref=e76]: 
+            - text: Edit
+          - link "" [ref=e77] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/276598/post/delete/
+            - generic [ref=e78]: 
+        - 'heading "Re: Bonjour à tous" [level=4] [ref=e79]'
+        - paragraph [ref=e80]:
+          - generic [ref=e81]:
+            - generic [ref=e82]: 
+            - text: "By:"
+            - link "jcw67" [ref=e83] [cursor=pointer]:
+              - /url: /forum/member/profile/229685/
+            - text: on Dec. 4, 2024, 2:39 p.m.
+        - generic [ref=e84]:
+          - paragraph [ref=e85]: Bonjour à toutes et à tous,
+          - paragraph [ref=e86]
+          - paragraph [ref=e87]:
+            - text: et en particulier à
+            - link "@bgaultier" [ref=e88] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - emphasis [ref=e89]: (merci pour le mail de rappel)
+          - paragraph [ref=e90]:
+            - text: et
+            - link "@BrutDePomme" [ref=e91] [cursor=pointer]:
+              - /url: /forum/member/profile/11115/
+            - emphasis [ref=e92]: (c'était il y a longtemps)
+            - text: .
+          - paragraph [ref=e93]
+          - paragraph [ref=e94]:
+            - text: Je n'aime pas les "réunions d'anciens combattants", mais mon premier MOOC a été "La Fabrication numérique-Session1"
+            - emphasis [ref=e95]: (les débuts de FUN, 17/03/2014 - 30/08/2014).,
+            - text: J'étais encore "en activité", et il n'est même plus sur mon tableau de bord FUN.
+          - paragraph [ref=e96]
+          - paragraph [ref=e97]: "Je pense avoir fait tous les autres de la série : je ne pouvais pas rater celui que Baptiste annonce comme \"le dernier\" !"
+          - paragraph [ref=e98]
+          - paragraph [ref=e99]: Bon MOOC à toutes et à tous.
+          - paragraph [ref=e100]
+          - paragraph [ref=e101]: JC
+        - generic [ref=e103]:
+          - generic [ref=e104]: 
+          - text: "Last edited by:"
+          - link "jcw67" [ref=e105] [cursor=pointer]:
+            - /url: /forum/member/profile/229685/
+          - text: on Dec. 4, 2024, 2:44 p.m., edited 1 time in total.
+      - generic [ref=e106]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/229685/
+        - link "jcw67" [ref=e108] [cursor=pointer]:
+          - /url: /forum/member/profile/229685/
+        - generic [ref=e109]: "Posts: 19"
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - link " Edit" [ref=e115] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/277006/post/update/
+            - generic [ref=e116]: 
+            - text: Edit
+          - link "" [ref=e117] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/277006/post/delete/
+            - generic [ref=e118]: 
+        - 'heading "Re: Bonjour à tous" [level=4] [ref=e119]'
+        - paragraph [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e122]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e123] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 6, 2024, 9:53 p.m.
+        - generic [ref=e124]:
+          - paragraph [ref=e125]: Bonjour à toutes et tous,
+          - paragraph [ref=e126]
+          - paragraph [ref=e127]: J'enchaine les MOOC FUN; après m'être initié et avoir approfondi le langage Python, je souhaiterais maintenant acquérir des connaissances sur la programmation des micro controleurs, et ce MOOC me semblait tout indiqué.
+          - paragraph [ref=e128]: "Mais dès le premier exercice dit \"de révision\" proposé, je me suis cassé les dents: je ne comprenais même pas les messages d'erreur. C'est dire si il y a du boulot! (j'ai demandé par ailleurs - là où tout le monde l'a fait - un accès au MOOC archivé pour essayer de me remettre sur les rails)"
+          - paragraph [ref=e129]
+          - paragraph [ref=e130]: Par contre, ayant débarqué tardivement, j'espère que ce MOOC ci restera accessible bien après son échéance (je me fiche du badge - c'est juste pour la connaissance)
+          - paragraph [ref=e131]
+          - paragraph [ref=e132]: Merci
+      - generic [ref=e133]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e135] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e136]: "Posts: 53"
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - link " Edit" [ref=e142] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/277499/post/update/
+            - generic [ref=e143]: 
+            - text: Edit
+          - link "" [ref=e144] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/277499/post/delete/
+            - generic [ref=e145]: 
+        - 'heading "Re: Bonjour à tous" [level=4] [ref=e146]'
+        - paragraph [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e149]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e150] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e151]:
+              - text: 
+              - generic [ref=e152]: Instructor
+            - text: on Dec. 10, 2024, 11:47 a.m.
+        - generic [ref=e153]:
+          - paragraph [ref=e154]:
+            - text: Hello
+            - link "@jcw67" [ref=e155] [cursor=pointer]:
+              - /url: /forum/member/profile/229685/
+            - text: ","
+          - paragraph [ref=e156]
+          - paragraph [ref=e157]: Quel plaisir de retrouver votre pseudo 10 ans après ! C'est vrai que ce forum commence à rassembler tous les vieux briscards des MOOCs Fabrication Numérique. En espérant que vous trouverez encore quelques compétences à glaner dans le "dernier" !
+          - paragraph [ref=e158]
+          - paragraph [ref=e159]: Bon MOOC,
+        - paragraph [ref=e161]: "--Baptiste"
+      - generic [ref=e162]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e164] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e165]: "Posts: 301"
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - generic [ref=e170]:
+          - link " Edit" [ref=e171] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/277501/post/update/
+            - generic [ref=e172]: 
+            - text: Edit
+          - link "" [ref=e173] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/277501/post/delete/
+            - generic [ref=e174]: 
+        - 'heading "Re: Bonjour à tous" [level=4] [ref=e175]'
+        - paragraph [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e179] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e180]:
+              - text: 
+              - generic [ref=e181]: Instructor
+            - text: on Dec. 10, 2024, 11:49 a.m.
+        - generic [ref=e182]:
+          - paragraph [ref=e183]:
+            - text: Bonjour
+            - link "@tidjidi" [ref=e184] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+          - paragraph [ref=e185]
+          - paragraph [ref=e186]: "Vous êtes inscrit : https://lms.fun-mooc.fr/courses/course-v1:MinesTelecom+04048+session02/info"
+          - paragraph [ref=e187]
+          - paragraph [ref=e188]: Bons MOOCs !
+        - paragraph [ref=e190]: "--Baptiste"
+      - generic [ref=e191]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e193] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e194]: "Posts: 301"
+    - generic [ref=e197]:
+      - generic [ref=e198]:
+        - generic [ref=e199]:
+          - link " Edit" [ref=e200] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/277502/post/update/
+            - generic [ref=e201]: 
+            - text: Edit
+          - link "" [ref=e202] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/277502/post/delete/
+            - generic [ref=e203]: 
+        - 'heading "Re: Bonjour à tous" [level=4] [ref=e204]'
+        - paragraph [ref=e205]:
+          - generic [ref=e206]:
+            - generic [ref=e207]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e208] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 10, 2024, 11:51 a.m.
+        - generic [ref=e209]:
+          - paragraph [ref=e210]: Merci beaucoup
+          - paragraph [ref=e211]: Et désolé d'avoir été relou
+      - generic [ref=e212]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e214] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e215]: "Posts: 53"
+    - generic [ref=e218]:
+      - generic [ref=e219]:
+        - generic [ref=e220]:
+          - link " Edit" [ref=e221] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/277577/post/update/
+            - generic [ref=e222]: 
+            - text: Edit
+          - link "" [ref=e223] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/277577/post/delete/
+            - generic [ref=e224]: 
+        - 'heading "Re: Bonjour à tous" [level=4] [ref=e225]'
+        - paragraph [ref=e226]:
+          - generic [ref=e227]:
+            - generic [ref=e228]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e229] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e230]:
+              - text: 
+              - generic [ref=e231]: Instructor
+            - text: on Dec. 10, 2024, 5:34 p.m.
+        - paragraph [ref=e233]:
+          - text: Pas de souci, l'essnetiel est que vous ayez accès aux deux cours
+          - img "👍" [ref=e235]
+        - paragraph [ref=e237]: "--Baptiste"
+      - generic [ref=e238]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e240] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e241]: "Posts: 301"
+  - generic [ref=e242]:
+    - generic [ref=e243]:
+      - link " Post reply" [ref=e244] [cursor=pointer]:
+        - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/activit%C3%A9-lampadaire-bouton-132817/post/create/
+        - generic [ref=e245]: 
+        - text: Post reply
+      - button "" [ref=e247] [cursor=pointer]:
+        - generic [ref=e248]: 
+    - list [ref=e250]:
+      - listitem [ref=e251]:
+        - link "«" [ref=e252] [cursor=pointer]:
+          - /url: "?page=1"
+      - listitem [ref=e253]:
+        - link "1" [ref=e254] [cursor=pointer]:
+          - /url: "?page=1"
+      - listitem [ref=e255]:
+        - link "2" [ref=e256] [cursor=pointer]:
+          - /url: "?page=2"
+      - listitem [ref=e257]:
+        - link "»":
+          - /url: ""

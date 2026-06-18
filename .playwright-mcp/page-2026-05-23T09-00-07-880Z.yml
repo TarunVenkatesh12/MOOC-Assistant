@@ -1,0 +1,192 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "S3 Auto correcteur" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "S3 Auto correcteur" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/278183/post/delete/
+            - generic [ref=e43]: 
+        - heading "S3 Auto correcteur" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "blabey" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+            - text: on Dec. 14, 2024, 1:57 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Je ne peux pas utiliser l'autocorrecteur car la message '41 bloccs en trop utilisés pour 55 autorisés'.
+          - paragraph [ref=e51]: Je n'ai pas su trouver les paramètres de configuration pour bypasser ce problème.
+          - paragraph [ref=e52]: Pouvez-vous m'aider.
+          - paragraph [ref=e53]: On arrive vers la fin du cours, je passe du temps à essayer de faire fonctionner la carte et l'auto-correcteur, il se peut que je vous dérange dans les prochains jours. Veuillez m'en excuser par avance.
+      - generic [ref=e54]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/676988/
+        - link "blabey" [ref=e56] [cursor=pointer]:
+          - /url: /forum/member/profile/676988/
+        - generic [ref=e57]: "Posts: 9"
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - link " Edit" [ref=e63] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/278196/post/update/
+            - generic [ref=e64]: 
+            - text: Edit
+          - link "" [ref=e65] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/278196/post/delete/
+            - generic [ref=e66]: 
+        - 'heading "Re: S3 Auto correcteur" [level=4] [ref=e67]'
+        - paragraph [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e71] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 14, 2024, 4:57 p.m.
+        - generic [ref=e72]:
+          - paragraph [ref=e73]: Bonjour
+          - paragraph [ref=e74]: Le nombre de blocs maxi pour la validation a été limité par l'équipe pédagogique.
+          - paragraph [ref=e75]: Si ça dépasse (41 en trop ça me semble beaucoup !) il faut faire plus concis et supprimer les lignes vides.
+      - generic [ref=e76]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e78] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e79]: "Posts: 44"
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - link " Edit" [ref=e85] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/278227/post/update/
+            - generic [ref=e86]: 
+            - text: Edit
+          - link "" [ref=e87] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/278227/post/delete/
+            - generic [ref=e88]: 
+        - 'heading "Re: S3 Auto correcteur" [level=4] [ref=e89]'
+        - paragraph [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: 
+            - text: "By:"
+            - link "blabey" [ref=e93] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+            - text: on Dec. 15, 2024, 10:14 a.m.
+        - generic [ref=e94]:
+          - paragraph [ref=e95]: Bounjour
+          - paragraph [ref=e96]
+          - paragraph [ref=e97]: J'ai bien essayé de supprimer les lignes vides, les commentaires mais évidemment ça ne change rien.
+          - paragraph [ref=e98]: On ne supprime des blocs seulement si je supprime des lignes de code.
+          - paragraph [ref=e99]: Faire concis, c'est aussi faire moins lisibles et quand on est en développement c'est plus souhaitable.
+          - paragraph [ref=e100]: Comme je fais fonctionner avec la carte je vais continuer avec elle (même si j'ai aussi quelques soucis).
+          - paragraph [ref=e101]
+          - paragraph [ref=e102]: "J'ai fait un essai dans l'onglet 2 étoiles de l'autocorrecteur. J'ai jouter le code suivant au code déjà affiché :"
+          - paragraph [ref=e103]: lum = str(led.read_light_level())
+          - paragraph [ref=e104]: temp = str(temperature())
+          - paragraph [ref=e105]: dist = str(grove_getUltrasonicData(7, data='distance'))
+          - paragraph [ref=e106]: "capteurs = {\"liminosite\":lum,\"temperature\":temp,\"distance\":dist}"
+          - paragraph [ref=e107]: "# print(\"liminosite\",lum)"
+          - paragraph [ref=e108]
+          - paragraph [ref=e109]:
+            - text: en bas et à droite de la page j'ai l'indication
+            - strong [ref=e110]: 1/90
+          - paragraph [ref=e111]:
+            - text: "quand je décommente le print j'ai le message :"
+            - strong [ref=e112]: 2 blocs en trop utilisés pour 90 autorisés
+          - paragraph [ref=e113]
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: 
+            - text: "Last edited by:"
+            - link "blabey" [ref=e117] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+            - text: on Dec. 15, 2024, 5:34 p.m., edited 1 time in total.
+          - generic [ref=e118]: "Reason: Un test supplémentaire a été fait"
+      - generic [ref=e119]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/676988/
+        - link "blabey" [ref=e121] [cursor=pointer]:
+          - /url: /forum/member/profile/676988/
+        - generic [ref=e122]: "Posts: 9"
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - link " Edit" [ref=e128] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/278315/post/update/
+            - generic [ref=e129]: 
+            - text: Edit
+          - link "" [ref=e130] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/278315/post/delete/
+            - generic [ref=e131]: 
+        - 'heading "Re: S3 Auto correcteur" [level=4] [ref=e132]'
+        - paragraph [ref=e133]:
+          - generic [ref=e134]:
+            - generic [ref=e135]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e136] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e137]:
+              - text: 
+              - generic [ref=e138]: Instructor
+            - text: on Dec. 16, 2024, 5:48 a.m.
+        - generic [ref=e139]:
+          - paragraph [ref=e140]:
+            - text: Bonjour
+            - link "@blabey" [ref=e141] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+          - paragraph [ref=e142]
+          - paragraph [ref=e143]: Effectivement, le nombre maximal de blocs a été introduits dans certaines versions des TP pour éviter que les apprenant·es viennent simplement coder "en dur" ce qui est attendu par l'autocorrecteur.
+          - paragraph [ref=e144]
+          - paragraph [ref=e145]:
+            - text: Je vous recommande donc de commenter tous les prints et vous devriez pouvoir valider toutes vos activités
+            - img "👍" [ref=e147]
+          - paragraph [ref=e148]
+          - paragraph [ref=e149]: Bon courage pour la fin du MOOC,
+        - paragraph [ref=e151]: "--Baptiste"
+      - generic [ref=e152]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e154] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e155]: "Posts: 301"
+  - generic [ref=e157]:
+    - link " Post reply" [ref=e158] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/post/create/
+      - generic [ref=e159]: 
+      - text: Post reply
+    - button "" [ref=e161] [cursor=pointer]:
+      - generic [ref=e162]: 

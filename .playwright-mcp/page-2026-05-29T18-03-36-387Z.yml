@@ -1,0 +1,190 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "TP Sem3 Envoi à emoncms échoué" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "TP Sem3 Envoi à emoncms échoué" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/278286/post/delete/
+            - generic [ref=e43]: 
+        - heading "TP Sem3 Envoi à emoncms échoué" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 15, 2024, 10:41 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Pourquoi avec ce bout de code, l'autocorrecteur m'affirme que l'envoi à emoncms a échoué, alors que je fais tourner un code analogue (avec des données factices générées aléatoirement) sous python sans aucun problème (ça fait même même quelques heures qu'il nourrit mon dashboard emoncms)
+          - paragraph [ref=e51]
+          - img [ref=e52]
+          - code [ref=e54]: "... ssid = 'mon_ssid' wifikey = 'mon_code_wifi' apikey = \"ma_cle_api\" url = \"http://emoncms.fr/input/post\" itf = WLAN(STA_IF) itf.active(True) itf.connect(ssid, wifikey) while not itf.isconnected(): sleep(0.5) while True: if itf.isconnected(): data = {} data['light_level'] = str(led.read_light_level()) data['temperature'] = temperature() data['distance'] = grove_getUltrasonicData(7) post_data = { \"node\": \"galaxia2\", \"data\": str(data), \"apikey\": apikey } r = post(url, post_data) if r.text == 'ok': print('Everything OK') else: print('Un problème est survenu') print(r.text) sleep(1)"
+          - paragraph [ref=e55]: Il y a quelque chose qui m'échappe...
+          - paragraph [ref=e56]
+          - paragraph [ref=e57]: "[EDIT] Même soucis sur le TP suivant avec la barrière"
+        - generic [ref=e59]:
+          - generic [ref=e60]: 
+          - text: "Last edited by:"
+          - link "tidjidi" [ref=e61] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - text: on Dec. 15, 2024, 11:57 p.m., edited 4 times in total.
+      - generic [ref=e62]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e64] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e65]: "Posts: 53"
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - link " Edit" [ref=e71] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/278288/post/update/
+            - generic [ref=e72]: 
+            - text: Edit
+          - link "" [ref=e73] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/278288/post/delete/
+            - generic [ref=e74]: 
+        - 'heading "Re: TP Sem3 Envoi à emoncms échoué" [level=4] [ref=e75]'
+        - paragraph [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e79] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 15, 2024, 11 p.m.
+        - generic [ref=e80]:
+          - paragraph [ref=e81]: Le plus drôle, c'est que si je remplace l'appel post() par
+          - code [ref=e83]:
+            - text: r = request(
+            - generic [ref=e84]: "\"POST\""
+            - text: ", url, post_data)"
+          - paragraph [ref=e85]: l'autocorrecteur me dit que la variable "request" n'existe pas (alors qu'il y a un from requests import *)
+          - paragraph [ref=e86]
+          - img [ref=e87]
+          - paragraph [ref=e88]: MDR
+        - generic [ref=e90]:
+          - generic [ref=e91]: 
+          - text: "Last edited by:"
+          - link "tidjidi" [ref=e92] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - text: on Dec. 15, 2024, 11:02 p.m., edited 1 time in total.
+      - generic [ref=e93]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e95] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e96]: "Posts: 53"
+    - generic [ref=e99]:
+      - generic [ref=e100]:
+        - generic [ref=e101]:
+          - link " Edit" [ref=e102] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/278320/post/update/
+            - generic [ref=e103]: 
+            - text: Edit
+          - link "" [ref=e104] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/278320/post/delete/
+            - generic [ref=e105]: 
+        - 'heading "Re: TP Sem3 Envoi à emoncms échoué" [level=4] [ref=e106]'
+        - paragraph [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e110] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e111]:
+              - text: 
+              - generic [ref=e112]: Instructor
+            - text: on Dec. 16, 2024, 6:37 a.m.
+        - generic [ref=e113]:
+          - paragraph [ref=e114]:
+            - text: Bonjour
+            - link "@tidjidi" [ref=e115] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+          - paragraph [ref=e116]
+          - paragraph [ref=e117]:
+            - text: Je vous recommande de passer en HTTP
+            - strong [ref=e118]: S
+            - text: "pour éviter cette erreur :"
+          - paragraph [ref=e119]
+          - code [ref=e121]: url = "https://emoncms.fr/input/post"
+          - paragraph [ref=e122]
+          - paragraph [ref=e123]: "En effet, votre navigateur web (qui joue le rôle de la carte Galaxia) établie une connexion en HTTPS avec le serveur du MOOC et n'aime pas trop voir de requête HTTP (non sécurisée donc) dans un contexte sécurisé, comme en témoigne le blocage de la requête dans mon Firefox :"
+          - paragraph [ref=e124]
+          - img [ref=e125]
+          - paragraph [ref=e126]
+        - paragraph [ref=e128]: "--Baptiste"
+      - generic [ref=e129]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e131] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e132]: "Posts: 301"
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - link " Edit" [ref=e138] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/278419/post/update/
+            - generic [ref=e139]: 
+            - text: Edit
+          - link "" [ref=e140] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/278419/post/delete/
+            - generic [ref=e141]: 
+        - 'heading "Re: TP Sem3 Envoi à emoncms échoué" [level=4] [ref=e142]'
+        - paragraph [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e146] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 16, 2024, 4:46 p.m.
+        - paragraph [ref=e148]:
+          - text: OK! Merci! Cest passé!
+          - img "👍" [ref=e150]
+      - generic [ref=e151]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e153] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e154]: "Posts: 53"
+  - generic [ref=e156]:
+    - link " Post reply" [ref=e157] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/post/create/
+      - generic [ref=e158]: 
+      - text: Post reply
+    - button "" [ref=e160] [cursor=pointer]:
+      - generic [ref=e161]: 

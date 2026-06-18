@@ -1,0 +1,35 @@
+<p>Pour l'exp&eacute;rience, j'ai mesur&eacute; la consommation de la carte Galaxia lors de l&rsquo;ex&eacute;cution du code ci-dessus afin de v&eacute;rifier que la consommation diminuait lorsque l'ESP passait en sommeil profond. Les mesures ont &eacute;t&eacute; faites avec un d&eacute;tecteur de tension/intensit&eacute; USB de ce type :</p>
+<p><img src="/asset-v1:MinesTelecom+04018+session04+type@asset+block@ori-detecteur-de-tension-intensite-usb-22003_2649.jpg" alt="USB Tester" type="saveimage" target="[object Object]" width="300" height="200" /></p>
+<p>La fonction de ce d&eacute;tecteur est de pouvoir conna&icirc;tre en temps r&eacute;el la tension et le courant consomm&eacute;s sur un port USB. La pr&eacute;cision de ce d&eacute;tecteur est plut&ocirc;t limit&eacute;e mais permet de voir une tr&egrave;s nette diff&eacute;rence entre le mode sommeil profond et le mode normal :</p>
+<table class="table">
+<tbody>
+<tr><th scope="col">Mode normal</th><th scope="col">Mode sommeil profond</th></tr>
+<tr>
+<td><img src="/static/mode_normal.jpg" alt="Mode normal" type="saveimage" target="[object Object]" width="300" /></td>
+<td><img src="/static/mode_sommeil_profond.jpg" alt="Mode sommeil profond" type="saveimage" target="[object Object]" width="300" /></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p>On note donc une consommation au moins 8 fois inf&eacute;rieure lorsque le passe en mode sommeil profond. Vous trouverez dans le tableau ci-dessous quelques mesures donn&eacute;es &agrave; titre indicatives afin de saisir les &eacute;conomies d'&eacute;nergie possible :</p>
+<table class="table">
+<thead>
+<tr><th scope="col">Code</th><th scope="col">Tension moyenne</th><th scope="col">Intensit&eacute; moyenne</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Sommeil profond</th>
+<td>5,20V</td>
+<td>0,01A</td>
+</tr>
+<tr><th scope="row">Allumer une LED (&eacute;cran allum&eacute;) <a href="https://imt-atlantique.github.io/micropython_doc/apparence/led/led/" target="_blank"><span class="icon fa fa-external-link" aria-hidden="true"></span></a></th>
+<td>5,20V</td>
+<td>0,05A</td>
+</tr>
+<tr><th scope="row">Envoyer une donn&eacute;e (&eacute;cran allum&eacute;) <a href="https://imt-atlantique.github.io/micropython_doc/reseau/requete_http_post/" target="_blank"><span class="icon fa fa-external-link" aria-hidden="true"></span></a></th>
+<td>5,20V</td>
+<td>0,10A</td>
+</tr>
+</tbody>
+</table>
+<p>On notera donc que notre champion de la consommation est le WiFi et qu'il faudra limiter un maximum son utilisation si nous alimentons notre module ESP sur batterie.</p>
+<p>▶️ Plus d'infos sur les r&eacute;ductions de consommation &eacute;lectrique sur <a href="https://www.upesy.fr/blogs/tutorials/how-to-use-deep-sleep-on-esp32-to-reduce-power-consumption" target="_blank">le site de nos amis de uPesy</a> !</p>

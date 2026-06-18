@@ -1,0 +1,293 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Installation manuelle du module requests" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Installation manuelle du module requests" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/274665/post/delete/
+            - generic [ref=e43]: 
+        - heading "Installation manuelle du module requests" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "Plantus" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/13359/
+            - text: on Nov. 25, 2024, 9:54 a.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Je fais un glisser déposé du fichier urequests.py sur la carte Galaxia. Il apparait avec boot.py et main.py
+          - paragraph [ref=e51]: Je téléverse le programme python qui renvoie une erreur comme quoi il ne trouve pas le module requests ou urequests (j'ai essayé les deux noms)
+          - paragraph [ref=e52]: En fait quand je téléverse ça supprime le fichier urequests.py sur la carte
+          - paragraph [ref=e53]: Pour info je possède la carte Galaxia du premier cours. faut-il faire une mise à jour de la carte Galaxia?
+          - paragraph [ref=e54]: Merci pour vos réponses
+          - paragraph [ref=e55]
+      - generic [ref=e56]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/13359/
+        - link "Plantus" [ref=e58] [cursor=pointer]:
+          - /url: /forum/member/profile/13359/
+        - generic [ref=e59]: "Posts: 4"
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - link " Edit" [ref=e65] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/274794/post/update/
+            - generic [ref=e66]: 
+            - text: Edit
+          - link "" [ref=e67] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/274794/post/delete/
+            - generic [ref=e68]: 
+        - 'heading "Re: Installation manuelle du module requests" [level=4] [ref=e69]'
+        - paragraph [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e73] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e74]:
+              - text: 
+              - generic [ref=e75]: Instructor
+            - text: on Nov. 25, 2024, 5:18 p.m.
+        - generic [ref=e76]:
+          - paragraph [ref=e77]:
+            - text: Bonjour
+            - link "@Plantus" [ref=e78] [cursor=pointer]:
+              - /url: /forum/member/profile/13359/
+            - text: ","
+          - paragraph [ref=e79]
+          - paragraph [ref=e80]:
+            - text: Effectivement, c'est problématique
+            - img "😕" [ref=e82]
+          - paragraph [ref=e83]:
+            - text: Pouvez-vous ouvrir
+            - link "ce lien" [ref=e84] [cursor=pointer]:
+              - /url: https://static-items.algorea.org/files/checkouts/ea7d4667bb11656982fc652db5a8ba17/galaxia-horodatage-ferroviaire/index_codecast.html
+            - text: "(depuis un navigateur Chrome) puis cliquer sur le bouton avec la roue crantée :"
+          - img [ref=e85]
+          - paragraph [ref=e86]: "Ensuite, pouvez-vous cliquer sur le bouton \"Connecter l'appareil\" (votre carte Galaxia achetée au moment du premier MOOC doit ê tre branchée avec un câble USB) :"
+          - paragraph [ref=e87]
+          - img [ref=e88]
+          - paragraph [ref=e89]: "Une fois ces deux étapes réalisés, vous devriez être en mesure d'éxécuter le programme suivant (après avec remplacer vos informations réseaux) :"
+          - paragraph [ref=e90]
+          - code [ref=e92]:
+            - text: "from thingz import * from machine import * from time import * from network import * from requests import * from json import * # On spécifie les informations du réseau wifi # (remplacez \"mon_reseau\" et \"mon_mot_de_passe\" # par les informations de votre réseau) ssid = \"mon_reseau\" password = \"mon_mot_de_passe\" # On vient créer une instance de l'interface wifi en mode station sta_if = WLAN(STA_IF) # On active l'interface wifi sta_if.active(True) # Et on se connecte au réseau wifi print("
+            - generic [ref=e93]: "f\"Connexion au réseau {ssid}...\""
+            - text: ", end=\"\") if not sta_if.isconnected(): sta_if.connect(ssid, password) while not sta_if.isconnected(): print(\".\", end=\"\") sleep(1) # On affiche que la connexion a bien été établie print("
+            - generic [ref=e94]: "f\"\\nConnecté au réseau {ssid} !\""
+            - text: ") # On peut maintenant envoyer une requête HTTP GET pour obtenir l'heure actuelle en France r = get(\"https://api.emoncms.fr/time\") # On affiche la réponse du serveur si le code HTTP est 200 (OK) if r.status_code == 200: # On affiche la réponse du serveur au format JSON print("
+            - generic [ref=e95]: "f\"Réponse du serveur : {r.json()}\""
+            - text: ") #led.set_colors(0,10, 0)"
+          - paragraph [ref=e96]
+          - paragraph [ref=e97]: Pouvez-vous me confirmer que cela est fonctionnel ?
+        - paragraph [ref=e99]: "--Baptiste"
+      - generic [ref=e100]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e102] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e103]: "Posts: 301"
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - link " Edit" [ref=e109] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/275860/post/update/
+            - generic [ref=e110]: 
+            - text: Edit
+          - link "" [ref=e111] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/275860/post/delete/
+            - generic [ref=e112]: 
+        - 'heading "Re: Installation manuelle du module requests" [level=4] [ref=e113]'
+        - paragraph [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: 
+            - text: "By:"
+            - link "Plantus" [ref=e117] [cursor=pointer]:
+              - /url: /forum/member/profile/13359/
+            - text: on Nov. 30, 2024, 1:43 p.m.
+        - generic [ref=e118]:
+          - paragraph [ref=e119]: Bonjour,
+          - paragraph [ref=e120]
+          - paragraph [ref=e121]: Après avoir laissé dormir quelques jours, j'ai fait les tests, ça marche (youpi !) et j'ai bien le fichier requests sur la carte.
+          - paragraph [ref=e122]:
+            - text: "Ayant l'esprit curieux, j'ai essayé le même programme avec l'interface Galaxia, ça ne marche pas. Il plante à la ligne :"
+            - emphasis [ref=e123]: r = get("https://api.emoncms.fr/time")
+          - paragraph [ref=e124]: il ne trouve pas le module tls. Pas grave, ne cherchez pas je continue le cours. Merci pour votre aide.
+      - generic [ref=e125]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/13359/
+        - link "Plantus" [ref=e127] [cursor=pointer]:
+          - /url: /forum/member/profile/13359/
+        - generic [ref=e128]: "Posts: 4"
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - link " Edit" [ref=e134] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/275997/post/update/
+            - generic [ref=e135]: 
+            - text: Edit
+          - link "" [ref=e136] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/275997/post/delete/
+            - generic [ref=e137]: 
+        - 'heading "Re: Installation manuelle du module requests" [level=4] [ref=e138]'
+        - paragraph [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e141]: 
+            - text: "By:"
+            - link "blabey" [ref=e142] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+            - text: on Dec. 2, 2024, 6:55 a.m.
+        - generic [ref=e143]:
+          - paragraph [ref=e144]:
+            - text: Bonjour
+            - link "@bgaultier" [ref=e145] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+          - paragraph [ref=e146]:
+            - text: J'ai eu moi aussi quelques problèmes avec le module
+            - strong [ref=e147]:
+              - emphasis [ref=e148]: requests
+            - text: et je n'ai pas pu flasher la carte Galaxia au delà de la version beta.7.
+          - paragraph [ref=e149]:
+            - text: "Je rencontre éqalement l'erreur :"
+            - strong [ref=e150]: "ImportError: no module named 'tls'"
+            - text: "en exécutant le programme sur la carte; avec le simulateur j'ai le message:"
+          - paragraph [ref=e151]:
+            - strong [ref=e152]: "TypeError: function.__init__() takes exactly one argument (the instance to initialize) on line 33"
+            - text: (r = requests.get("https://worldtimeapi.org/api/timezone/Europe/Paris"))
+          - paragraph [ref=e153]: Y a-t-il une solution ?
+          - paragraph [ref=e154]
+          - paragraph [ref=e155]: blabey
+      - generic [ref=e156]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/676988/
+        - link "blabey" [ref=e158] [cursor=pointer]:
+          - /url: /forum/member/profile/676988/
+        - generic [ref=e159]: "Posts: 9"
+    - generic [ref=e162]:
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - link " Edit" [ref=e165] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/276027/post/update/
+            - generic [ref=e166]: 
+            - text: Edit
+          - link "" [ref=e167] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/276027/post/delete/
+            - generic [ref=e168]: 
+        - 'heading "Re: Installation manuelle du module requests" [level=4] [ref=e169]'
+        - paragraph [ref=e170]:
+          - generic [ref=e171]:
+            - generic [ref=e172]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e173] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 2, 2024, 10 a.m.
+        - generic [ref=e174]:
+          - paragraph [ref=e175]: Bonjour
+          - paragraph [ref=e176]: Pour le worldtime il y a un serveur de remplacement (voir annonce épinglée en tête des discussions)
+          - paragraph [ref=e177]: Pour la Galaxia j'ai pas de réponse.
+          - paragraph [ref=e178]
+      - generic [ref=e179]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e181] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e182]: "Posts: 44"
+    - generic [ref=e185]:
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - link " Edit" [ref=e188] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/276043/post/update/
+            - generic [ref=e189]: 
+            - text: Edit
+          - link "" [ref=e190] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/276043/post/delete/
+            - generic [ref=e191]: 
+        - 'heading "Re: Installation manuelle du module requests" [level=4] [ref=e192]'
+        - paragraph [ref=e193]:
+          - generic [ref=e194]:
+            - generic [ref=e195]: 
+            - text: "By:"
+            - link "blabey" [ref=e196] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+            - text: on Dec. 2, 2024, 10:37 a.m.
+        - generic [ref=e197]:
+          - paragraph [ref=e198]: Merci pour votre réponse.
+          - paragraph [ref=e199]: Je m'excuse de n'avoir pas été attentif aux messages.
+          - paragraph [ref=e200]: Pour la carte Galaxia j'ai remplacé https par http et j'ai obtenu l'heure de Paris
+          - paragraph [ref=e201]
+          - paragraph [ref=e202]: blabey
+      - generic [ref=e203]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/676988/
+        - link "blabey" [ref=e205] [cursor=pointer]:
+          - /url: /forum/member/profile/676988/
+        - generic [ref=e206]: "Posts: 9"
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - generic [ref=e211]:
+          - link " Edit" [ref=e212] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/276144/post/update/
+            - generic [ref=e213]: 
+            - text: Edit
+          - link "" [ref=e214] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/276144/post/delete/
+            - generic [ref=e215]: 
+        - 'heading "Re: Installation manuelle du module requests" [level=4] [ref=e216]'
+        - paragraph [ref=e217]:
+          - generic [ref=e218]:
+            - generic [ref=e219]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e220] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 2, 2024, 3:21 p.m.
+        - paragraph [ref=e222]: Cool ... bonne suite de MOOC
+      - generic [ref=e223]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e225] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e226]: "Posts: 44"
+  - generic [ref=e228]:
+    - link " Post reply" [ref=e229] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/installation-manuelle-du-module-requests-134432/post/create/
+      - generic [ref=e230]: 
+      - text: Post reply
+    - button "" [ref=e232] [cursor=pointer]:
+      - generic [ref=e233]: 

@@ -1,0 +1,305 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "S3 L BARRIER 3 etoiles" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "S3 L BARRIER 3 etoiles" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278587/post/delete/
+            - generic [ref=e43]: 
+        - heading "S3 L BARRIER 3 etoiles" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "blabey" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+            - text: on Dec. 17, 2024, 7:58 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Il y a eu déjà de nombreux messages sur cette barrière ...
+          - paragraph [ref=e51]:
+            - text: "En voici un nouveau :"
+            - strong [ref=e52]: "Test échoué :"
+            - strong [ref=e53]:
+              - code [ref=e54]: servo
+            - strong [ref=e55]: a été dans l'état null° au lieu de 0° à t=0ms.
+          - paragraph [ref=e56]:
+            - text: Les tests dans
+            - strong [ref=e57]: experimenter
+            - text: aussi bien qu'avec la
+            - strong [ref=e58]: carte galaxia
+            - text: fonctionnent avec le résultat attendu (de mon point de vue).
+          - paragraph [ref=e59]: Dans l'incrémentation des angles, ainsi que dans la décrémentation on passe d'un angle de 0° (t=0) à 90° (t=900) et de 90° (t=0) à 0° (t=900) par sauts de 10 ms..
+          - paragraph [ref=e60]: Pourrais-je avoir un indice sur la cause de l'erreur ?
+          - paragraph [ref=e61]: Merci
+          - paragraph
+          - paragraph [ref=e62]
+      - generic [ref=e63]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/676988/
+        - link "blabey" [ref=e65] [cursor=pointer]:
+          - /url: /forum/member/profile/676988/
+        - generic [ref=e66]: "Posts: 9"
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - link " Edit" [ref=e72] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278614/post/update/
+            - generic [ref=e73]: 
+            - text: Edit
+          - link "" [ref=e74] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278614/post/delete/
+            - generic [ref=e75]: 
+        - 'heading "Re: S3 L BARRIER 3 etoiles" [level=4] [ref=e76]'
+        - paragraph [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e80] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 17, 2024, 10:58 p.m.
+        - generic [ref=e81]:
+          - paragraph [ref=e82]: Bonsoir, à priori null signifie qu'il y a une variable vide au lieu de contenir une valeur. Ça peut être par exemple une variable incrémentée dans une boucle mais dont la valeur n'aurait pas été initialisée à une valeur de départ (ainsi à la première itération la variable est vide parce que pas encore incrémentée).
+          - paragraph [ref=e83]: Certains traitements peuvent tolérer ça (juste une boucle où le servo ne bougera pas) mais d'autres plus sensibles peuvent bloquer.
+          - paragraph [ref=e84]: A analyser ...
+      - generic [ref=e85]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e87] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e88]: "Posts: 44"
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - link " Edit" [ref=e94] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278624/post/update/
+            - generic [ref=e95]: 
+            - text: Edit
+          - link "" [ref=e96] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278624/post/delete/
+            - generic [ref=e97]: 
+        - 'heading "Re: S3 LA BARRIERE 3 etoiles" [level=4] [ref=e98]'
+        - paragraph [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e101]: 
+            - text: "By:"
+            - link "blabey" [ref=e102] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+            - text: on Dec. 18, 2024, 5:50 a.m.
+        - generic [ref=e103]:
+          - paragraph [ref=e104]: Merci pour votre éponse.
+          - paragraph [ref=e105]: Il est possible que ce message cache une erreur dans l'interprétation de la consigne.
+          - paragraph [ref=e106]:
+            - text: J'ai refait la Vlidation après quelques ajustements (gestion de connexion au Wifi en particulier) et je n'obtients aucun message sauf
+            - strong [ref=e107]: "\"Programme arrêté\" ("
+            - text: dans la zone où sont affichées les variables
+            - strong [ref=e108]: )
+            - text: et aucun message de réussite ou d'échec !
+          - paragraph [ref=e109]:
+            - text: Les onglets
+            - strong [ref=e110]: Expérimenter
+            - text: et
+            - strong [ref=e111]: Valider
+            - text: ont une coche verte.
+          - paragraph [ref=e112]: Je vais essayer malgré tout la version 4 étoiles
+          - paragraph [ref=e113]
+          - paragraph [ref=e114]:
+            - text: "J'ai exécuté la version 4 étoiles avec le même résultat que la version précédente :"
+            - strong [ref=e115]: Programme arrêté
+            - text: sans message de réussite ou d'échec.
+          - paragraph [ref=e116]: Le POST avec la valeur 0 a bien fonctionné (le bouton est passé du rouge au vert).
+          - paragraph [ref=e117]
+          - paragraph [ref=e118]
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - generic [ref=e121]: 
+            - text: "Last edited by:"
+            - link "blabey" [ref=e122] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+            - text: on Dec. 18, 2024, 10:57 a.m., edited 3 times in total.
+          - generic [ref=e123]: "Reason: Après différents tests, loop infini dans la connexion au Wifi et plus de message d'erreur (ni de Ok)"
+      - generic [ref=e124]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/676988/
+        - link "blabey" [ref=e126] [cursor=pointer]:
+          - /url: /forum/member/profile/676988/
+        - generic [ref=e127]: "Posts: 9"
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - link " Edit" [ref=e133] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278666/post/update/
+            - generic [ref=e134]: 
+            - text: Edit
+          - link "" [ref=e135] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278666/post/delete/
+            - generic [ref=e136]: 
+        - 'heading "Re: S3 L BARRIER 3 etoiles" [level=4] [ref=e137]'
+        - paragraph [ref=e138]:
+          - generic [ref=e139]:
+            - generic [ref=e140]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e141] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 18, 2024, 12:08 p.m.
+        - generic [ref=e142]:
+          - paragraph [ref=e143]:
+            - text: Bonjour
+            - link "@blabey" [ref=e144] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+          - paragraph [ref=e145]: Par hasard, est-ce que vous avez-initialisé votre servo à 0° avant d'attaquer la boucle infini. Pour moi, ça avait été la raison.
+      - generic [ref=e146]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e148] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e149]: "Posts: 53"
+    - generic [ref=e152]:
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - link " Edit" [ref=e155] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278681/post/update/
+            - generic [ref=e156]: 
+            - text: Edit
+          - link "" [ref=e157] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278681/post/delete/
+            - generic [ref=e158]: 
+        - 'heading "Re: S3 L BARRIER 3 etoiles" [level=4] [ref=e159]'
+        - paragraph [ref=e160]:
+          - generic [ref=e161]:
+            - generic [ref=e162]: 
+            - text: "By:"
+            - link "blabey" [ref=e163] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+            - text: on Dec. 18, 2024, 2:04 p.m.
+        - generic [ref=e164]:
+          - paragraph [ref=e165]:
+            - text: Merci
+            - link "@tidjidi" [ref=e166] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+          - paragraph [ref=e167]: Oui, j'ai bien initialisé le servo à 0° puis j'ai cliqué sur le bouton pour envoyer un 1 (le bouton passe au vert) .
+          - paragraph [ref=e168]: L'auto correcteur s'exécute, le bouton du tableau de bord passe au rouge (valeur 0) après le POST et s'arrête sans émettre le message d'échec ou de réussite.
+          - paragraph [ref=e169]: Je crois que je vais en rester à cette version.
+          - paragraph [ref=e170]
+          - paragraph [ref=e171]
+      - generic [ref=e172]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/676988/
+        - link "blabey" [ref=e174] [cursor=pointer]:
+          - /url: /forum/member/profile/676988/
+        - generic [ref=e175]: "Posts: 9"
+    - generic [ref=e178]:
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - link " Edit" [ref=e181] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278716/post/update/
+            - generic [ref=e182]: 
+            - text: Edit
+          - link "" [ref=e183] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278716/post/delete/
+            - generic [ref=e184]: 
+        - 'heading "Re: S3 L BARRIER 3 etoiles" [level=4] [ref=e185]'
+        - paragraph [ref=e186]:
+          - generic [ref=e187]:
+            - generic [ref=e188]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e189] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 18, 2024, 3:27 p.m.
+        - generic [ref=e190]:
+          - paragraph [ref=e191]: Bonjour
+          - paragraph [ref=e192]: Ce serait donc dans l'interprétation de la réponse du serveur échec ou réussite), vous testez quelle valeur de retour ?
+      - generic [ref=e193]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e195] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e196]: "Posts: 44"
+    - generic [ref=e199]:
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - link " Edit" [ref=e202] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278730/post/update/
+            - generic [ref=e203]: 
+            - text: Edit
+          - link "" [ref=e204] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/278730/post/delete/
+            - generic [ref=e205]: 
+        - 'heading "Re: S3 L BARRIER 3 etoiles" [level=4] [ref=e206]'
+        - paragraph [ref=e207]:
+          - generic [ref=e208]:
+            - generic [ref=e209]: 
+            - text: "By:"
+            - link "blabey" [ref=e210] [cursor=pointer]:
+              - /url: /forum/member/profile/676988/
+            - text: on Dec. 18, 2024, 5:20 p.m.
+        - generic [ref=e211]:
+          - paragraph [ref=e212]:
+            - text: A
+            - link "@fun_bbe" [ref=e213] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: et
+            - link "@tidjidi" [ref=e214] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+          - paragraph [ref=e215]
+          - paragraph [ref=e216]:
+            - text: Je viens de rejouer le programme en rechargeant le code précédemment enregistré et le programme est
+            - emphasis [ref=e217]: tombé en marche
+            - text: avec le message de réussite
+            - emphasis [ref=e218]: .
+          - paragraph [ref=e219]: Dons plus de soucis. De plus ceci clôt mon dernier problème encore en cours.
+          - paragraph [ref=e220]
+          - paragraph [ref=e221]: A tous
+          - paragraph [ref=e222]: Je remercie tous les experts qui ont mis en oeuvre ce cours et qui ont passé du temps à des heures indues pour nous supporter et répondre à nos questions.
+          - paragraph [ref=e223]: Encore merci!
+          - paragraph [ref=e224]
+      - generic [ref=e225]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/676988/
+        - link "blabey" [ref=e227] [cursor=pointer]:
+          - /url: /forum/member/profile/676988/
+        - generic [ref=e228]: "Posts: 9"
+  - generic [ref=e230]:
+    - link " Post reply" [ref=e231] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/post/create/
+      - generic [ref=e232]: 
+      - text: Post reply
+    - button "" [ref=e234] [cursor=pointer]:
+      - generic [ref=e235]: 

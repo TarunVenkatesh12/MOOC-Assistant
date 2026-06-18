@@ -1,0 +1,96 @@
+<problem display_name="Quiz" markdown="&gt;&gt;1. Pourquoi est-il important que deux appareils parlent les mêmes protocoles pour communiquer ?&lt;&lt;&#10;&#10;( ) Parce que cela permet de partager les mêmes idées politiques&#10;( ) Parce que cela permet de réduire la consommation d'énergie&#10;(x) Parce que cela permet aux éléments de se comprendre mutuellement&#10;( ) Parce que cela réduit le coût de la communication&#10;&#10;[explanation]&#10;Pour que deux dispositifs puissent échanger des informations de manière correcte, ils doivent utiliser les mêmes protocoles de communication. Cela garantit que les données sont formatées et interprétées de manière cohérente, ce qui permet la compréhension mutuelle !&#10;[/explanation]&#10;&#10;&gt;&gt;2. Quel est le protocole applicatif utilisé lorsque vous consultez une page web ?&lt;&lt;&#10;( ) SMTP&#10;( ) SSH&#10;(x) HTTP&#10;( ) MQTT&#10;&#10;[explanation]&#10;HTTP (HyperText Transfer Protocol) est le protocole de communication utilisé pour la navigation sur le web. Il permet de transférer des pages web depuis des serveurs vers les navigateurs des utilisateurs.&#10;[/explanation]&#10;&#10;&gt;&gt;3. Que faut-il pour qu'un protocole assure sa fonction ?&lt;&lt;&#10;( ) Un accès constant à internet&#10;(x) Que la couche du dessous fonctionne correctement&#10;( ) Une connexion filaire&#10;( ) Un réseau local bien configuré&#10;&#10;[explanation]&#10;Les protocoles de communication sont organisés en couches. Pour qu'un protocole puisse fonctionner correctement, il doit s'appuyer sur les couches inférieures, qui doivent être opérationnelles. C'est le principe fondamental des modèles de communication en couches.&#10;[/explanation]&#10;&#10;&gt;&gt;4. En mode station, que fait la carte Galaxia ?&lt;&lt;&#10;( ) Elle crée un point d'accès WiFi&#10;(x) Elle se connecte à un point d'accès WiFi existant&#10;( ) Elle communique uniquement avec des périphériques Bluetooth&#10;( ) Elle partage sa connexion internet avec d'autres appareils&#10;&#10;[explanation]&#10;En mode station, la carte Galaxia se comporte comme un appareil classique (comme un smartphone ou un ordinateur) et se connecte à un réseau WiFi existant, plutôt que de créer son propre réseau.&#10;[/explanation]&#10;&#10;&gt;&gt;5. Quel module doit être importé pour envoyer une requête HTTP depuis la Galaxia ?&lt;&lt;&#10;( ) urllib&#10;( ) socket&#10;(x) requests&#10;( ) json&#10;&#10;[explanation]&#10;Le module requests est couramment utilisé pour envoyer des requêtes HTTP en Python. Il permet de simplifier la communication avec les serveurs web, en facilitant l'envoi de requêtes GET, POST...&#10;[/explanation]" max_attempts="2" weight="5.0">
+<p>1. Pourquoi est-il important que deux appareils parlent les mêmes protocoles pour communiquer ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="1. Pourquoi est-il important que deux appareils parlent les mêmes protocoles pour communiquer ?" type="MultipleChoice">
+    <choice correct="false">Parce que cela permet de partager les mêmes idées politiques</choice>
+    <choice correct="false">Parce que cela permet de réduire la consommation d'énergie</choice>
+    <choice correct="true">Parce que cela permet aux éléments de se comprendre mutuellement</choice>
+    <choice correct="false">Parce que cela réduit le coût de la communication</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>Pour que deux dispositifs puissent échanger des informations de manière correcte, ils doivent utiliser les mêmes protocoles de communication. Cela garantit que les données sont formatées et interprétées de manière cohérente, ce qui permet la compréhension mutuelle !</p>
+
+</div>
+</solution>
+
+<p>2. Quel est le protocole applicatif utilisé lorsque vous consultez une page web ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="2. Quel est le protocole applicatif utilisé lorsque vous consultez une page web ?" type="MultipleChoice">
+    <choice correct="false">SMTP</choice>
+    <choice correct="false">SSH</choice>
+    <choice correct="true">HTTP</choice>
+    <choice correct="false">MQTT</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>HTTP (HyperText Transfer Protocol) est le protocole de communication utilisé pour la navigation sur le web. Il permet de transférer des pages web depuis des serveurs vers les navigateurs des utilisateurs.</p>
+
+</div>
+</solution>
+
+<p>3. Que faut-il pour qu'un protocole assure sa fonction ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="3. Que faut-il pour qu'un protocole assure sa fonction ?" type="MultipleChoice">
+    <choice correct="false">Un accès constant à internet</choice>
+    <choice correct="true">Que la couche du dessous fonctionne correctement</choice>
+    <choice correct="false">Une connexion filaire</choice>
+    <choice correct="false">Un réseau local bien configuré</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>Les protocoles de communication sont organisés en couches. Pour qu'un protocole puisse fonctionner correctement, il doit s'appuyer sur les couches inférieures, qui doivent être opérationnelles. C'est le principe fondamental des modèles de communication en couches.</p>
+
+</div>
+</solution>
+
+<p>4. En mode station, que fait la carte Galaxia ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="4. En mode station, que fait la carte Galaxia ?" type="MultipleChoice">
+    <choice correct="false">Elle crée un point d'accès WiFi</choice>
+    <choice correct="true">Elle se connecte à un point d'accès WiFi existant</choice>
+    <choice correct="false">Elle communique uniquement avec des périphériques Bluetooth</choice>
+    <choice correct="false">Elle partage sa connexion internet avec d'autres appareils</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>En mode station, la carte Galaxia se comporte comme un appareil classique (comme un smartphone ou un ordinateur) et se connecte à un réseau WiFi existant, plutôt que de créer son propre réseau.</p>
+
+</div>
+</solution>
+
+<p>5. Quel module doit être importé pour envoyer une requête HTTP depuis la Galaxia ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="5. Quel module doit être importé pour envoyer une requête HTTP depuis la Galaxia ?" type="MultipleChoice">
+    <choice correct="false">urllib</choice>
+    <choice correct="false">socket</choice>
+    <choice correct="true">requests</choice>
+    <choice correct="false">json</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<solution>
+<div class="detailed-solution">
+<p>Explanation</p>
+
+<p>Le module requests est couramment utilisé pour envoyer des requêtes HTTP en Python. Il permet de simplifier la communication avec les serveurs web, en facilitant l'envoi de requêtes GET, POST...</p>
+
+</div>
+</solution>
+</problem>

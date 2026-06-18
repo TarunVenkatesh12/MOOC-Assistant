@@ -1,0 +1,298 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Programmation évènementielle" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Programmation évènementielle" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277223/post/delete/
+            - generic [ref=e43]: 
+        - heading "Programmation évènementielle" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 9, 2024, 10:27 a.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Bonjour,
+          - paragraph [ref=e51]: Est-ce qu'il existe une possibilité de programmer un microcontrolleur par évènements plutôt que par boucle?
+          - paragraph [ref=e52]: Merci
+      - generic [ref=e53]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e55] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e56]: "Posts: 53"
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - link " Edit" [ref=e62] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277318/post/update/
+            - generic [ref=e63]: 
+            - text: Edit
+          - link "" [ref=e64] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277318/post/delete/
+            - generic [ref=e65]: 
+        - 'heading "Re: Programmation évènementielle" [level=4] [ref=e66]'
+        - paragraph [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e70] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 9, 2024, 3:06 p.m.
+        - generic [ref=e71]:
+          - paragraph [ref=e72]: Bonjour,
+          - paragraph [ref=e73]: oui, en micropython ça s'appelle les interruptions.
+          - paragraph [ref=e74]: Elles sont abordées dans le MOOC précédent (mais j'ai pas mis en pratique).
+          - paragraph [ref=e75]:
+            - text: On peut aussi en trouver quelques informations sur upesy
+            - link "Voir" [ref=e76] [cursor=pointer]:
+              - /url: https://www.upesy.fr/blogs/tutorials/hardware-interrupts-esp32-on-micropython
+          - paragraph [ref=e77]: J'ai pas le temps de faire mais je pense qu'on devrait pouvoir les utiliser pour le menu bar (voire en appels croisés, chaque affichage pouvant être interrompu par l'autre)
+          - paragraph [ref=e78]: Cordialement
+          - paragraph [ref=e79]
+        - generic [ref=e81]:
+          - generic [ref=e82]: 
+          - text: "Last edited by:"
+          - link "fun_bbe" [ref=e83] [cursor=pointer]:
+            - /url: /forum/member/profile/12271/
+          - text: on Dec. 9, 2024, 3:09 p.m., edited 1 time in total.
+      - generic [ref=e84]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e86] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e87]: "Posts: 44"
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - link " Edit" [ref=e93] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277390/post/update/
+            - generic [ref=e94]: 
+            - text: Edit
+          - link "" [ref=e95] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277390/post/delete/
+            - generic [ref=e96]: 
+        - 'heading "Re: Programmation évènementielle" [level=4] [ref=e97]'
+        - paragraph [ref=e98]:
+          - generic [ref=e99]:
+            - generic [ref=e100]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e101] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 9, 2024, 9:24 p.m.
+        - paragraph [ref=e103]: Merci
+      - generic [ref=e104]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e106] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e107]: "Posts: 53"
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - link " Edit" [ref=e113] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277407/post/update/
+            - generic [ref=e114]: 
+            - text: Edit
+          - link "" [ref=e115] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277407/post/delete/
+            - generic [ref=e116]: 
+        - 'heading "Re: Programmation évènementielle" [level=4] [ref=e117]'
+        - paragraph [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e121] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 9, 2024, 11:14 p.m.
+        - generic [ref=e122]:
+          - paragraph [ref=e123]: Si ça peut aider pour la Galaxia (que je n'ai pas) voici une copie du code illustrant les interruptions dans le MOOC précédent (mais session 2023, je n'étais pas inscrit à la session 2024).
+          - paragraph [ref=e124]: A noter que les "puristes" ne mettent rien d'autre dans un callback (fonction appelée par l'interruption) que le changement d'état d'un flag.
+          - heading "Exemple¶" [level=2] [ref=e125]:
+            - text: Exemple
+            - link "¶" [ref=e126] [cursor=pointer]:
+              - /url: https://imt-atlantique.github.io/micropython_doc/capteurs/bouton_avec_interruption/?embed=1#exemple
+          - paragraph [ref=e127]: "Dans l'exemple ci-dessous, nous allons faire clignoter la LED RGB de la Galaxia en rouge pendant 1 seconde puis en bleue pedant une seconde. Si le bouton A est appuyé puis relâché (cet événement est appelé une interruption) alors la LED RGB passera en verte pendant une seconde :"
+          - paragraph [ref=e128]:
+            - strong [ref=e129]: Exemple avec des blocs Exemple avec du code
+          - code [ref=e131]:
+            - code [ref=e132]: "# On importe les modules dont on a besoin import utime from thingz import * def bouton_A_relache(button): # On passe la LED RGB à verte led.set_colors(0, 100, 0) utime.sleep(1) # On accroche l'interruption à la fonction bouton_A_relache button_a.on_button_pressed(bouton_A_relache) while True: # On passe la LED RGB à rouge led.set_colors(100, 0, 0) utime.sleep(1) # On passe la LED RGB à bleue led.set_colors(0, 0, 100) utime.sleep(1)"
+      - generic [ref=e133]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e135] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e136]: "Posts: 44"
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e141]:
+          - link " Edit" [ref=e142] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277529/post/update/
+            - generic [ref=e143]: 
+            - text: Edit
+          - link "" [ref=e144] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277529/post/delete/
+            - generic [ref=e145]: 
+        - 'heading "Re: Programmation évènementielle" [level=4] [ref=e146]'
+        - paragraph [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e149]: 
+            - text: "By:"
+            - link "jcw67" [ref=e150] [cursor=pointer]:
+              - /url: /forum/member/profile/229685/
+            - text: on Dec. 10, 2024, 2:07 p.m.
+        - generic [ref=e151]:
+          - paragraph [ref=e152]:
+            - text: Merci
+            - link "@fun_bbe" [ref=e153] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: "!"
+          - paragraph [ref=e154]
+          - paragraph [ref=e155]: C'est sympa de nous faire profiter de vos souvenirs du MOOC "Galaxia" (je pense que ce qui nous manque surtout, ce sont les détails "pratiques" pour utiliser les simulateurs - un Wiki aurait fait l'affaire ?).
+          - paragraph [ref=e156]
+          - paragraph [ref=e157]: J'ai voulu essayer le "on_button_pressed" pour sem 2 - activité horodatage.
+          - paragraph [ref=e158]
+          - paragraph [ref=e159]: "Echec total :"
+          - paragraph [ref=e160]: "- le correcteur se bloque quand il manque des parenthèses, même dans des commentaires !"
+          - paragraph [ref=e161]:
+            - text: "- le para du \"on_xxx\" doit être une"
+            - strong [ref=e162]: fonction
+            - text: ", pas un"
+            - strong [ref=e163]: appel de fonction
+            - text: (donc pas de parenthèses)
+          - paragraph [ref=e164]: "- dans notre cours, le module \"thingz\" sur IOI est très pauvre"
+          - paragraph [ref=e165]:
+            - text: "- Il me manquait déjà \"button_a."
+            - strong [ref=e166]: was
+            - text: _touched " ("a été appuyé", et pas "est appuyé en ce moment"), vu dans Vittascience par les blocs Scratch, et qui aurait très bien fait l'affaire (il mémorise les appuis entre deux tests, comme "interrruption + flag" que vous proposiez)
+          - paragraph [ref=e167]: "- button_a n'a que très peu de fonctions ( \"import thingz; dir(thingz.button_a)\" ) : clone, is_pressed, updateReferencesInside"
+          - paragraph [ref=e168]
+          - paragraph [ref=e169]: "Je pense que pour l'exercice, on n'a pas besoin de trop s'embêter : on teste is_pressed, même si cela bloque le programme pendant ce temps."
+          - paragraph [ref=e170]
+          - paragraph [ref=e171]:
+            - text: "J'en profite : pourriez-vous nous indiquer comment activer l'écran du simulateur IOI ? Je me débrouille en créant des variables, visibles sous l'image de la carte simulée ("
+            - link "discussion" [ref=e172] [cursor=pointer]:
+              - /url: https://lms.fun-mooc.fr/courses/course-v1:MinesTelecom+04057+session01/ada0fd1827ec4185afff6728de923028/
+            - text: )
+          - paragraph [ref=e173]
+          - paragraph [ref=e174]: jc
+          - paragraph [ref=e175]
+          - paragraph [ref=e176]:
+            - emphasis [ref=e177]: "PS : je crois que Baptiste est de retour, ça va avancer !"
+        - generic [ref=e179]:
+          - generic [ref=e180]: 
+          - text: "Last edited by:"
+          - link "jcw67" [ref=e181] [cursor=pointer]:
+            - /url: /forum/member/profile/229685/
+          - text: on Dec. 10, 2024, 2:09 p.m., edited 1 time in total.
+      - generic [ref=e182]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/229685/
+        - link "jcw67" [ref=e184] [cursor=pointer]:
+          - /url: /forum/member/profile/229685/
+        - generic [ref=e185]: "Posts: 19"
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - link " Edit" [ref=e191] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277532/post/update/
+            - generic [ref=e192]: 
+            - text: Edit
+          - link "" [ref=e193] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277532/post/delete/
+            - generic [ref=e194]: 
+        - 'heading "Re: Programmation évènementielle" [level=4] [ref=e195]'
+        - paragraph [ref=e196]:
+          - generic [ref=e197]:
+            - generic [ref=e198]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e199] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 10, 2024, 2:24 p.m.
+        - generic [ref=e200]:
+          - paragraph [ref=e201]: Je n'ai toujours pas trouvé comment activer l'écran du simulateur IOI.
+          - paragraph [ref=e202]
+          - paragraph [ref=e203]: J'utilise aussi des variables temporaires qui s'affichent dans la "console !", mais ça pose aussi un pb quand le nombre de lignes autorisées est limité.
+      - generic [ref=e204]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e206] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e207]: "Posts: 69"
+    - generic [ref=e210]:
+      - generic [ref=e211]:
+        - generic [ref=e212]:
+          - link " Edit" [ref=e213] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277574/post/update/
+            - generic [ref=e214]: 
+            - text: Edit
+          - link "" [ref=e215] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/277574/post/delete/
+            - generic [ref=e216]: 
+        - 'heading "Re: Programmation évènementielle" [level=4] [ref=e217]'
+        - paragraph [ref=e218]:
+          - generic [ref=e219]:
+            - generic [ref=e220]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e221] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 10, 2024, 5:23 p.m.
+        - generic [ref=e222]:
+          - paragraph [ref=e223]: Bonjour
+          - paragraph [ref=e224]: Effectivement ça marche pas ! J'ai posé la question à Baptiste pour avoir un exemple de code avec interruption qui fonctionne !
+          - paragraph [ref=e225]: Les simulateurs commencent à me donner des migraines ! Je vais ressortir un vrai ESP32 !
+          - paragraph [ref=e226]
+      - generic [ref=e227]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e229] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e230]: "Posts: 44"
+  - generic [ref=e232]:
+    - link " Post reply" [ref=e233] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/programmation-%C3%A9v%C3%A8nementielle-135779/post/create/
+      - generic [ref=e234]: 
+      - text: Post reply
+    - button "" [ref=e236] [cursor=pointer]:
+      - generic [ref=e237]: 

@@ -1,0 +1,104 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Tuto JSON LES OBJETS TROUVES" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tuto-json-les-objets-trouves-133041/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Tuto JSON LES OBJETS TROUVES" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tuto-json-les-objets-trouves-133041/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tuto-json-les-objets-trouves-133041/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tuto-json-les-objets-trouves-133041/272354/post/delete/
+            - generic [ref=e43]: 
+        - heading "Tuto JSON LES OBJETS TROUVES" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Nov. 14, 2024, 3:35 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Bonjour,
+          - paragraph [ref=e51]: "j'ai peut-être raté un épisode mais dans le tuto Les objets trouvés je ne trouve pas où télécharger le fichier exemple (nota : je vois bien celui du wagon bar). Merci"
+      - generic [ref=e52]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e54] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e55]: "Posts: 44"
+    - generic [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - link " Edit" [ref=e61] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tuto-json-les-objets-trouves-133041/272492/post/update/
+            - generic [ref=e62]: 
+            - text: Edit
+          - link "" [ref=e63] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tuto-json-les-objets-trouves-133041/272492/post/delete/
+            - generic [ref=e64]: 
+        - 'heading "Re: Tuto JSON LES OBJETS TROUVES" [level=4] [ref=e65]'
+        - paragraph [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e69] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e70]:
+              - text: 
+              - generic [ref=e71]: Instructor
+            - text: on Nov. 15, 2024, 8:40 a.m.
+        - generic [ref=e72]:
+          - paragraph [ref=e73]:
+            - text: Bien vu, je demande à Arthur d'ajouter ça
+            - img "👍" [ref=e75]
+          - paragraph [ref=e76]:
+            - text: Merci pour votre message
+            - link "@fun_bbe" [ref=e77] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: et bon MOOC !
+          - paragraph [ref=e78]
+          - paragraph [ref=e79]
+        - paragraph [ref=e81]: "--Baptiste"
+      - generic [ref=e82]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e84] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e85]: "Posts: 301"
+  - generic [ref=e87]:
+    - link " Post reply" [ref=e88] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tuto-json-les-objets-trouves-133041/post/create/
+      - generic [ref=e89]: 
+      - text: Post reply
+    - button "" [ref=e91] [cursor=pointer]:
+      - generic [ref=e92]: 

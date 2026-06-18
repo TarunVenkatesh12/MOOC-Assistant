@@ -1,0 +1,117 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - 'link "Semaine 2 - Activité : Horodatage ferroviaire (Niveau Moyen)" [ref=e14] [cursor=pointer]':
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/semaine-2-activit%C3%A9-horodatage-ferroviaire-niveau-moyen-133828/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - 'heading "Semaine 2 - Activité : Horodatage ferroviaire (Niveau Moyen)" [level=1] [ref=e24]'
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/semaine-2-activit%C3%A9-horodatage-ferroviaire-niveau-moyen-133828/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/semaine-2-activit%C3%A9-horodatage-ferroviaire-niveau-moyen-133828/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/semaine-2-activit%C3%A9-horodatage-ferroviaire-niveau-moyen-133828/273771/post/delete/
+            - generic [ref=e43]: 
+        - 'heading "Semaine 2 - Activité : Horodatage ferroviaire (Niveau Moyen)" [level=4] [ref=e44]'
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "Manianis" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/88813/
+            - text: on Nov. 21, 2024, 6:16 a.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Je trouve ce MOOC très intéressant et je vous en remercie.
+          - paragraph [ref=e51]: Cependant, je trouve quelques difficultés à terminer cette activité Horodatage ferroviaire (Niveau Moyen).
+          - paragraph [ref=e52]: "L'opération de validation se termine par le message : \"state.join is not a function\" bien que je n'ai pas fait usage à cette fonction dans mon programme."
+      - generic [ref=e53]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/88813/
+        - link "Manianis" [ref=e55] [cursor=pointer]:
+          - /url: /forum/member/profile/88813/
+        - generic [ref=e56]: "Posts: 6"
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - link " Edit" [ref=e62] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/semaine-2-activit%C3%A9-horodatage-ferroviaire-niveau-moyen-133828/273806/post/update/
+            - generic [ref=e63]: 
+            - text: Edit
+          - link "" [ref=e64] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/semaine-2-activit%C3%A9-horodatage-ferroviaire-niveau-moyen-133828/273806/post/delete/
+            - generic [ref=e65]: 
+        - 'heading "Re: Semaine 2 - Activité : Horodatage ferroviaire (Niveau Moyen)" [level=4] [ref=e66]'
+        - paragraph [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e70] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e71]:
+              - text: 
+              - generic [ref=e72]: Instructor
+            - text: on Nov. 21, 2024, 10:26 a.m.
+        - generic [ref=e73]:
+          - paragraph [ref=e74]:
+            - text: Bonjour
+            - link "@Manianis" [ref=e75] [cursor=pointer]:
+              - /url: /forum/member/profile/88813/
+            - text: ","
+          - paragraph [ref=e76]
+          - paragraph [ref=e77]: En effet, il s'agit d'une erreur qui ne dépend pas de vous mais du serveur que vous essayez d'interroger dans le TP.
+          - paragraph [ref=e78]:
+            - text: "Si vous testez d'ouvrir cette adresse dans votre navigateur :"
+            - link "https://worldtimeapi.org/api/timezone/Europe/Paris" [ref=e79] [cursor=pointer]:
+              - /url: https://worldtimeapi.org/api/timezone/Europe/Paris
+          - paragraph [ref=e80]
+          - paragraph [ref=e81]: "Vous obtenez un message d'erreur qui devrait ressembler à ce que j'obtiens :"
+          - paragraph [ref=e82]
+          - img [ref=e83]
+          - paragraph [ref=e84]
+          - paragraph [ref=e85]: Je tente de trouver une solution de remplacement pour ce serveur que je vais héberger car j'ai l'impression d'être poursuivi par une malédiction avec les serveurs externes !
+          - paragraph [ref=e86]:
+            - text: À chaque fois que je m'appuie sur un serveur qui ne m'appartient pas, celui-ci ne fonctionne plus lors du lancement du MOOC
+            - img "😅" [ref=e88]
+          - paragraph [ref=e89]
+          - paragraph [ref=e90]
+        - paragraph [ref=e92]: "--Baptiste"
+      - generic [ref=e93]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e95] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e96]: "Posts: 301"
+  - generic [ref=e98]:
+    - link " Post reply" [ref=e99] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/semaine-2-activit%C3%A9-horodatage-ferroviaire-niveau-moyen-133828/post/create/
+      - generic [ref=e100]: 
+      - text: Post reply
+    - button "" [ref=e102] [cursor=pointer]:
+      - generic [ref=e103]: 

@@ -1,0 +1,693 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Accès au cours \"Programmer un objet avec MicroPython\"" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Accès au cours \"Programmer un objet avec MicroPython\"" [level=1] [ref=e24]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - link " Post reply" [ref=e27] [cursor=pointer]:
+        - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/post/create/
+        - generic [ref=e28]: 
+        - text: Post reply
+      - button "" [ref=e30] [cursor=pointer]:
+        - generic [ref=e31]: 
+    - list [ref=e33]:
+      - listitem [ref=e34]:
+        - link "«" [ref=e35] [cursor=pointer]:
+          - /url: "?page=1"
+      - listitem [ref=e36]:
+        - link "1" [ref=e37] [cursor=pointer]:
+          - /url: "?page=1"
+      - listitem [ref=e38]:
+        - link "2" [ref=e39] [cursor=pointer]:
+          - /url: "?page=2"
+      - listitem [ref=e40]:
+        - link "3" [ref=e41] [cursor=pointer]:
+          - /url: "?page=3"
+      - listitem [ref=e42]:
+        - link "»" [ref=e43] [cursor=pointer]:
+          - /url: "?page=3"
+  - generic [ref=e45]:
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - link " Edit" [ref=e51] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/274648/post/update/
+            - generic [ref=e52]: 
+            - text: Edit
+          - link "" [ref=e53] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/274648/post/delete/
+            - generic [ref=e54]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e55]'
+        - paragraph [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: 
+            - text: "By:"
+            - link "crevers" [ref=e59] [cursor=pointer]:
+              - /url: /forum/member/profile/87990/
+            - text: on Nov. 25, 2024, 8:52 a.m.
+        - generic [ref=e60]:
+          - paragraph [ref=e61]: Bonjour,
+          - paragraph [ref=e62]
+          - paragraph [ref=e63]: Sauf erreur de ma part, je n'ai pas accès au cours !!!
+          - paragraph [ref=e64]
+          - img [ref=e65]
+          - paragraph [ref=e66]: D'avance merci
+          - paragraph [ref=e67]: Charles
+          - paragraph [ref=e68]
+      - generic [ref=e69]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/87990/
+        - link "crevers" [ref=e71] [cursor=pointer]:
+          - /url: /forum/member/profile/87990/
+        - generic [ref=e72]: "Posts: 3"
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - link " Edit" [ref=e78] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/274737/post/update/
+            - generic [ref=e79]: 
+            - text: Edit
+          - link "" [ref=e80] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/274737/post/delete/
+            - generic [ref=e81]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e82]'
+        - paragraph [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: 
+            - text: "By:"
+            - link "chamarejc" [ref=e86] [cursor=pointer]:
+              - /url: /forum/member/profile/377287/
+            - text: on Nov. 25, 2024, 2:28 p.m.
+        - generic [ref=e87]:
+          - paragraph [ref=e88]: Bonjour à tous,
+          - paragraph [ref=e89]: Je galère un peu avec les exercices du Mooc, probablement faute d'avoir suivi "Programmer un objet avec MicroPython".
+          - paragraph [ref=e90]: Est-ce que je peux y avoir accès ?
+          - paragraph [ref=e91]: Merci
+      - generic [ref=e92]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377287/
+        - link "chamarejc" [ref=e94] [cursor=pointer]:
+          - /url: /forum/member/profile/377287/
+        - generic [ref=e95]: "Posts: 20"
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - link " Edit" [ref=e101] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/274800/post/update/
+            - generic [ref=e102]: 
+            - text: Edit
+          - link "" [ref=e103] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/274800/post/delete/
+            - generic [ref=e104]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e105]'
+        - paragraph [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e109] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e110]:
+              - text: 
+              - generic [ref=e111]: Instructor
+            - text: on Nov. 25, 2024, 5:27 p.m.
+        - generic [ref=e112]:
+          - paragraph [ref=e113]:
+            - text: Bonjour
+            - link "@chamarejc" [ref=e114] [cursor=pointer]:
+              - /url: /forum/member/profile/377287/
+            - text: et
+            - link "@crevers" [ref=e115] [cursor=pointer]:
+              - /url: /forum/member/profile/87990/
+            - text: ","
+          - paragraph [ref=e116]
+          - paragraph [ref=e117]:
+            - text: Pouvez-vous me confirmer que vous accédez au
+            - link "premier MOOC" [ref=e118] [cursor=pointer]:
+              - /url: https://lms.fun-mooc.fr/courses/course-v1:MinesTelecom+04048+session02/courseware
+            - text: "?"
+          - paragraph [ref=e119]
+          - paragraph [ref=e120]:
+            - text: Merci
+            - img "😺" [ref=e122]
+        - paragraph [ref=e124]: "--Baptiste"
+      - generic [ref=e125]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e127] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e128]: "Posts: 301"
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - link " Edit" [ref=e134] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/274813/post/update/
+            - generic [ref=e135]: 
+            - text: Edit
+          - link "" [ref=e136] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/274813/post/delete/
+            - generic [ref=e137]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e138]'
+        - paragraph [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e141]: 
+            - text: "By:"
+            - link "chamarejc" [ref=e142] [cursor=pointer]:
+              - /url: /forum/member/profile/377287/
+            - text: on Nov. 25, 2024, 6:02 p.m.
+        - generic [ref=e143]:
+          - paragraph [ref=e144]: Le lien que j'ai reçu est fonctionnel.
+          - paragraph [ref=e145]: Merci pour l'inscription
+      - generic [ref=e146]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377287/
+        - link "chamarejc" [ref=e148] [cursor=pointer]:
+          - /url: /forum/member/profile/377287/
+        - generic [ref=e149]: "Posts: 20"
+    - generic [ref=e152]:
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - link " Edit" [ref=e155] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/274971/post/update/
+            - generic [ref=e156]: 
+            - text: Edit
+          - link "" [ref=e157] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/274971/post/delete/
+            - generic [ref=e158]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e159]'
+        - paragraph [ref=e160]:
+          - generic [ref=e161]:
+            - generic [ref=e162]: 
+            - text: "By:"
+            - link "crevers" [ref=e163] [cursor=pointer]:
+              - /url: /forum/member/profile/87990/
+            - text: on Nov. 26, 2024, 11:17 a.m.
+        - generic [ref=e164]:
+          - paragraph [ref=e165]: Bonjour,
+          - paragraph [ref=e166]: Le lien est fonctionnel pour moi aussi.
+          - paragraph [ref=e167]: Merci
+          - paragraph [ref=e168]: Charles
+      - generic [ref=e169]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/87990/
+        - link "crevers" [ref=e171] [cursor=pointer]:
+          - /url: /forum/member/profile/87990/
+        - generic [ref=e172]: "Posts: 3"
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - link " Edit" [ref=e178] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/275622/post/update/
+            - generic [ref=e179]: 
+            - text: Edit
+          - link "" [ref=e180] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/275622/post/delete/
+            - generic [ref=e181]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e182]'
+        - paragraph [ref=e183]:
+          - generic [ref=e184]:
+            - generic [ref=e185]: 
+            - text: "By:"
+            - link "Utah-Stef" [ref=e186] [cursor=pointer]:
+              - /url: /forum/member/profile/109899/
+            - text: on Nov. 29, 2024, 9:37 a.m.
+        - generic [ref=e187]:
+          - paragraph [ref=e188]: Bonjour,
+          - paragraph [ref=e189]
+          - paragraph [ref=e190]: je viens de rejoindre le cours et je me retrouve dans le même cas que certains apprenants. Serait-il possibke également de me donner accès aux cours archivés svp.
+          - paragraph [ref=e191]: Je pense que mon fils se joindra aussi également à moi pour ce MOOC et sera dans la même situation.
+          - paragraph [ref=e192]
+          - paragraph [ref=e193]: Merci d'avance pour votre aide
+          - paragraph [ref=e194]
+          - paragraph [ref=e195]: Stéphanie
+        - generic [ref=e197]:
+          - generic [ref=e198]: 
+          - text: "Last edited by:"
+          - link "Utah-Stef" [ref=e199] [cursor=pointer]:
+            - /url: /forum/member/profile/109899/
+          - text: on Nov. 29, 2024, 9:37 a.m., edited 1 time in total.
+      - generic [ref=e200]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/109899/
+        - link "Utah-Stef" [ref=e202] [cursor=pointer]:
+          - /url: /forum/member/profile/109899/
+        - generic [ref=e203]: "Posts: 3"
+    - generic [ref=e206]:
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - link " Edit" [ref=e209] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/275734/post/update/
+            - generic [ref=e210]: 
+            - text: Edit
+          - link "" [ref=e211] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/275734/post/delete/
+            - generic [ref=e212]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e213]'
+        - paragraph [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e216]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e217] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e218]:
+              - text: 
+              - generic [ref=e219]: Instructor
+            - text: on Nov. 29, 2024, 5:02 p.m.
+        - generic [ref=e220]:
+          - paragraph [ref=e221]:
+            - text: Bonjour
+            - link "@Utah-Stef" [ref=e222] [cursor=pointer]:
+              - /url: /forum/member/profile/109899/
+            - text: ","
+          - paragraph [ref=e223]
+          - paragraph [ref=e224]:
+            - text: Inscription ok, voici le
+            - link "lien direct" [ref=e225] [cursor=pointer]:
+              - /url: https://lms.fun-mooc.fr/courses/course-v1:MinesTelecom+04048+session02/courseware
+            - img "👌" [ref=e227]
+          - paragraph [ref=e228]
+          - paragraph [ref=e229]: Bons MOOCs,
+        - paragraph [ref=e231]: "--Baptiste"
+      - generic [ref=e232]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e234] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e235]: "Posts: 301"
+    - generic [ref=e238]:
+      - generic [ref=e239]:
+        - generic [ref=e240]:
+          - link " Edit" [ref=e241] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/275739/post/update/
+            - generic [ref=e242]: 
+            - text: Edit
+          - link "" [ref=e243] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/275739/post/delete/
+            - generic [ref=e244]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e245]'
+        - paragraph [ref=e246]:
+          - generic [ref=e247]:
+            - generic [ref=e248]: 
+            - text: "By:"
+            - link "acalephe" [ref=e249] [cursor=pointer]:
+              - /url: /forum/member/profile/35168/
+            - text: on Nov. 29, 2024, 5:24 p.m.
+        - generic [ref=e250]:
+          - paragraph [ref=e251]: Merci pour ce MOOC qui me semble très très interessant.
+          - paragraph [ref=e252]: Mais n’ayant pas fait le précédent MOOC
+          - paragraph [ref=e253]: Serait-il possible svp d’accéder au cours précédent .
+          - paragraph [ref=e254]: Merci.
+      - generic [ref=e255]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/35168/
+        - link "acalephe" [ref=e257] [cursor=pointer]:
+          - /url: /forum/member/profile/35168/
+        - generic [ref=e258]: "Posts: 2"
+    - generic [ref=e261]:
+      - generic [ref=e262]:
+        - generic [ref=e263]:
+          - link " Edit" [ref=e264] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276496/post/update/
+            - generic [ref=e265]: 
+            - text: Edit
+          - link "" [ref=e266] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276496/post/delete/
+            - generic [ref=e267]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e268]'
+        - paragraph [ref=e269]:
+          - generic [ref=e270]:
+            - generic [ref=e271]: 
+            - text: "By:"
+            - link "Utah-Stef" [ref=e272] [cursor=pointer]:
+              - /url: /forum/member/profile/109899/
+            - text: on Dec. 4, 2024, 6:28 a.m.
+        - generic [ref=e273]:
+          - paragraph [ref=e274]: Bonjour,
+          - paragraph [ref=e275]
+          - paragraph [ref=e276]:
+            - text: Merci beaucoup baptiste. Désolé j ai refait un poste car je retrouvais pas le mien
+            - img "😅" [ref=e278]
+            - text: .
+          - paragraph [ref=e279]: Bonne journée
+          - paragraph [ref=e280]
+          - paragraph [ref=e281]: Stepha
+          - paragraph [ref=e282]
+      - generic [ref=e283]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/109899/
+        - link "Utah-Stef" [ref=e285] [cursor=pointer]:
+          - /url: /forum/member/profile/109899/
+        - generic [ref=e286]: "Posts: 3"
+    - generic [ref=e289]:
+      - generic [ref=e290]:
+        - generic [ref=e291]:
+          - link " Edit" [ref=e292] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276603/post/update/
+            - generic [ref=e293]: 
+            - text: Edit
+          - link "" [ref=e294] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276603/post/delete/
+            - generic [ref=e295]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e296]'
+        - paragraph [ref=e297]:
+          - generic [ref=e298]:
+            - generic [ref=e299]: 
+            - text: "By:"
+            - link "jcw67" [ref=e300] [cursor=pointer]:
+              - /url: /forum/member/profile/229685/
+            - text: on Dec. 4, 2024, 3:27 p.m.
+        - generic [ref=e301]:
+          - paragraph [ref=e302]:
+            - text: Bonjour
+            - link "@bgaultier" [ref=e303] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - text: ","
+          - paragraph [ref=e304]
+          - paragraph [ref=e305]:
+            - text: Merci pour ce cours
+            - emphasis [ref=e306]: (et la relance aux "anciens")
+            - text: .
+          - paragraph [ref=e307]: Je l'avais repéré et noté "à faire", et, n'ayant pas remarqué l'auteur, je pensais attendre la prochaine session ...
+          - paragraph [ref=e308]: Comme beaucoup, je n'ai pas fait le prereq (je pensais ne pas en avoir besoin).
+          - paragraph [ref=e309]
+          - paragraph [ref=e310]:
+            - text: Mais il me manque des informations simples sur la carte. Le site du fabriquant
+            - link "thingz" [ref=e311] [cursor=pointer]:
+              - /url: https://thingz.co/
+            - text: n'en donne pas beaucoup
+            - emphasis [ref=e312]: (ou alors, j'ai mal regardé, et un lien précis serait le bienvenu)
+            - text: .
+          - paragraph [ref=e313]
+          - paragraph [ref=e314]:
+            - text: Par exemple
+            - emphasis [ref=e315]: (je n'en suis que là)
+            - text: ", je ne trouve pas comme tester le \"pavé numérique\" (flèches sur la carte) pour le menu du train de la semaine 1. Le simulateur en mode"
+            - link "Scratch" [ref=e316] [cursor=pointer]:
+              - /url: https://scratch.mit.edu/
+            - text: donne "makey1.is_touched()", qui n'existe pas dans "notre" simulateur. Comme "screen1.clear()", ou les commandes d'écriture à une ligne précise.
+          - paragraph [ref=e317]
+          - paragraph [ref=e318]:
+            - text: N'y avait-il pas un WIKI ("comme autrefois") que vous pourriez transférer ici, plutôt que de nous obliger à faire complètement le cours précédent
+            - emphasis [ref=e319]: (je n'aurai pas le temps d'ici la limite du 20 décembre 23h UTC, soit <rectif> vendredi 20/12/2024 minuit heure d'hiver à Paris)
+            - text: .
+          - paragraph [ref=e320]
+          - paragraph [ref=e321]: D'avance, merci.
+          - paragraph [ref=e322]
+          - paragraph [ref=e323]: jc
+        - generic [ref=e325]:
+          - generic [ref=e326]: 
+          - text: "Last edited by:"
+          - link "jcw67" [ref=e327] [cursor=pointer]:
+            - /url: /forum/member/profile/229685/
+          - text: on Dec. 4, 2024, 4:49 p.m., edited 1 time in total.
+      - generic [ref=e328]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/229685/
+        - link "jcw67" [ref=e330] [cursor=pointer]:
+          - /url: /forum/member/profile/229685/
+        - generic [ref=e331]: "Posts: 19"
+    - generic [ref=e334]:
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - link " Edit" [ref=e337] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276624/post/update/
+            - generic [ref=e338]: 
+            - text: Edit
+          - link "" [ref=e339] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276624/post/delete/
+            - generic [ref=e340]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e341]'
+        - paragraph [ref=e342]:
+          - generic [ref=e343]:
+            - generic [ref=e344]: 
+            - text: "By:"
+            - link "jcw67" [ref=e345] [cursor=pointer]:
+              - /url: /forum/member/profile/229685/
+            - text: on Dec. 4, 2024, 6:46 p.m.
+        - generic [ref=e346]:
+          - paragraph [ref=e347]: Bonjour,
+          - paragraph [ref=e348]: J'ai trouvé l'info pour le pavé numérique.
+          - paragraph [ref=e349]
+          - paragraph [ref=e350]: "1 - vieux souvenir Python : liste du contenu du module thingz"
+          - code [ref=e352]: "import thingz # pour liste contenu"
+          - code [ref=e354]:
+            - text: print(
+            - generic [ref=e355]:
+              - text: "f'lib thingz :"
+              - generic [ref=e356]: "{dir(thingz)}"
+              - text: "'"
+            - text: "')"
+          - code [ref=e358]
+          - code [ref=e360]: "lib thingz : ['__doc__', '__name__', '__package__', 'accelerometer', 'button_a',"
+          - code [ref=e362]: "'button_b', 'compass', 'display', 'led', 'radio', 'temperature',"
+          - code [ref=e364]: "'touch_e', 'touch_n', 'touch_s', 'touch_w']"
+          - paragraph [ref=e365]: 2 - sur https://play.thingz.co/galaxia, mode mixte
+          - paragraph [ref=e366]: "blocs entrées-sorties : touch_n _e _s _w (points cardinaux) pour haut droite bas gauche"
+          - paragraph [ref=e367]: "fonctions :"
+          - code [ref=e369]
+          - code [ref=e371]: "if touch_n.is_touched():"
+          - code [ref=e373]: "if touch_n.was_touched():"
+          - code [ref=e375]
+          - code [ref=e377]: "if button_a.is_pressed():"
+          - code [ref=e379]: "if button_a.was_pressed():"
+          - paragraph [ref=e380]
+          - paragraph [ref=e381]:
+            - text: "*"
+            - strong [ref=e382]: .is_
+            - text: est vrai
+            - strong [ref=e383]: tant qu'on
+            - text: appuie
+          - paragraph [ref=e384]:
+            - text: "*"
+            - strong [ref=e385]: .was_
+            - text: n'est vrai
+            - strong [ref=e386]: qu'une fois
+            - text: ", quand on"
+            - strong [ref=e387]: relâche le bouton
+            - text: . S'il y a eu un appui, la fonction renvoie "vrai" au prochain appel (même si c'est longtemps après). Eviter de boucler sur l'action ou d'attendre le relâchemant par programme avant de faire l'action
+          - paragraph [ref=e388]
+          - paragraph [ref=e389]: jc
+        - generic [ref=e390]:
+          - generic [ref=e391]:
+            - generic [ref=e392]: 
+            - text: "Last edited by:"
+            - link "jcw67" [ref=e393] [cursor=pointer]:
+              - /url: /forum/member/profile/229685/
+            - text: on Dec. 5, 2024, 9:52 a.m., edited 1 time in total.
+          - generic [ref=e394]: "Reason: précisions sur .was_"
+      - generic [ref=e395]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/229685/
+        - link "jcw67" [ref=e397] [cursor=pointer]:
+          - /url: /forum/member/profile/229685/
+        - generic [ref=e398]: "Posts: 19"
+    - generic [ref=e401]:
+      - generic [ref=e402]:
+        - generic [ref=e403]:
+          - link " Edit" [ref=e404] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276701/post/update/
+            - generic [ref=e405]: 
+            - text: Edit
+          - link "" [ref=e406] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276701/post/delete/
+            - generic [ref=e407]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e408]'
+        - paragraph [ref=e409]:
+          - generic [ref=e410]:
+            - generic [ref=e411]: 
+            - text: "By:"
+            - link "jcw67" [ref=e412] [cursor=pointer]:
+              - /url: /forum/member/profile/229685/
+            - text: on Dec. 5, 2024, 10:35 a.m.
+        - generic [ref=e413]:
+          - paragraph [ref=e414]: Bonjour,
+          - paragraph [ref=e415]
+          - paragraph [ref=e416]:
+            - text: "Il doit encore me manquer quelque chose à propos du pad : sur l'émulateur VittaScience, l'appui sur n'importe quelle touche déclenche"
+            - strong [ref=e417]: toutes
+            - text: les touches !
+          - paragraph [ref=e418]
+          - paragraph [ref=e419]: Du coup, le menu ne "bouge" pas (monter immédiatement suivi de descendre).
+          - paragraph [ref=e420]
+          - paragraph [ref=e421]: Quelqu'un a une idée ?
+          - paragraph [ref=e422]
+          - paragraph [ref=e423]: jc
+          - paragraph [ref=e424]
+          - paragraph [ref=e425]:
+            - strong [ref=e426]: test
+            - text: sur
+            - link "https://fr.vittascience.com/galaxia/?mode=code&console=bottom&toolbox=vittascience" [ref=e427] [cursor=pointer]:
+              - /url: https://fr.vittascience.com/galaxia/?mode=code&console=bottom&toolbox=vittascience
+            - text: ":"
+          - paragraph [ref=e428]:
+            - emphasis [ref=e429]: (Firefox et Chrome)
+          - code [ref=e431]:
+            - text: "''' test bouton A et pad jcw 05/12/2024 ''' from thingz import * from time import * sq = 0 while True: nb_msg = 0 if button_a.was_pressed(): print('Bouton A') nb_msg += 1 if touch_n.was_touched(): print('Touche N (haut)') nb_msg += 1 if touch_e.was_touched(): print('Touche E (droite)') nb_msg += 1 if touch_s.was_touched(): print('Touche S (bas)') nb_msg += 1 if touch_w.was_touched(): print('Touche W (gauche)') nb_msg += 1 if nb_msg: sq += 1 print("
+            - generic [ref=e432]: "f'----------{sq}:{nb_msg} mess'"
+            - text: ) sleep(3)
+          - paragraph [ref=e433]
+        - generic [ref=e434]:
+          - generic [ref=e435]:
+            - generic [ref=e436]: 
+            - text: "Last edited by:"
+            - link "jcw67" [ref=e437] [cursor=pointer]:
+              - /url: /forum/member/profile/229685/
+            - text: on Dec. 5, 2024, 10:48 a.m., edited 2 times in total.
+          - generic [ref=e438]: "Reason: précision : navigateurs testés"
+      - generic [ref=e439]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/229685/
+        - link "jcw67" [ref=e441] [cursor=pointer]:
+          - /url: /forum/member/profile/229685/
+        - generic [ref=e442]: "Posts: 19"
+    - generic [ref=e445]:
+      - generic [ref=e446]:
+        - generic [ref=e447]:
+          - link " Edit" [ref=e448] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276860/post/update/
+            - generic [ref=e449]: 
+            - text: Edit
+          - link "" [ref=e450] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276860/post/delete/
+            - generic [ref=e451]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e452]'
+        - paragraph [ref=e453]:
+          - generic [ref=e454]:
+            - generic [ref=e455]: 
+            - text: "By:"
+            - link "Tony29b" [ref=e456] [cursor=pointer]:
+              - /url: /forum/member/profile/688440/
+            - text: on Dec. 6, 2024, 8:04 a.m.
+        - generic [ref=e457]:
+          - paragraph [ref=e458]: Bonjour à tous,
+          - paragraph [ref=e459]: Je ne suis pas arriveé à temps pour suivre le mooc "Programmer un objet avec MicroPython". Est ce possible de m'y inscrire pour suivre le suivant plus facilement?
+          - paragraph [ref=e460]
+          - paragraph [ref=e461]: Merci
+      - generic [ref=e462]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/688440/
+        - link "Tony29b" [ref=e464] [cursor=pointer]:
+          - /url: /forum/member/profile/688440/
+        - generic [ref=e465]: "Posts: 2"
+    - generic [ref=e468]:
+      - generic [ref=e469]:
+        - generic [ref=e470]:
+          - link " Edit" [ref=e471] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276993/post/update/
+            - generic [ref=e472]: 
+            - text: Edit
+          - link "" [ref=e473] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/276993/post/delete/
+            - generic [ref=e474]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e475]'
+        - paragraph [ref=e476]:
+          - generic [ref=e477]:
+            - generic [ref=e478]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e479] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 6, 2024, 9:40 p.m.
+        - generic [ref=e480]:
+          - paragraph [ref=e481]: "[EDIT] L'inscription a été réalisée par ailleurs. Merci"
+          - paragraph [ref=e482]
+          - paragraph [ref=e483]: Bonjour à tous, et plus particulièrement l'équipe pédagogique,
+          - paragraph [ref=e484]: Je me suis formé sur Python depuis quelques mois et j'ai trouvé ce cours sur la programmation en micro-Python intéressante.
+          - paragraph [ref=e485]: Hélas! N'ayant pas suivi le cours précédent j'avoue qu'il me manque quelques notions sur les micros controlleurs et leur programmation que je pense pouvoir trouver dans ce dernier. Je n'arrive pas à comprendre comment fonctionne les simulateurs de programmation.
+          - paragraph [ref=e486]: Donc, comme tout le monde ici, j'aimerais pouvoir être inscrit au cours "Programmer un objet avec MicroPython", afin de mettre les boeufs devant la charrue.
+          - paragraph [ref=e487]: En vous remerciant.
+          - paragraph [ref=e488]
+        - generic [ref=e490]:
+          - generic [ref=e491]: 
+          - text: "Last edited by:"
+          - link "tidjidi" [ref=e492] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - text: on Dec. 10, 2024, 11:55 a.m., edited 1 time in total.
+      - generic [ref=e493]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e495] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e496]: "Posts: 53"
+    - generic [ref=e499]:
+      - generic [ref=e500]:
+        - generic [ref=e501]:
+          - link " Edit" [ref=e502] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/277035/post/update/
+            - generic [ref=e503]: 
+            - text: Edit
+          - link "" [ref=e504] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/277035/post/delete/
+            - generic [ref=e505]: 
+        - 'heading "Re: Accès au cours \"Programmer un objet avec MicroPython\"" [level=4] [ref=e506]'
+        - paragraph [ref=e507]:
+          - generic [ref=e508]:
+            - generic [ref=e509]: 
+            - text: "By:"
+            - link "topnote" [ref=e510] [cursor=pointer]:
+              - /url: /forum/member/profile/688591/
+            - text: on Dec. 7, 2024, 10:28 a.m.
+        - generic [ref=e511]:
+          - paragraph [ref=e512]: Bonjour,
+          - paragraph [ref=e513]: Je crois que j'ai aussi besoin de passer par le premier cours, même si je connais Python.
+          - paragraph [ref=e514]: Il y a des éléments de l'interface qui m'échappent !
+      - generic [ref=e515]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/688591/
+        - link "topnote" [ref=e517] [cursor=pointer]:
+          - /url: /forum/member/profile/688591/
+        - generic [ref=e518]: "Posts: 3"
+  - generic [ref=e519]:
+    - generic [ref=e520]:
+      - link " Post reply" [ref=e521] [cursor=pointer]:
+        - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/post/create/
+        - generic [ref=e522]: 
+        - text: Post reply
+      - button "" [ref=e524] [cursor=pointer]:
+        - generic [ref=e525]: 
+    - list [ref=e527]:
+      - listitem [ref=e528]:
+        - link "«" [ref=e529] [cursor=pointer]:
+          - /url: "?page=1"
+      - listitem [ref=e530]:
+        - link "1" [ref=e531] [cursor=pointer]:
+          - /url: "?page=1"
+      - listitem [ref=e532]:
+        - link "2" [ref=e533] [cursor=pointer]:
+          - /url: "?page=2"
+      - listitem [ref=e534]:
+        - link "3" [ref=e535] [cursor=pointer]:
+          - /url: "?page=3"
+      - listitem [ref=e536]:
+        - link "»" [ref=e537] [cursor=pointer]:
+          - /url: "?page=3"

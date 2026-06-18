@@ -1,0 +1,251 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Capteur de courant opto (Linky)" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Capteur de courant opto (Linky)" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/278812/post/delete/
+            - generic [ref=e43]: 
+        - heading "Capteur de courant opto (Linky)" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 19, 2024, 11:46 a.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Hello,
+          - paragraph [ref=e51]
+          - paragraph [ref=e52]: Dans le kit Vittascience spécial pour les cours de IMT (avec la carte Galaxia), il y a un "capteur de courant opto pour Linky".
+          - paragraph [ref=e53]: A quoi ça sert? et comment l'utiliser?
+          - paragraph [ref=e54]
+          - paragraph [ref=e55]: Merci
+        - generic [ref=e57]:
+          - generic [ref=e58]: 
+          - text: "Last edited by:"
+          - link "tidjidi" [ref=e59] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - text: on Dec. 19, 2024, 11:47 a.m., edited 1 time in total.
+      - generic [ref=e60]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e62] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e63]: "Posts: 53"
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link " Edit" [ref=e69] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/278818/post/update/
+            - generic [ref=e70]: 
+            - text: Edit
+          - link "" [ref=e71] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/278818/post/delete/
+            - generic [ref=e72]: 
+        - 'heading "Re: Capteur de courant opto (Linky)" [level=4] [ref=e73]'
+        - paragraph [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e77] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 19, 2024, 12:23 p.m.
+        - generic [ref=e78]:
+          - paragraph [ref=e79]: Bonjour,
+          - paragraph [ref=e80]
+          - paragraph [ref=e81]:
+            - text: Si vous avez accès au 1er cours, c'est à la
+            - link "fin de la semaine 4." [ref=e82] [cursor=pointer]:
+              - /url: https://lms.fun-mooc.fr/courses/course-v1:MinesTelecom+04048+session01/courseware/2267be11f3c345949efcaf23d554bcde/abc57742e8f84f25ba6fc63888acea5e/
+          - paragraph [ref=e83]
+          - paragraph [ref=e84]: https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/
+          - paragraph [ref=e85]
+      - generic [ref=e86]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e88] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e89]: "Posts: 69"
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - link " Edit" [ref=e95] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/278867/post/update/
+            - generic [ref=e96]: 
+            - text: Edit
+          - link "" [ref=e97] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/278867/post/delete/
+            - generic [ref=e98]: 
+        - 'heading "Re: Capteur de courant opto (Linky)" [level=4] [ref=e99]'
+        - paragraph [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e102]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e103] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 19, 2024, 5:30 p.m.
+        - generic [ref=e104]:
+          - paragraph [ref=e105]: Ah! Ok. Merci.
+          - paragraph [ref=e106]:
+            - text: J'y vais de ce pas. Je n'ai pas été jusqu'au bout, souhaitant finir celui-ci dans les temps
+            - img "😉" [ref=e108]
+      - generic [ref=e109]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e111] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e112]: "Posts: 53"
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - link " Edit" [ref=e118] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/279118/post/update/
+            - generic [ref=e119]: 
+            - text: Edit
+          - link "" [ref=e120] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/279118/post/delete/
+            - generic [ref=e121]: 
+        - 'heading "Re: Capteur de courant opto (Linky)" [level=4] [ref=e122]'
+        - paragraph [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e126] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 22, 2024, 6:46 p.m.
+        - generic [ref=e127]:
+          - paragraph [ref=e128]: Bon! Alors j'ai fini le MOOC 1.
+          - paragraph [ref=e129]: Alors OK pour l'explication du capteur opto.
+          - paragraph [ref=e130]
+          - paragraph [ref=e131]: Mais en ce qui concerne le programme, quelqu'un (@bgaultier peur-être?) sait-il me dire ce qu'est le module "esp32_linky", et où peut-on le trouver (car sans je ne peux pas faire grand chose du programme - le module n'est pas connu du micropython 1.0.0)
+          - paragraph [ref=e132]
+          - paragraph [ref=e133]: Merci
+      - generic [ref=e134]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e136] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e137]: "Posts: 53"
+    - generic [ref=e140]:
+      - generic [ref=e141]:
+        - generic [ref=e142]:
+          - link " Edit" [ref=e143] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/279202/post/update/
+            - generic [ref=e144]: 
+            - text: Edit
+          - link "" [ref=e145] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/279202/post/delete/
+            - generic [ref=e146]: 
+        - 'heading "Re: Capteur de courant opto (Linky)" [level=4] [ref=e147]'
+        - paragraph [ref=e148]:
+          - generic [ref=e149]:
+            - generic [ref=e150]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e151] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e152]:
+              - text: 
+              - generic [ref=e153]: Instructor
+            - text: on Dec. 23, 2024, 8:26 a.m.
+        - generic [ref=e154]:
+          - paragraph [ref=e155]: Ce module est envoyé sur la carte Galaxia lorsque vous téléversez votre programme sur votre Galaxia.
+          - paragraph [ref=e156]
+          - paragraph [ref=e157]: "Je remets le code ci-dessous :"
+          - paragraph [ref=e158]
+          - code [ref=e160]:
+            - text: import machine import time
+            - generic [ref=e161]: "class Linky:"
+            - generic [ref=e162]:
+              - text: def __init__(
+              - generic [ref=e163]: self, pin, unit = False
+              - text: "):"
+            - text: "self.unit = unit self.data = { 'HCHC': [6,'Wh','', False], # indexe heure creuses (Wh) 'HCHP': [6,'Wh','', False], # indexe heures pleines (Wh) 'BASE': [6,'Wh','', False], # indexe base (Wh) 'PAPP': [5,'W','', False], # puissance apparante (W) 'ISOUSC': [2,'A','', False], # intensite souscrite (A) 'PTEC': [2,'','', False], # priode tarrifaire en cours 'OPTARIF':[4,'','', False], # option tarrifaire } self.uart = machine.UART(1) self.uart.init(baudrate=1200, bits=7, parity=0, stop=1, rx=pin)"
+            - generic [ref=e164]: "def __is_data_updated(self):"
+            - text: "for index in self.data: if self.data[index][3] == False: return False return True"
+            - generic [ref=e165]: "def update_values(self):"
+            - text: "retry = 0 for index in self.data: self.data[index][3] = False while not self.__is_data_updated() and retry < 20: buff = self.uart.read(128) if buff: for index in self.data: start = buff.find(b'\\n'+index) data_start = start+len(index)+2 data_end = data_start + self.data[index][0] if start >= 0 and data_end < len(buff): self.data[index][2] = buff[data_start : data_end].decode() self.data[index][3] = True retry+=1"
+            - generic [ref=e166]: "def get_data(self, index):"
+            - text: "self.update_values() if index: if self.unit: return self.data[index][2]+\" \"+self.data[index][1] else: return self.data[index][2] else: d = {} for index in self.data: d[index] = [self.data[index][2], self.data[index][1]] return d"
+        - paragraph [ref=e168]: "--Baptiste"
+      - generic [ref=e169]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e171] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e172]: "Posts: 301"
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - link " Edit" [ref=e178] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/279278/post/update/
+            - generic [ref=e179]: 
+            - text: Edit
+          - link "" [ref=e180] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/279278/post/delete/
+            - generic [ref=e181]: 
+        - 'heading "Re: Capteur de courant opto (Linky)" [level=4] [ref=e182]'
+        - paragraph [ref=e183]:
+          - generic [ref=e184]:
+            - generic [ref=e185]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e186] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 23, 2024, 3:57 p.m.
+        - generic [ref=e187]:
+          - paragraph [ref=e188]:
+            - text: Merci beaucoup
+            - link "@bgaultier" [ref=e189] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+          - paragraph [ref=e190]
+          - paragraph [ref=e191]: Et joyeux Noël
+      - generic [ref=e192]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e194] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e195]: "Posts: 53"
+  - generic [ref=e197]:
+    - link " Post reply" [ref=e198] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/post/create/
+      - generic [ref=e199]: 
+      - text: Post reply
+    - button "" [ref=e201] [cursor=pointer]:
+      - generic [ref=e202]: 

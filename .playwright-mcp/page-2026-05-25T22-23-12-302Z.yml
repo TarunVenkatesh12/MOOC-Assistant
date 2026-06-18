@@ -1,0 +1,159 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "S4 - WOKWI" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "S4 - WOKWI" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/277598/post/delete/
+            - generic [ref=e43]: 
+        - heading "S4 - WOKWI" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 10, 2024, 6:54 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Bonsoir,
+          - paragraph [ref=e51]
+          - paragraph [ref=e52]: Comment accèrde-t-on à la validation avec Wokwi ?
+      - generic [ref=e53]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e55] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e56]: "Posts: 69"
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - link " Edit" [ref=e62] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/277667/post/update/
+            - generic [ref=e63]: 
+            - text: Edit
+          - link "" [ref=e64] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/277667/post/delete/
+            - generic [ref=e65]: 
+        - 'heading "Re: S4 - WOKWI" [level=4] [ref=e66]'
+        - paragraph [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e70] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e71]:
+              - text: 
+              - generic [ref=e72]: Instructor
+            - text: on Dec. 11, 2024, 8:39 a.m.
+        - generic [ref=e73]:
+          - paragraph [ref=e74]: Vous disposez d'un éditeur de code en dessous de l'interface Wokwi qui vous permet de coller votre code. Vous avez ensuite à cliquer sur le bouton Valider et hop ! vous recevez une note sur 10 !
+          - paragraph [ref=e75]
+          - paragraph [ref=e76]: Merci de m'indiquer si vous rencontrez des problèmes pour obtenir une note depuis l'autocorrecteur ?
+          - paragraph [ref=e77]
+        - paragraph [ref=e79]: "--Baptiste"
+      - generic [ref=e80]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e82] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e83]: "Posts: 301"
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - link " Edit" [ref=e89] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/277684/post/update/
+            - generic [ref=e90]: 
+            - text: Edit
+          - link "" [ref=e91] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/277684/post/delete/
+            - generic [ref=e92]: 
+        - 'heading "Re: S4 - WOKWI" [level=4] [ref=e93]'
+        - paragraph [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e97] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 11, 2024, 9:35 a.m.
+        - generic [ref=e98]:
+          - paragraph [ref=e99]:
+            - text: Merci, je n'avais pas dû bien lire les consignes
+            - img "😳" [ref=e101]
+          - paragraph [ref=e102]: Note 10/10 ok
+      - generic [ref=e103]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e105] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e106]: "Posts: 69"
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - link " Edit" [ref=e112] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/277908/post/update/
+            - generic [ref=e113]: 
+            - text: Edit
+          - link "" [ref=e114] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/277908/post/delete/
+            - generic [ref=e115]: 
+        - 'heading "Re: S4 - WOKWI" [level=4] [ref=e116]'
+        - paragraph [ref=e117]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e120] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e121]:
+              - text: 
+              - generic [ref=e122]: Instructor
+            - text: on Dec. 12, 2024, 10:05 a.m.
+        - paragraph [ref=e124]: Super et bravo !
+        - paragraph [ref=e126]: "--Baptiste"
+      - generic [ref=e127]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e129] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e130]: "Posts: 301"
+  - generic [ref=e132]:
+    - link " Post reply" [ref=e133] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/post/create/
+      - generic [ref=e134]: 
+      - text: Post reply
+    - button "" [ref=e136] [cursor=pointer]:
+      - generic [ref=e137]: 

@@ -1,0 +1,700 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Problème à l'upload du code auto-correcteur Jason" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Problème à l'upload du code auto-correcteur Jason" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/271982/post/delete/
+            - generic [ref=e43]: 
+        - heading "Problème à l'upload du code auto-correcteur Jason" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Nov. 12, 2024, 6:40 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Encore moi, désolé :'(
+          - paragraph [ref=e51]
+          - paragraph [ref=e52]: Je n'arrive pas à valider mon code.
+          - paragraph [ref=e53]
+          - paragraph [ref=e54]
+          - img [ref=e55]
+          - paragraph [ref=e56]: Pourtant il tourne.
+          - paragraph [ref=e57]
+          - img [ref=e58]
+          - paragraph [ref=e59]: Par rapport à l'enoncé, j'ai du faire des modifications pour que ça fonctionne (et en particulier, pour effacer l'écran).
+          - paragraph [ref=e60]
+          - paragraph [ref=e61]: Je suis sur Mac avec Firefox.
+          - paragraph [ref=e62]
+        - generic [ref=e64]:
+          - generic [ref=e65]: 
+          - text: "Last edited by:"
+          - link "ChrisCB" [ref=e66] [cursor=pointer]:
+            - /url: /forum/member/profile/677082/
+          - text: on Nov. 12, 2024, 6:41 p.m., edited 1 time in total.
+      - generic [ref=e67]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e69] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e70]: "Posts: 23"
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - link " Edit" [ref=e76] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272032/post/update/
+            - generic [ref=e77]: 
+            - text: Edit
+          - link "" [ref=e78] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272032/post/delete/
+            - generic [ref=e79]: 
+        - 'heading "Re: Problème à l''upload du code auto-correcteur Jason" [level=4] [ref=e80]'
+        - paragraph [ref=e81]:
+          - generic [ref=e82]:
+            - generic [ref=e83]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e84] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e85]:
+              - text: 
+              - generic [ref=e86]: Instructor
+            - text: on Nov. 13, 2024, 7:04 a.m.
+        - generic [ref=e87]:
+          - paragraph [ref=e88]:
+            - text: hello
+            - link "@ChrisCB" [ref=e89] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: ","
+          - paragraph [ref=e90]
+          - paragraph [ref=e91]: effectivement, le rendu semble être le bon !
+          - paragraph [ref=e92]: pouvez-vous coller ici votre code que je vois ce qui cloch avec l'autocorrecteur ?
+          - paragraph [ref=e93]
+          - paragraph [ref=e94]: merci,
+        - paragraph [ref=e96]: "--Baptiste"
+      - generic [ref=e97]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e99] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e100]: "Posts: 301"
+    - generic [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - link " Edit" [ref=e106] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272042/post/update/
+            - generic [ref=e107]: 
+            - text: Edit
+          - link "" [ref=e108] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272042/post/delete/
+            - generic [ref=e109]: 
+        - 'heading "Re: Problème à l''upload du code auto-correcteur Jason" [level=4] [ref=e110]'
+        - paragraph [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e114] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Nov. 13, 2024, 8:48 a.m.
+        - generic [ref=e115]:
+          - paragraph [ref=e116]:
+            - text: Bonjour
+            - link "@bgaultier" [ref=e117] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - text: ", après j'ai peut-etre pas fait exactement ce qui était demandé, comme je n'ai pas fait le premier cours, je n'ai pas forcement toutes les methodes liés au control de la carte Galaxia. Je n'ai pas utilisé de sleep non plus pour les anti rebond (enfin, ce que j'appelle comme ça)."
+          - paragraph [ref=e118]
+          - paragraph [ref=e119]: "Voici le code :"
+          - paragraph [ref=e120]
+          - code [ref=e122]: from machine import *
+          - code [ref=e124]: from thingz import *
+          - code [ref=e126]
+          - code [ref=e128]: import utime
+          - code [ref=e130]: import json
+          - code [ref=e132]
+          - code [ref=e134]: json_string = '''
+          - code [ref=e136]: "{"
+          - code [ref=e138]: "\"total_count\": 5,"
+          - code [ref=e140]: "\"results\": ["
+          - code [ref=e142]: "{"
+          - code [ref=e144]: "\"date_debut\": \"2024-06-27\","
+          - code [ref=e146]: "\"date_fin\": \"2024-10-09\","
+          - code [ref=e148]: "\"produit\": \"Farfalles\","
+          - code [ref=e150]: "\"prix_au_produit\": 10.5,"
+          - code [ref=e152]: "\"type\": \"Chaud\","
+          - code [ref=e154]: "\"categorie_produit\": \"Salé\","
+          - code [ref=e156]: "\"presence_de_porc\": \"NON\","
+          - code [ref=e158]: "\"presence_d_alcool\": \"NON\","
+          - code [ref=e160]: "\"composants\": \"Farfalle 51% (semoule de blé dur), poivrons rouges et verts 20%, tomatade 7% [tomates 70% (tomates mi-séchées 70%, concentré de tomates), huile de colza, sel, origan, sucre, ail], tomacoulis 7% (purée de tomates mi-réduite 99,5%, sel), pesto vert 5% [huile de colza 63 %, basilic 20 %, fromage 10 % (lait, sel, enzyme coagulante), huile d'olive vierge extra 2 %, ail, sel], olives vertes (olives vertes, eau, sel, acidifiant : acide citrique), Grana Padano (lait, sel, présure, conservateur : lysozyme d'oeufs), eau, graine de lin, graine de tournesol, sirop d'érable\","
+          - code [ref=e162]: "\"allergenes\": \"Gluten, lait, moutarde, oeuf, soja\","
+          - code [ref=e164]: "\"allergenes_susceptibles_de_provenir_de_contaminations_croisees\": \"Arachide, céleri, crustacés, fruits à coque, gluten, lait, lupin, mollusques, moutarde, oeuf, poisson, sésame, soja, sulfites\","
+          - code [ref=e166]: "\"kcal_pour_100_ml_ou_100g\": 270,"
+          - code [ref=e168]: "\"recette_vegetarienne\": \"NON\","
+          - code [ref=e170]: "\"recette_vegane\": \"NON\","
+          - code [ref=e172]: "\"bio\": \"NON\","
+          - code [ref=e174]: "\"sans_gluten\": \"NON\","
+          - code [ref=e176]: "\"poids_cl_g\": 300,"
+          - code [ref=e178]: "\"proteines_100g_100ml\": 9.2,"
+          - code [ref=e180]: "\"glucides_100g_100ml\": 38.4,"
+          - code [ref=e182]: "\"lipides_100g_100ml\": 8.5"
+          - code [ref=e184]: "},"
+          - code [ref=e186]: "{"
+          - code [ref=e188]: "\"date_debut\": \"2024-06-27\","
+          - code [ref=e190]: "\"date_fin\": \"2024-10-09\","
+          - code [ref=e192]: "\"produit\": \"Riz Tex-Mex\","
+          - code [ref=e194]: "\"prix_au_produit\": 10.5,"
+          - code [ref=e196]: "\"type\": \"Chaud\","
+          - code [ref=e198]: "\"categorie_produit\": \"Salé\","
+          - code [ref=e200]: "\"presence_de_porc\": \"NON\","
+          - code [ref=e202]: "\"presence_d_alcool\": \"NON\","
+          - code [ref=e204]: "\"composants\": \"Tomate pulpe 32%, riz complet de Camargue 25%, poulet 16% (haut de cuisses de poulet, origine France), maïs doux en grains 8%, haricots rouges 8% (haricots rouges secs trempés, eau, sel, concentré de tomate, arômes), oignon rouge 5%, persil, coriandre, épice cajun (paprika, oignon, ail, coriandre, curcuma, origan, thym, cumin, fenouil, poivre noir, huile de tournesol, piment Jalapeno), mélange Tex-Mex [Gros sel, tomate et flocon de tomate (saccharose, amidon de riz), paprika, thym, ail, huile de tournesol, basilic, laurier], huile de tournesol et d'olive (huile de tournesol raffinée 80%, huile d’olive vierge extra 20% et vitamine D), sucre, sel, stabilisant : gomme de xanthane\","
+          - code [ref=e206]: "\"allergenes\": null,"
+          - code [ref=e208]: "\"allergenes_susceptibles_de_provenir_de_contaminations_croisees\": \"Arachide, céleri, crustacés, fruits à coque, gluten, lait, lupin, mollusques, moutarde, oeuf, poisson, sésame, soja, sulfites\","
+          - code [ref=e210]: "\"kcal_pour_100_ml_ou_100g\": 171,"
+          - code [ref=e212]: "\"recette_vegetarienne\": \"NON\","
+          - code [ref=e214]: "\"recette_vegane\": \"NON\","
+          - code [ref=e216]: "\"bio\": \"NON\","
+          - code [ref=e218]: "\"sans_gluten\": \"OUI\","
+          - code [ref=e220]: "\"poids_cl_g\": 300,"
+          - code [ref=e222]: "\"proteines_100g_100ml\": 6.1,"
+          - code [ref=e224]: "\"glucides_100g_100ml\": 23.7,"
+          - code [ref=e226]: "\"lipides_100g_100ml\": 5.1"
+          - code [ref=e228]: "},"
+          - code [ref=e230]: "{"
+          - code [ref=e232]: "\"date_debut\": \"2024-06-27\","
+          - code [ref=e234]: "\"date_fin\": \"2024-10-09\","
+          - code [ref=e236]: "\"produit\": \"Burger BBQ\","
+          - code [ref=e238]: "\"prix_au_produit\": 8.9,"
+          - code [ref=e240]: "\"type\": \"Chaud\","
+          - code [ref=e242]: "\"categorie_produit\": \"Salé\","
+          - code [ref=e244]: "\"presence_de_porc\": \"NON\","
+          - code [ref=e246]: "\"presence_d_alcool\": \"NON\","
+          - code [ref=e248]: "\"composants\": \"Pain spécial 35% (farine de blé, eau, sucre, levure, levain de seigle, huile de colza, sel, gluten de blé, poudre d'acérola), galette de pomme de terre 23% (pomme de terre 20%, huile de tournesol, amidon de pomme de terre, sel, dextrose), steak haché cuit de viande bovine 22% (origine France), sauce barbecue 8,90% (eau sucre, vinaigre d'alcool, purée de tomate à base de concentré, amidon modifié de maïs, sel, arômes naturels), Cheddar orange fondu 6,6% (Cheddar orange 3,3%, fromages, eau, protéines de lait, sels de fonte : E331, colorant : E160b), oignons rouges\","
+          - code [ref=e250]: "\"allergenes\": \"Gluten, lait, moutarde, oeuf\","
+          - code [ref=e252]: "\"allergenes_susceptibles_de_provenir_de_contaminations_croisees\": \"Céleri, crustacés, fruits à coque, lupin, mollusques, poisson, sésame, soja\","
+          - code [ref=e254]: "\"kcal_pour_100_ml_ou_100g\": 218,"
+          - code [ref=e256]: "\"recette_vegetarienne\": \"NON\","
+          - code [ref=e258]: "\"recette_vegane\": \"NON\","
+          - code [ref=e260]: "\"bio\": \"NON\","
+          - code [ref=e262]: "\"sans_gluten\": \"NON\","
+          - code [ref=e264]: "\"poids_cl_g\": 220,"
+          - code [ref=e266]: "\"proteines_100g_100ml\": 9.5,"
+          - code [ref=e268]: "\"glucides_100g_100ml\": 24,"
+          - code [ref=e270]: "\"lipides_100g_100ml\": 8.9"
+          - code [ref=e272]: "},"
+          - code [ref=e274]: "{"
+          - code [ref=e276]: "\"date_debut\": \"2024-06-27\","
+          - code [ref=e278]: "\"date_fin\": \"2024-10-09\","
+          - code [ref=e280]: "\"produit\": \"Le croque\","
+          - code [ref=e282]: "\"prix_au_produit\": 7.7,"
+          - code [ref=e284]: "\"type\": \"Chaud\","
+          - code [ref=e286]: "\"categorie_produit\": \"Salé\","
+          - code [ref=e288]: "\"presence_de_porc\": \"OUI\","
+          - code [ref=e290]: "\"presence_d_alcool\": \"NON\","
+          - code [ref=e292]: "\"composants\": \"Pain de mie 37,80% (farine de blé, eau, huile de colza, sucre, levure, gluten de blé, sel, poudre de lactoserum, agent de traitement de la farine : E300), sauce type béchamel réhydratée 29,70% (eau, lactoserum, farine de blé, amidon modifié de pomme de terre E1414, poudre au beurre, poudre de lait écrémé, sel, arôme naturel, poivre, muscade), jambon cuit supérieur 21% [jambon de porc 19% (origine France), sel , bouillon (viande de porc et os de porc), arômes naturels, antioxydant : E300], Emmental 11% (lait de vache, sel, ferments lactiques, coagulants)\","
+          - code [ref=e294]: "\"allergenes\": \"Gluten, lait\","
+          - code [ref=e296]: "\"allergenes_susceptibles_de_provenir_de_contaminations_croisees\": null,"
+          - code [ref=e298]: "\"kcal_pour_100_ml_ou_100g\": 211,"
+          - code [ref=e300]: "\"recette_vegetarienne\": \"NON\","
+          - code [ref=e302]: "\"recette_vegane\": \"NON\","
+          - code [ref=e304]: "\"bio\": \"NON\","
+          - code [ref=e306]: "\"sans_gluten\": \"NON\","
+          - code [ref=e308]: "\"poids_cl_g\": 180,"
+          - code [ref=e310]: "\"proteines_100g_100ml\": 11.5,"
+          - code [ref=e312]: "\"glucides_100g_100ml\": 25.3,"
+          - code [ref=e314]: "\"lipides_100g_100ml\": 5"
+          - code [ref=e316]: "},"
+          - code [ref=e318]: "{"
+          - code [ref=e320]: "\"date_debut\": \"2024-06-27\","
+          - code [ref=e322]: "\"date_fin\": \"2024-10-09\","
+          - code [ref=e324]: "\"produit\": \"La tarte\","
+          - code [ref=e326]: "\"prix_au_produit\": 7.2,"
+          - code [ref=e328]: "\"type\": \"Chaud\","
+          - code [ref=e330]: "\"categorie_produit\": \"Salé\","
+          - code [ref=e332]: "\"presence_de_porc\": \"NON\","
+          - code [ref=e334]: "\"presence_d_alcool\": \"NON\","
+          - code [ref=e336]: "\"composants\": \"Fond de quiche 35,70% (farine de blé, beurre 24%, eau, oeufs, sel de Guérande 1,2%), mix pizza 13,40% [cre-sauce (lactosérum (lait), amidon modifié, graisse végétale de palme (sirop de glucose, protéines de lait), poudre de lait écrémé, sel, stabilisants : E 516, E450, épaississant (E401), poivre, muscade, colorant (E101), sauce tomate (tomate, sel)], tomate 22,30%, oignons caramélisés 13,40% [oignon, huile de tournesol, vinaigre blanc (vinaigre d'alcool), sucre, sel], mozzarella 9,80% (lait pasteurisé de vache, sel, ferments lactiques, enzymes coagulantes), emmental 3,60% [lait pasteurisé, anti-agglomérant (fécule de pomme de terre), sel, ferments lactiques, coagulants], parmesan 1,80% (lait, sel, présure, lysozyme d'oeuf)\","
+          - code [ref=e338]: "\"allergenes\": \"Gluten, lait, oeuf\","
+          - code [ref=e340]: "\"allergenes_susceptibles_de_provenir_de_contaminations_croisees\": \"Céleri, fruits à coque, mollusques, moutarde, poisson, sésame, soja, sulfites\","
+          - code [ref=e342]: "\"kcal_pour_100_ml_ou_100g\": 234,"
+          - code [ref=e344]: "\"recette_vegetarienne\": \"NON\","
+          - code [ref=e346]: "\"recette_vegane\": \"NON\","
+          - code [ref=e348]: "\"bio\": \"NON\","
+          - code [ref=e350]: "\"sans_gluten\": \"NON\","
+          - code [ref=e352]: "\"poids_cl_g\": 180,"
+          - code [ref=e354]: "\"proteines_100g_100ml\": 8,"
+          - code [ref=e356]: "\"glucides_100g_100ml\": 15,"
+          - code [ref=e358]: "\"lipides_100g_100ml\": 15"
+          - code [ref=e360]: "}"
+          - code [ref=e362]: "]"
+          - code [ref=e364]: "}"
+          - code [ref=e366]: "'''"
+          - code [ref=e368]
+          - code [ref=e370]: "# on met le menu dans le dictionnaire du meme nom"
+          - code [ref=e372]: json_data = json.loads(json_string)
+          - code [ref=e374]: menu = json_data['results']
+          - code [ref=e376]
+          - code [ref=e378]
+          - code [ref=e380]: "# Le choix par defaut, c'est les farfalles"
+          - code [ref=e382]: choice = 0
+          - code [ref=e384]
+          - code [ref=e386]: "# Effacement de l'ecran"
+          - code [ref=e388]:
+            - generic [ref=e389]: def clear_screen()
+            - text: ":"
+          - code [ref=e391]: "# J'aurais voulu effacer l'ecran autrement"
+          - code [ref=e393]: "# mais je n'ai pas trouve d'autre methode dans l'API"
+          - code [ref=e395]:
+            - text: print(
+            - generic [ref=e396]: "\" \\n \\n \\n \\n \\n \\n \\n \\n \\n\""
+            - text: )
+          - code [ref=e398]
+          - code [ref=e400]: "# Affiche le menu"
+          - code [ref=e402]:
+            - generic [ref=e403]: def display_menu()
+            - text: ":"
+          - code [ref=e405]:
+            - generic [ref=e406]: clear_screen()
+          - code [ref=e408]: "for index, item in enumerate(menu):"
+          - code [ref=e410]: "if index == choice:"
+          - code [ref=e412]: print('> '+item['produit'])
+          - code [ref=e414]: "else:"
+          - code [ref=e416]: "# Les espaces sont supprimes, j'ai été oblige de mettre des points."
+          - code [ref=e418]: print('. '+item['produit'])
+          - code [ref=e420]
+          - code [ref=e422]: "### Fiche d'un produit"
+          - code [ref=e424]:
+            - generic [ref=e425]: def display_product(choice)
+            - text: ":"
+          - code [ref=e427]:
+            - generic [ref=e428]: clear_screen()
+          - code [ref=e430]:
+            - text: print(
+            - generic [ref=e431]:
+              - text: "f\"Tarif :"
+              - generic [ref=e432]: "{menu[choice]['prix_au_produit']}"
+              - text: "\""
+            - text: )
+          - code [ref=e434]:
+            - text: allergenes = menu[choice]
+            - generic [ref=e435]: "['allergenes']"
+          - code [ref=e437]: "if not allergenes is None:"
+          - code [ref=e439]:
+            - generic [ref=e440]: "print(f\"Allergenes : {allergenes}\")"
+          - code [ref=e442]
+          - code [ref=e444]
+          - code [ref=e446]
+          - code [ref=e448]:
+            - generic [ref=e449]: display_menu()
+          - code [ref=e451]
+          - code [ref=e453]: "while True:"
+          - code [ref=e455]: "# Bouton haut, on remonte dans le menu"
+          - code [ref=e457]: "if touch_n.is_touched():"
+          - code [ref=e459]: "if choice > 0:"
+          - code [ref=e461]: choice = choice - 1
+          - code [ref=e463]: "# On reaffiche le menu meme si on a atteint la limite"
+          - code [ref=e465]: "# pour que l'affichage fonctionne apres avoir affiche"
+          - code [ref=e467]: "# la fiche du produit"
+          - code [ref=e469]:
+            - generic [ref=e470]: display_menu()
+          - code [ref=e472]: "# Anti rebond : on attend que le bouton soit relaché pour continuer"
+          - code [ref=e474]: "while touch_n.is_touched():"
+          - code [ref=e476]: pass
+          - code [ref=e478]
+          - code [ref=e480]: "# Bouton bas, on descend"
+          - code [ref=e482]: "if touch_s.is_touched():"
+          - code [ref=e484]: "if choice < len(menu)-1:"
+          - code [ref=e486]: choice = choice + 1
+          - code [ref=e488]:
+            - generic [ref=e489]: display_menu()
+          - code [ref=e491]: "while touch_s.is_touched():"
+          - code [ref=e493]: pass
+          - code [ref=e495]
+          - code [ref=e497]: "# Le bouton A est presse"
+          - code [ref=e499]: "if button_a.is_pressed():"
+          - code [ref=e501]:
+            - generic [ref=e502]: display_product(choice)
+          - code [ref=e504]: "while button_a.is_pressed():"
+          - code [ref=e506]: pass
+          - code [ref=e508]
+          - code [ref=e510]: "# J'ai essayé avec d'autre valeur, mais c'est vraiment pas assez reactif."
+          - code [ref=e512]: utime.sleep(0.05)
+          - paragraph [ref=e513]
+          - paragraph [ref=e514]
+          - paragraph [ref=e515]
+          - paragraph [ref=e516]
+      - generic [ref=e517]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e519] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e520]: "Posts: 23"
+    - generic [ref=e523]:
+      - generic [ref=e524]:
+        - generic [ref=e525]:
+          - link " Edit" [ref=e526] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272054/post/update/
+            - generic [ref=e527]: 
+            - text: Edit
+          - link "" [ref=e528] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272054/post/delete/
+            - generic [ref=e529]: 
+        - 'heading "Re: Problème à l''upload du code auto-correcteur Jason" [level=4] [ref=e530]'
+        - paragraph [ref=e531]:
+          - generic [ref=e532]:
+            - generic [ref=e533]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e534] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Nov. 13, 2024, 9:45 a.m.
+        - generic [ref=e535]:
+          - paragraph [ref=e536]: Woa... désolé pour la présentation, c'est pas trop lisible.
+          - paragraph [ref=e537]
+          - paragraph [ref=e538]: "Voici un lien pour télécharger le fichier : https://e.pcloud.link/publink/show?code=XZLrSxZp70ahDkXOgpEeUkteWcR3SxoFbjX"
+        - generic [ref=e539]:
+          - paragraph [ref=e540]: "--"
+          - paragraph [ref=e541]: Christophe Cussat-Blanc
+          - paragraph [ref=e542]: Compositeur, photographe, ancien ingénieur système et programmeur. Bref, je suis quelqu'un de compliqué... ;)
+      - generic [ref=e543]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e545] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e546]: "Posts: 23"
+    - generic [ref=e549]:
+      - generic [ref=e550]:
+        - generic [ref=e551]:
+          - link " Edit" [ref=e552] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272082/post/update/
+            - generic [ref=e553]: 
+            - text: Edit
+          - link "" [ref=e554] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272082/post/delete/
+            - generic [ref=e555]: 
+        - 'heading "Re: Problème à l''upload du code auto-correcteur Jason" [level=4] [ref=e556]'
+        - paragraph [ref=e557]:
+          - generic [ref=e558]:
+            - generic [ref=e559]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e560] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e561]:
+              - text: 
+              - generic [ref=e562]: Instructor
+            - text: on Nov. 13, 2024, 11:10 a.m.
+        - generic [ref=e563]:
+          - paragraph [ref=e564]: Hello ChrisCB,
+          - paragraph [ref=e565]:
+            - text: Il semblerait qu'un caractère un peu particulier se soit glissé dans le JSON du TP. Il s'agit de l'apostrophe (à la française)
+            - strong [ref=e566]: ’
+            - text: que l'on retrouve dans le menu avec le texte "huile d
+            - strong [ref=e567]: ’
+            - text: olive".
+          - paragraph [ref=e568]:
+            - text: Je viens de remplacer ce caractère par un simple
+            - strong [ref=e569]: "'"
+            - text: et votre code arrive désormais à être lu par l'autoccorecteur.
+          - paragraph [ref=e570]
+          - paragraph [ref=e571]: Navré pour ce petit couac, je vous laisse réésayer la correction automatique,
+          - paragraph [ref=e572]
+          - paragraph [ref=e573]: Bon MOOC,
+        - paragraph [ref=e575]: "--Baptiste"
+      - generic [ref=e576]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e578] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e579]: "Posts: 301"
+    - generic [ref=e582]:
+      - generic [ref=e583]:
+        - generic [ref=e584]:
+          - link " Edit" [ref=e585] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272084/post/update/
+            - generic [ref=e586]: 
+            - text: Edit
+          - link "" [ref=e587] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272084/post/delete/
+            - generic [ref=e588]: 
+        - 'heading "Re: Problème à l''upload du code auto-correcteur Jason" [level=4] [ref=e589]'
+        - paragraph [ref=e590]:
+          - generic [ref=e591]:
+            - generic [ref=e592]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e593] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Nov. 13, 2024, 11:19 a.m.
+        - generic [ref=e594]:
+          - paragraph [ref=e595]:
+            - text: Merci
+            - link "@bgaultier" [ref=e596] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+          - paragraph
+          - paragraph [ref=e597]: je viens de tenter à nouveau la validation et ça marche, même si ça marque que je n'ai pas respecté les consignes sous pretexte que c'est vrai (puisque j'ai ajouté quelques petites touches personnelles pour contourner des soucis avec le simulateur, ça doit être mon côté créatif)
+        - generic [ref=e598]:
+          - paragraph [ref=e599]: "--"
+          - paragraph [ref=e600]: Christophe Cussat-Blanc
+          - paragraph [ref=e601]: Compositeur, photographe, ancien ingénieur système et programmeur. Bref, je suis quelqu'un de compliqué... ;)
+        - generic [ref=e603]:
+          - generic [ref=e604]: 
+          - text: "Last edited by:"
+          - link "ChrisCB" [ref=e605] [cursor=pointer]:
+            - /url: /forum/member/profile/677082/
+          - text: on Nov. 13, 2024, 11:29 a.m., edited 1 time in total.
+      - generic [ref=e606]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e608] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e609]: "Posts: 23"
+    - generic [ref=e612]:
+      - generic [ref=e613]:
+        - generic [ref=e614]:
+          - link " Edit" [ref=e615] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272125/post/update/
+            - generic [ref=e616]: 
+            - text: Edit
+          - link "" [ref=e617] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/272125/post/delete/
+            - generic [ref=e618]: 
+        - 'heading "Re: Problème à l''upload du code auto-correcteur Jason" [level=4] [ref=e619]'
+        - paragraph [ref=e620]:
+          - generic [ref=e621]:
+            - generic [ref=e622]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e623] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e624]:
+              - text: 
+              - generic [ref=e625]: Instructor
+            - text: on Nov. 13, 2024, 2:03 p.m.
+        - generic [ref=e626]:
+          - paragraph [ref=e627]:
+            - text: Ahahahah, n'écoutez pas l'autoccorecteur dans ce cas. Il faut garder son esprit créatif
+            - img "😺" [ref=e629]
+          - paragraph [ref=e630]
+          - paragraph [ref=e631]: Bon MOOC,
+        - paragraph [ref=e633]: "--Baptiste"
+      - generic [ref=e634]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e636] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e637]: "Posts: 301"
+    - generic [ref=e640]:
+      - generic [ref=e641]:
+        - generic [ref=e642]:
+          - link " Edit" [ref=e643] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/277051/post/update/
+            - generic [ref=e644]: 
+            - text: Edit
+          - link "" [ref=e645] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/277051/post/delete/
+            - generic [ref=e646]: 
+        - 'heading "Re: Problème à l''upload du code auto-correcteur Jason" [level=4] [ref=e647]'
+        - paragraph [ref=e648]:
+          - generic [ref=e649]:
+            - generic [ref=e650]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e651] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 7, 2024, 2:58 p.m.
+        - generic [ref=e652]:
+          - paragraph [ref=e653]: "Le correcteur me dit aussi que : \"L'affichage des données JSON n'est pas conforme aux consignes\""
+          - paragraph [ref=e654]
+          - paragraph [ref=e655]: J'aimerais comprendre ce qui ne va pas.
+          - paragraph [ref=e656]
+          - paragraph [ref=e657]: "Voici le code (sans les datas):"
+          - paragraph [ref=e658]
+          - code [ref=e660]:
+            - text: menu = json.loads(json_string)
+            - generic [ref=e661]: "['results']"
+          - code [ref=e663]
+          - code [ref=e665]: choice = 0
+          - code [ref=e667]
+          - code [ref=e669]:
+            - generic [ref=e670]: def cls()
+            - text: ":"
+          - code [ref=e672]:
+            - text: print(
+            - generic [ref=e673]: "\" \\n \\n \\n \\n \\n \\n \\n \\n \\n\""
+            - text: )
+          - code [ref=e675]
+          - code [ref=e677]: "# Affichage du menu"
+          - code [ref=e679]:
+            - generic [ref=e680]: def display_menu()
+            - text: ":"
+          - code [ref=e682]:
+            - generic [ref=e683]: cls()
+          - code [ref=e685]: "for index, item in enumerate(menu):"
+          - code [ref=e687]: "if index == choice:"
+          - code [ref=e689]: print('> '+item['produit'])
+          - code [ref=e691]: "else:"
+          - code [ref=e693]: print('\v\v\v'+item['produit'])
+          - code [ref=e695]
+          - code [ref=e697]
+          - code [ref=e699]: "# Affichage d'un produit"
+          - code [ref=e701]:
+            - generic [ref=e702]: def display_product(choice)
+            - text: ":"
+          - code [ref=e704]:
+            - generic [ref=e705]: cls()
+          - code [ref=e707]:
+            - text: print(
+            - generic [ref=e708]:
+              - text: "f\"Tarif :"
+              - generic [ref=e709]: "{menu[choice]['prix_au_produit']}"
+              - text: "\""
+            - text: )
+          - code [ref=e711]:
+            - text: allergenes = menu[choice]
+            - generic [ref=e712]: "['allergenes']"
+          - code [ref=e714]: "if allergenes != None:"
+          - code [ref=e716]:
+            - generic [ref=e717]: "print(f\"Allergenes : {allergenes}\")"
+          - code [ref=e719]
+          - code [ref=e721]:
+            - generic [ref=e722]: display_menu()
+          - code [ref=e724]
+          - code [ref=e726]: "while True:"
+          - code [ref=e728]: "if thingz.touch_n.is_touched():"
+          - code [ref=e730]: "if choice > 0:"
+          - code [ref=e732]: choice = choice - 1
+          - code [ref=e734]:
+            - generic [ref=e735]: display_menu()
+          - code [ref=e737]: "while thingz.touch_n.is_touched():"
+          - code [ref=e739]: pass
+          - code [ref=e741]
+          - code [ref=e743]: "if thingz.touch_s.is_touched():"
+          - code [ref=e745]: "if choice < len(menu)-1:"
+          - code [ref=e747]: choice = choice + 1
+          - code [ref=e749]:
+            - generic [ref=e750]: display_menu()
+          - code [ref=e752]: "while thingz.touch_s.is_touched():"
+          - code [ref=e754]: pass
+          - code [ref=e756]
+          - code [ref=e758]: "if thingz.button_a.is_pressed():"
+          - code [ref=e760]:
+            - generic [ref=e761]: display_product(choice)
+          - code [ref=e763]: "while thingz.button_a.is_pressed():"
+          - code [ref=e765]: pass
+          - paragraph
+          - paragraph
+        - generic [ref=e767]:
+          - generic [ref=e768]: 
+          - text: "Last edited by:"
+          - link "Gilles57" [ref=e769] [cursor=pointer]:
+            - /url: /forum/member/profile/377300/
+          - text: on Dec. 7, 2024, 3:23 p.m., edited 1 time in total.
+      - generic [ref=e770]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e772] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e773]: "Posts: 69"
+    - generic [ref=e776]:
+      - generic [ref=e777]:
+        - generic [ref=e778]:
+          - link " Edit" [ref=e779] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/277559/post/update/
+            - generic [ref=e780]: 
+            - text: Edit
+          - link "" [ref=e781] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/277559/post/delete/
+            - generic [ref=e782]: 
+        - 'heading "Re: Problème à l''upload du code auto-correcteur Jason" [level=4] [ref=e783]'
+        - paragraph [ref=e784]:
+          - generic [ref=e785]:
+            - generic [ref=e786]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e787] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e788]:
+              - text: 
+              - generic [ref=e789]: Instructor
+            - text: on Dec. 10, 2024, 4:20 p.m.
+        - generic [ref=e790]:
+          - paragraph [ref=e791]:
+            - text: Bonsoir
+            - link "@Gilles57" [ref=e792] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: ","
+          - paragraph [ref=e793]
+          - paragraph [ref=e794]:
+            - text: Votre solution me semble tout à fait correcte mais j'ai l'impression que l'autocorrecteur attend l'affichage suivant (si vous regardez
+            - link "ma petite vidéo en haut de l'activité Wagon Bar" [ref=e795] [cursor=pointer]:
+              - /url: https://lms.fun-mooc.fr/courses/course-v1:MinesTelecom+04057+session01/jump_to/block-v1:MinesTelecom+04057+session01+type@vertical+block@0ffde2e3a62e4850bd23b9f3a83e9efd
+            - text: ") :"
+          - paragraph [ref=e796]
+          - code [ref=e798]:
+            - code [ref=e799]:
+              - text: print(
+              - generic [ref=e800]:
+                - text: "f\"Prix :"
+                - generic [ref=e801]: "{menu[choice]['prix_au_produit']}"
+                - text: euros"
+              - text: )
+          - paragraph [ref=e802]
+          - paragraph [ref=e803]:
+            - code [ref=e804]: "en lieu et place de votre ligne :"
+          - paragraph [ref=e805]
+          - code [ref=e807]:
+            - text: print(
+            - generic [ref=e808]:
+              - text: "f\"Tarif :"
+              - generic [ref=e809]: "{menu[choice]['prix_au_produit']}"
+              - text: "\""
+            - text: )
+        - paragraph [ref=e811]: "--Baptiste"
+      - generic [ref=e812]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e814] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e815]: "Posts: 301"
+  - generic [ref=e817]:
+    - link " Post reply" [ref=e818] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/probl%C3%A8me-%C3%A0-lupload-du-code-auto-correcteur-jason-132867/post/create/
+      - generic [ref=e819]: 
+      - text: Post reply
+    - button "" [ref=e821] [cursor=pointer]:
+      - generic [ref=e822]: 

@@ -1,0 +1,253 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Serveur de remplacement pour worldtimeapi" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Serveur de remplacement pour worldtimeapi" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/273832/post/delete/
+            - generic [ref=e43]: 
+        - heading "Serveur de remplacement pour worldtimeapi" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e49]:
+              - text: 
+              - generic [ref=e50]: Instructor
+            - text: on Nov. 21, 2024, 12:50 p.m.
+        - generic [ref=e51]:
+          - paragraph [ref=e52]: Re,
+          - paragraph [ref=e53]
+          - paragraph [ref=e54]:
+            - text: "J'ai mis en place cette url pour remplacer le serveur défaillant worldtimeapi :"
+            - link "https://api.emoncms.fr/time" [ref=e55] [cursor=pointer]:
+              - /url: https://api.emoncms.fr/time
+          - paragraph [ref=e56]: Pouvez-vous tester cette url dans vos programmes micropython et dans vos navigateur web et m'indiquer si cela fonctionne ?
+          - paragraph [ref=e57]
+          - paragraph [ref=e58]
+        - paragraph [ref=e60]: "--Baptiste"
+      - generic [ref=e61]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e63] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e64]: "Posts: 301"
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - link " Edit" [ref=e70] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/273882/post/update/
+            - generic [ref=e71]: 
+            - text: Edit
+          - link "" [ref=e72] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/273882/post/delete/
+            - generic [ref=e73]: 
+        - 'heading "Re: Serveur de remplacement pour worldtimeapi" [level=4] [ref=e74]'
+        - paragraph [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e78] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Nov. 21, 2024, 4:35 p.m.
+        - generic [ref=e79]:
+          - paragraph [ref=e80]: Il semblerait que ça fonctionne
+          - paragraph [ref=e81]
+          - paragraph [ref=e82]
+          - img [ref=e83]
+          - paragraph [ref=e84]
+        - generic [ref=e85]:
+          - paragraph [ref=e86]: "--"
+          - paragraph [ref=e87]: Christophe Cussat-Blanc
+          - paragraph [ref=e88]: Compositeur, photographe, ancien ingénieur système et programmeur. Bref, je suis quelqu'un de compliqué... ;)
+      - generic [ref=e89]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e91] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e92]: "Posts: 23"
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - link " Edit" [ref=e98] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/273895/post/update/
+            - generic [ref=e99]: 
+            - text: Edit
+          - link "" [ref=e100] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/273895/post/delete/
+            - generic [ref=e101]: 
+        - 'heading "Re: Serveur de remplacement pour worldtimeapi" [level=4] [ref=e102]'
+        - paragraph [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e106] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Nov. 21, 2024, 6:27 p.m.
+        - generic [ref=e107]:
+          - paragraph [ref=e108]: Bonjour,
+          - paragraph [ref=e109]: ça
+          - code [ref=e111]: Réponse ok sur Android (en UTC comme votre serveur, j'ai posté ça à 19h30)
+          - code [ref=e113]: "{ \"unixtime\": 1732213422939, \"time\": \"2024-11-21T18:23:42.939Z\" }"
+          - code [ref=e115]
+        - generic [ref=e117]:
+          - generic [ref=e118]: 
+          - text: "Last edited by:"
+          - link "fun_bbe" [ref=e119] [cursor=pointer]:
+            - /url: /forum/member/profile/12271/
+          - text: on Nov. 21, 2024, 6:47 p.m., edited 5 times in total.
+      - generic [ref=e120]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e122] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e123]: "Posts: 44"
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - link " Edit" [ref=e129] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/273992/post/update/
+            - generic [ref=e130]: 
+            - text: Edit
+          - link "" [ref=e131] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/273992/post/delete/
+            - generic [ref=e132]: 
+        - 'heading "Re: Serveur de remplacement pour worldtimeapi" [level=4] [ref=e133]'
+        - paragraph [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e137] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e138]:
+              - text: 
+              - generic [ref=e139]: Instructor
+            - text: on Nov. 22, 2024, 8:46 a.m.
+        - paragraph [ref=e141]: Merci pour vos retours, je vais donc remplacer cela dans les TPs et dans la documentation !
+        - paragraph [ref=e143]: "--Baptiste"
+      - generic [ref=e144]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e146] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e147]: "Posts: 301"
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - link " Edit" [ref=e153] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/274154/post/update/
+            - generic [ref=e154]: 
+            - text: Edit
+          - link "" [ref=e155] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/274154/post/delete/
+            - generic [ref=e156]: 
+        - 'heading "Re: Serveur de remplacement pour worldtimeapi" [level=4] [ref=e157]'
+        - paragraph [ref=e158]:
+          - generic [ref=e159]:
+            - generic [ref=e160]: 
+            - text: "By:"
+            - link "Manianis" [ref=e161] [cursor=pointer]:
+              - /url: /forum/member/profile/88813/
+            - text: on Nov. 23, 2024, 4:52 a.m.
+        - generic [ref=e162]:
+          - paragraph [ref=e163]: Bonjour,
+          - paragraph [ref=e164]: En utilisant la nouvelle adresse, on ne peut pas encore valider ce TP.
+          - img [ref=e165]
+          - paragraph [ref=e166]
+      - generic [ref=e167]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/88813/
+        - link "Manianis" [ref=e169] [cursor=pointer]:
+          - /url: /forum/member/profile/88813/
+        - generic [ref=e170]: "Posts: 6"
+    - generic [ref=e173]:
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - link " Edit" [ref=e176] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/274159/post/update/
+            - generic [ref=e177]: 
+            - text: Edit
+          - link "" [ref=e178] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/274159/post/delete/
+            - generic [ref=e179]: 
+        - 'heading "Re: Serveur de remplacement pour worldtimeapi" [level=4] [ref=e180]'
+        - paragraph [ref=e181]:
+          - generic [ref=e182]:
+            - generic [ref=e183]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e184] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e185]:
+              - text: 
+              - generic [ref=e186]: Instructor
+            - text: on Nov. 23, 2024, 7:42 a.m.
+        - generic [ref=e187]:
+          - paragraph [ref=e188]:
+            - text: Bonjour
+            - link "@Manianis" [ref=e189] [cursor=pointer]:
+              - /url: /forum/member/profile/88813/
+            - text: ","
+          - paragraph [ref=e190]
+          - paragraph [ref=e191]:
+            - text: Vous parlez bien de l'activité
+            - link "\"Horodatage ferroviaire\"" [ref=e192] [cursor=pointer]:
+              - /url: https://lms.fun-mooc.fr/courses/course-v1:MinesTelecom+04057+session01/courseware/5b837c07453048e08dd7d62790f80732/0e3b280d1a2543a592a497dee4006ba4/
+            - text: ", avez-vous bien rafraichit la page contenant cette activité ?"
+          - paragraph [ref=e193]: Car j'ai procédé au remplacement du TP hier midi, peut-être que c'est l'ancien autocorecteur qui affiche l'erreur que vous montrez dans votre message ?
+          - paragraph [ref=e194]
+          - paragraph [ref=e195]:
+            - text: Navré pour le désagrément dans tous les cas
+            - img "😅" [ref=e197]
+        - paragraph [ref=e199]: "--Baptiste"
+      - generic [ref=e200]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e202] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e203]: "Posts: 301"
+  - generic [ref=e205]:
+    - link " Post reply" [ref=e206] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/post/create/
+      - generic [ref=e207]: 
+      - text: Post reply
+    - button "" [ref=e209] [cursor=pointer]:
+      - generic [ref=e210]: 

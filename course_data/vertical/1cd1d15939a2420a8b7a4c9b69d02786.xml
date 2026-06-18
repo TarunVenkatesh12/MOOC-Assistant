@@ -1,0 +1,3 @@
+<vertical display_name="Accéder au forum général du cours">
+  <lti_consumer url_name="8884b1d8c1144cbab6403f65f8d18289" xblock-family="xblock.v1" display_name="Forum" ask_to_send_username="true" description="Ashley forum" ask_to_send_email="true" lti_id="ashley_production" launch_target="iframe" launch_url="https://forum.fun-mooc.fr/lti/forum/354b9b23-0e45-3b84-0850-c1af955714f0"/>
+</vertical>

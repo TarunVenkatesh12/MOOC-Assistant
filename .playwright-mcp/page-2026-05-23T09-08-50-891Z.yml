@@ -1,0 +1,394 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "[Comportement Galaxia] Impossible d'envoyer une requête HTTP(S)" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "[Comportement Galaxia] Impossible d'envoyer une requête HTTP(S)" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278144/post/delete/
+            - generic [ref=e43]: 
+        - heading "[Comportement Galaxia] Impossible d'envoyer une requête HTTP(S)" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 13, 2024, 6:48 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Bonjour,
+          - paragraph [ref=e51]
+          - paragraph [ref=e52]: J'ai reçu le kit Vittascience hier et depuis je suis parti à la découverte. C'est mieux de tester en vrai!
+          - paragraph [ref=e53]: J'ai passé en revue les exercices du cours 1 (allumer une led, faire tourner un servo...). Amusant. (je suis totalement néophyte dans ce domaine)
+          - paragraph [ref=e54]
+          - paragraph [ref=e55]: "[Vu] Mais, 1e question: en utililsant l'interface vittascience pour uploader les programmes, la carte redémarre systématiquement à l'issu du chargement."
+          - paragraph [ref=e56]: Est-ce un comportement normal/voulu?
+          - paragraph [ref=e57]:
+            - text: "[EDIT]"
+            - emphasis [ref=e58]: "Bon là! J'ai compris en étudiant la trace lors de l'upload: il y a un machine.reset()"
+          - paragraph [ref=e59]
+          - paragraph [ref=e60]: Aujourd'hui j'ai voulu tester les aspects réseau Wifi. Scan et connexion OK! quand je fais en pas à pas avec la console ou en programmation
+          - paragraph [ref=e61]: Mais en voulant tester le programme d'acquisition de l'heure, la carte redémarre systématiquement après la connexion au réseau Wifi. Le GET n'est jamais exécuté, soit ça redémarre avant, ou pendant l'exécution.
+          - paragraph [ref=e62]: Est-ce un problème de la carte Galaxia (mémoire ou wifi)?
+          - paragraph [ref=e63]: "[EDIT] Voir mes autres posts car j'ai un peu avancé depuis... mais sans trouver la panne!"
+          - paragraph [ref=e64]
+          - paragraph [ref=e65]: Enfin, lorsque le main.py plante et que la carte redémarre, le programme est systématiquement relancé. Je n'ai pas trouvé de moyen d'arrêter ce bouclage infini que de reflasher la carte (malgré que parfois j'arrive à supprimer le fichier main.py quand le navigateur windows apparait à la reconnexion USB.
+          - paragraph [ref=e66]
+          - paragraph [ref=e67]:
+            - text: En attendant mieux, je vais me concentrer sur les activités de la carte sans le réseau.
+            - img "😕" [ref=e69]
+          - paragraph [ref=e70]:
+            - text: "[EDIT] Mais je n'ai pas pu résister"
+            - img "😂" [ref=e72]
+            - img "😂" [ref=e74]
+            - img "😂" [ref=e76]
+          - paragraph [ref=e77]
+          - paragraph [ref=e78]: J'espère que l'un d'entre vous pourra me partager son expérience pour expliquer mes déboires.
+          - paragraph [ref=e79]:
+            - text: "[EDIT]"
+            - emphasis [ref=e80]: Au moins l'équipe pédagogique
+            - img "😉" [ref=e82]
+          - paragraph [ref=e83]
+          - paragraph [ref=e84]: Merci
+        - generic [ref=e86]:
+          - generic [ref=e87]: 
+          - text: "Last edited by:"
+          - link "tidjidi" [ref=e88] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - text: on Dec. 15, 2024, 10:50 p.m., edited 4 times in total.
+      - generic [ref=e89]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e91] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e92]: "Posts: 53"
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - link " Edit" [ref=e98] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278206/post/update/
+            - generic [ref=e99]: 
+            - text: Edit
+          - link "" [ref=e100] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278206/post/delete/
+            - generic [ref=e101]: 
+        - 'heading "Re: Comportement Galaxia" [level=4] [ref=e102]'
+        - paragraph [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e106] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 14, 2024, 9:23 p.m.
+        - generic [ref=e107]:
+          - paragraph [ref=e108]: Hmmm! J'ai un début de réponse pour mon problème de reboot sur une requête réseau (module requests).
+          - paragraph [ref=e109]: J'avais flashé la version 2.0.0 sur la galaxia, et en essayant une version plus ancienne (la 1.0.0 beta7). Je n'ai plus ce comportement.
+          - paragraph [ref=e110]: Par contre, apparemment le module tls est absent de la beta 7 et je ne peux donc pas accéder au web en HTTPS, et je ne l'ai pas trouvé sur le github de micropython (bizarre! puisque le module est mentionné dans le module requests du site micropython).
+          - paragraph [ref=e111]: Est-ce que quelqu'un a flashé la version 2.0.0 sur sa galaxia et a pu (ou pas) faire des requêtes HTTPS?
+      - generic [ref=e112]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e114] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e115]: "Posts: 53"
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - link " Edit" [ref=e121] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278208/post/update/
+            - generic [ref=e122]: 
+            - text: Edit
+          - link "" [ref=e123] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278208/post/delete/
+            - generic [ref=e124]: 
+        - 'heading "Re: Comportement Galaxia" [level=4] [ref=e125]'
+        - paragraph [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e129] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 14, 2024, 10:36 p.m.
+        - generic [ref=e130]:
+          - paragraph [ref=e131]: "Dernières investigations:"
+          - paragraph [ref=e132]: J'ai re-flashé la version 2.0.0 micropython sur la galaxia, et lorsque j'effectue une requête (GET), elle ne reboot plus sur requête HTTP (reboot seulement en HTTPS), mais elle se plante. Et à l'endroit que j'avais localisé lors des reboots.
+          - paragraph [ref=e133]: "J'ai ce message:"
+          - code [ref=e135]: "Traceback (most recent call last): File \"<stdin>\", line 1, in <module> File \"requests/__init__.py\", line 201, in get File \"requests/__init__.py\", line 79, in request OSError: -202"
+          - code [ref=e137]: "[INFO] Impossible d'accéder à Internet. Veuillez vérifier votre adresse IP et votre passerelle dans la fonction Connect Station."
+          - code [ref=e139]:
+            - text: "[HELP] To find the gateway of network on Windows, use"
+            - strong [ref=e140]: ipconfig
+            - text: command in a prompt.
+          - paragraph [ref=e141]: "et l'endroit incriminé (ligne 79 du module requests) dans les 2 cas est:"
+          - code [ref=e143]: ai = socket.getaddrinfo(host, port, 0, socket.SOCK_STREAM)
+          - paragraph [ref=e144]: Sinon, je confirme que la carte est bien connectée en wifi; (je peux le voir sur le DNS de la box)
+          - paragraph [ref=e145]: "C'est donc au niveau de la carte qu'il ne sait/peux pas ouvrir de socket de connexion pour une raison mystérieuse! J'abdique pour aujourd'hui, je rechercherai demain la signification de l'erreur OSError: -202."
+        - generic [ref=e147]:
+          - generic [ref=e148]: 
+          - text: "Last edited by:"
+          - link "tidjidi" [ref=e149] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - text: on Dec. 15, 2024, 6:22 p.m., edited 3 times in total.
+      - generic [ref=e150]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e152] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e153]: "Posts: 53"
+    - generic [ref=e156]:
+      - generic [ref=e157]:
+        - generic [ref=e158]:
+          - link " Edit" [ref=e159] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278317/post/update/
+            - generic [ref=e160]: 
+            - text: Edit
+          - link "" [ref=e161] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278317/post/delete/
+            - generic [ref=e162]: 
+        - 'heading "Re: [Comportement Galaxia] Impossible d''envoyer une requête HTTP(S)" [level=4] [ref=e163]'
+        - paragraph [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e166]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e167] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e168]:
+              - text: 
+              - generic [ref=e169]: Instructor
+            - text: on Dec. 16, 2024, 6:09 a.m.
+        - generic [ref=e170]:
+          - paragraph [ref=e171]: Bonjour,
+          - paragraph [ref=e172]
+          - paragraph [ref=e173]:
+            - text: Je vais avoir besoin d'un peu de temps pour investiguer car je n'ai jamais vu ces comportements avant la version 2.0.0
+            - img "🤔" [ref=e175]
+          - paragraph [ref=e176]:
+            - text: Les deux MOOC ont été testés avec la version 1.0.0-beta.7 et je vous confirme qu'une requête HTTP ne doit pas faire redémarrer la carte. Quand à l'établissement d'un contexte sécurisé HTTPS dans cette version 1.0.0-beta.7, la limite risque d'être la mémoire vive (
+            - emphasis [ref=e177]: RAM
+            - text: ) allouée à
+            - emphasis [ref=e178]: SSL
+            - text: ou
+            - emphasis [ref=e179]: TLS
+            - text: qui vous laissera peu de place pour vos programmes.
+          - paragraph [ref=e180]
+          - paragraph [ref=e181]:
+            - text: Je fais quelques tests et je reviens vers vous
+            - img "👍" [ref=e183]
+          - paragraph [ref=e184]
+          - paragraph [ref=e185]: Bon courage pour la fin du MOOC (que je vous recommande de valider avec le microgiciel 1.0.0-beta.7 ou avec le simulateur),
+        - paragraph [ref=e187]: "--Baptiste"
+      - generic [ref=e188]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e190] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e191]: "Posts: 301"
+    - generic [ref=e194]:
+      - generic [ref=e195]:
+        - generic [ref=e196]:
+          - link " Edit" [ref=e197] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278453/post/update/
+            - generic [ref=e198]: 
+            - text: Edit
+          - link "" [ref=e199] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278453/post/delete/
+            - generic [ref=e200]: 
+        - 'heading "Re: [Comportement Galaxia] Impossible d''envoyer une requête HTTP(S)" [level=4] [ref=e201]'
+        - paragraph [ref=e202]:
+          - generic [ref=e203]:
+            - generic [ref=e204]: 
+            - text: "By:"
+            - link "bdiemert" [ref=e205] [cursor=pointer]:
+              - /url: /forum/member/profile/11326/
+            - text: on Dec. 16, 2024, 9:52 p.m.
+        - generic [ref=e206]:
+          - paragraph [ref=e207]: Bonjour,
+          - paragraph [ref=e208]: "Je ne suis pas très content du temps perdu avec cette carte Galaxia Thingz (je pensais qu'elle allait m'amuser), j'ai exactement les mêmes problèmes que tidjidi : incompatibilité de la librairie requests avec la version micropython 2.0.0. J'avais déjà galéré avec les versions 1.0.0-beta.8 et 9. Je n'ai pas trop envie de retourner à la version micropython 1.0.0-beta.7 qui, quant à elle, manque de librairies et de fonctionalités. J'ai suivi pas mal de Moocs MinesTelecom qui jusqu'à présent m'ont satisfait. J'arrête donc ce mooc et la carte Galaxia pour retourner directement à la programmation ESP32 qui elle ne pose aucun problème d'environnement de programmation, de test, de simulation et de diffusion."
+          - paragraph [ref=e209]
+          - paragraph [ref=e210]: Cordialement.
+          - paragraph [ref=e211]
+          - paragraph [ref=e212]: "PS : je reviendrais sans doute l'an prochain si les environnements de ce cours sont débogués."
+      - generic [ref=e213]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/11326/
+        - link "bdiemert" [ref=e215] [cursor=pointer]:
+          - /url: /forum/member/profile/11326/
+        - generic [ref=e216]: "Posts: 2"
+    - generic [ref=e219]:
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - link " Edit" [ref=e222] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278475/post/update/
+            - generic [ref=e223]: 
+            - text: Edit
+          - link "" [ref=e224] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278475/post/delete/
+            - generic [ref=e225]: 
+        - 'heading "Re: [Comportement Galaxia] Impossible d''envoyer une requête HTTP(S)" [level=4] [ref=e226]'
+        - paragraph [ref=e227]:
+          - generic [ref=e228]:
+            - generic [ref=e229]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e230] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e231]:
+              - text: 
+              - generic [ref=e232]: Instructor
+            - text: on Dec. 17, 2024, 6:20 a.m.
+        - generic [ref=e233]:
+          - paragraph [ref=e234]:
+            - text: Bonjour
+            - link "@bdiemert" [ref=e235] [cursor=pointer]:
+              - /url: /forum/member/profile/11326/
+          - paragraph [ref=e236]
+          - paragraph [ref=e237]:
+            - text: Navré d'aprendre cela mais je ne peux que vous rejoindre sur le fait que beaucoup des outils matériels et logiciels de ce MOOC sont encore en développement (le nombre d'occurences du mot
+            - emphasis [ref=e238]: beta
+            - text: dans nos activités est un bon indicateur de cela).
+          - paragraph [ref=e239]:
+            - text: Cela dit, c'est aussi grâce à ces développements que ce MOOCs proposent des activités pratiques, interactives et, on l'espère, plus sympas que de simples QCMs
+            - img "😸" [ref=e241]
+          - paragraph [ref=e242]
+          - paragraph [ref=e243]: On se retrouve donc l'année prochaine pour une prochaine session !
+        - paragraph [ref=e245]: "--Baptiste"
+      - generic [ref=e246]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e248] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e249]: "Posts: 301"
+    - generic [ref=e252]:
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - link " Edit" [ref=e255] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278569/post/update/
+            - generic [ref=e256]: 
+            - text: Edit
+          - link "" [ref=e257] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278569/post/delete/
+            - generic [ref=e258]: 
+        - 'heading "Re: [Comportement Galaxia] Impossible d''envoyer une requête HTTP(S)" [level=4] [ref=e259]'
+        - paragraph [ref=e260]:
+          - generic [ref=e261]:
+            - generic [ref=e262]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e263] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 17, 2024, 5:54 p.m.
+        - generic [ref=e264]:
+          - paragraph [ref=e265]:
+            - link "@bdiemert" [ref=e266] [cursor=pointer]:
+              - /url: https://forum.fun-mooc.fr/forum/member/profile/11326/
+              - strong [ref=e267]: "@bdiemert"
+            - strong [ref=e268]
+            - text: Bonsoir, avez-vous une formation à conseiller pour la programmation de ESP32 ?
+          - paragraph [ref=e269]: Quel matériel utilisez-vous ?
+      - generic [ref=e270]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e272] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e273]: "Posts: 69"
+    - generic [ref=e276]:
+      - generic [ref=e277]:
+        - generic [ref=e278]:
+          - link " Edit" [ref=e279] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278575/post/update/
+            - generic [ref=e280]: 
+            - text: Edit
+          - link "" [ref=e281] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278575/post/delete/
+            - generic [ref=e282]: 
+        - 'heading "Re: [Comportement Galaxia] Impossible d''envoyer une requête HTTP(S)" [level=4] [ref=e283]'
+        - paragraph [ref=e284]:
+          - generic [ref=e285]:
+            - generic [ref=e286]: 
+            - text: "By:"
+            - link "fun_bbe" [ref=e287] [cursor=pointer]:
+              - /url: /forum/member/profile/12271/
+            - text: on Dec. 17, 2024, 6:57 p.m.
+        - generic [ref=e288]:
+          - paragraph [ref=e289]: Bonsoir
+          - paragraph [ref=e290]: Le site uPesy propose quelques cartes ESP32 "made in France" et également plusieurs tutos de prise en main très complets.
+          - paragraph [ref=e291]
+      - generic [ref=e292]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/12271/
+        - link "fun_bbe" [ref=e294] [cursor=pointer]:
+          - /url: /forum/member/profile/12271/
+        - generic [ref=e295]: "Posts: 44"
+    - generic [ref=e298]:
+      - generic [ref=e299]:
+        - generic [ref=e300]:
+          - link " Edit" [ref=e301] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278638/post/update/
+            - generic [ref=e302]: 
+            - text: Edit
+          - link "" [ref=e303] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/278638/post/delete/
+            - generic [ref=e304]: 
+        - 'heading "Re: [Comportement Galaxia] Impossible d''envoyer une requête HTTP(S)" [level=4] [ref=e305]'
+        - paragraph [ref=e306]:
+          - generic [ref=e307]:
+            - generic [ref=e308]: 
+            - text: "By:"
+            - link "Gilles57" [ref=e309] [cursor=pointer]:
+              - /url: /forum/member/profile/377300/
+            - text: on Dec. 18, 2024, 9:05 a.m.
+        - paragraph [ref=e311]:
+          - text: "@"
+          - link "fun_bbe" [ref=e312] [cursor=pointer]:
+            - /url: https://forum.fun-mooc.fr/forum/member/profile/12271/
+          - text: ": Merci"
+      - generic [ref=e313]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/377300/
+        - link "Gilles57" [ref=e315] [cursor=pointer]:
+          - /url: /forum/member/profile/377300/
+        - generic [ref=e316]: "Posts: 69"
+  - generic [ref=e318]:
+    - link " Post reply" [ref=e319] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/post/create/
+      - generic [ref=e320]: 
+      - text: Post reply
+    - button "" [ref=e322] [cursor=pointer]:
+      - generic [ref=e323]: 

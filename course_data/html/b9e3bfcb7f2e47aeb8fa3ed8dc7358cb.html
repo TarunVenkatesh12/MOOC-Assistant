@@ -1,0 +1,18 @@
+<h3>S'assurer que le serveur r&eacute;pond correctement</h3>
+<p>Dans le code pr&eacute;c&eacute;dent, nous sommes s&ucirc;rs que les couches Wifi et IP sont fonctionnelles, il nous reste maintenant &agrave; tester que le serveur nous r&eacute;pond correctement. Nous viendrons pour cela tester deux choses :</p>
+<ol>
+<li>Le code HTTP renvoy&eacute; par le serveur. Ce code permet d'informer les clients (et donc, notre carte Galaxia) si la requ&ecirc;te a fonctionn&eacute; ou si celle-ci a &eacute;chou&eacute;. En cas d'erreur, le code nous permettra m&ecirc;me d'en savoir un peu plus sur la nature de l'erreur. Voici une liste des codes les plus courants sont :<br />
+<ul>
+<li><code>200</code> : succ&egrave;s de la requ&ecirc;te ;</li>
+<li><code>301</code> et <code>302</code> : redirection, respectivement permanente et temporaire ;</li>
+<li><code>401</code> : utilisateur non authentifi&eacute; ;</li>
+<li><code>403</code> : acc&egrave;s refus&eacute; ;</li>
+<li><code>404</code> : ressource non trouv&eacute;e ;</li>
+<li><code>500, 502</code> et <code>503</code> : erreurs serveur ;</li>
+<li><code>504</code> : le serveur n'a pas r&eacute;pondu.</li>
+</ul>
+▶️ Pour une liste exhaustive des codes HTTP, vous pouvez vous reporter &agrave; <a href="https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP" target="_blank">cette fiche Wikip&eacute;dia</a>.</li>
+<li>Le contenu de la r&eacute;ponse du serveur. M&ecirc;me si la requ&ecirc;te HTTP &eacute;choue, le serveur renverra la plupart du temps un texte explicatif sur l'erreur rencontr&eacute;e. Par exemple :<code>{"success":false,"message":"L'identifiant ou le mot de passe saisi est vide"}</code> lorsque vous omettez votre cl&eacute; d'API dans une requ&ecirc;te &agrave; emoncms.fr.</li>
+</ol>
+<p>Dans l'exemple ci-dessous, nous viendrons v&eacute;rifier apr&egrave;s chaque envoi de donn&eacute;es le code HTTP et le contenu textuel re&ccedil;us du serveur. Si ces tests sont concluants alors on allumera la LED RGB de la Galaxia en vert pendant un court instant sinon la LED passera en rouge.</p>
+<p><strong>⚠️ Attention :</strong> N'oubliez pas de modifier votre cl&eacute; d'API dans le programme suivant.</p>

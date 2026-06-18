@@ -1,0 +1,512 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - 'link "Autocorrecteur Activité : Le menu du wagon bar" [ref=e14] [cursor=pointer]':
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - 'heading "Autocorrecteur Activité : Le menu du wagon bar" [level=1] [ref=e24]'
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/272836/post/delete/
+            - generic [ref=e43]: 
+        - 'heading "Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e44]'
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "bibimooc" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/433967/
+            - text: on Nov. 17, 2024, 2:20 p.m.
+        - paragraph [ref=e50]: Bonjour, en faisant l'exercice du wagon bar, j'ai voulu essayé de valider déja une partie de ma reflexion. Et le correcteur bien qu'ayant la réponse incomplète m'a validé 10 points.
+        - generic [ref=e52]:
+          - generic [ref=e53]: 
+          - text: "Last edited by:"
+          - link "bibimooc" [ref=e54] [cursor=pointer]:
+            - /url: /forum/member/profile/433967/
+          - text: on Nov. 17, 2024, 2:20 p.m., edited 1 time in total.
+      - generic [ref=e55]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/433967/
+        - link "bibimooc" [ref=e57] [cursor=pointer]:
+          - /url: /forum/member/profile/433967/
+        - generic [ref=e58]: "Posts: 4"
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - link " Edit" [ref=e64] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/272921/post/update/
+            - generic [ref=e65]: 
+            - text: Edit
+          - link "" [ref=e66] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/272921/post/delete/
+            - generic [ref=e67]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e68]'
+        - paragraph [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e72] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Nov. 18, 2024, 6:03 a.m.
+        - paragraph [ref=e74]: J'en ai eu 80 avec le code complet ;)
+        - generic [ref=e75]:
+          - paragraph [ref=e76]: "--"
+          - paragraph [ref=e77]: Christophe Cussat-Blanc
+          - paragraph [ref=e78]: Compositeur, photographe, ancien ingénieur système et programmeur. Bref, je suis quelqu'un de compliqué... ;)
+      - generic [ref=e79]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e81] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e82]: "Posts: 23"
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - link " Edit" [ref=e88] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273086/post/update/
+            - generic [ref=e89]: 
+            - text: Edit
+          - link "" [ref=e90] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273086/post/delete/
+            - generic [ref=e91]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e92]'
+        - paragraph [ref=e93]:
+          - generic [ref=e94]:
+            - generic [ref=e95]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e96] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e97]:
+              - text: 
+              - generic [ref=e98]: Instructor
+            - text: on Nov. 18, 2024, 2:01 p.m.
+        - generic [ref=e99]:
+          - paragraph [ref=e100]: Ahahahah, étonnant en effet de voir un autocorrecteur si généreux !
+          - paragraph [ref=e101]
+          - paragraph [ref=e102]:
+            - text: Je regarde ça
+            - img "👍" [ref=e104]
+        - paragraph [ref=e106]: "--Baptiste"
+      - generic [ref=e107]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e109] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e110]: "Posts: 301"
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - link " Edit" [ref=e116] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273093/post/update/
+            - generic [ref=e117]: 
+            - text: Edit
+          - link "" [ref=e118] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273093/post/delete/
+            - generic [ref=e119]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e120]'
+        - paragraph [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e124] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e125]:
+              - text: 
+              - generic [ref=e126]: Instructor
+            - text: on Nov. 18, 2024, 2:21 p.m.
+        - generic [ref=e127]:
+          - paragraph [ref=e128]: Pourriez-vous refaire un essai car je ne suis pas sûr de comprendre pourquoi l'autocorrecteurn note sur 100 plutôt que sur 10 ?
+          - paragraph [ref=e129]
+          - paragraph [ref=e130]:
+            - text: Merci
+            - img "😺" [ref=e132]
+        - paragraph [ref=e134]: "--Baptiste"
+      - generic [ref=e135]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e137] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e138]: "Posts: 301"
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - link " Edit" [ref=e144] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273488/post/update/
+            - generic [ref=e145]: 
+            - text: Edit
+          - link "" [ref=e146] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273488/post/delete/
+            - generic [ref=e147]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e148]'
+        - paragraph [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]: 
+            - text: "By:"
+            - link "ChrisCB" [ref=e152] [cursor=pointer]:
+              - /url: /forum/member/profile/677082/
+            - text: on Nov. 19, 2024, 10:41 p.m.
+        - paragraph [ref=e154]: Je viens de valider à nouveau le code et j'ai toujours un 80/10.
+        - generic [ref=e155]:
+          - paragraph [ref=e156]: "--"
+          - paragraph [ref=e157]: Christophe Cussat-Blanc
+          - paragraph [ref=e158]: Compositeur, photographe, ancien ingénieur système et programmeur. Bref, je suis quelqu'un de compliqué... ;)
+      - generic [ref=e159]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/677082/
+        - link "ChrisCB" [ref=e161] [cursor=pointer]:
+          - /url: /forum/member/profile/677082/
+        - generic [ref=e162]: "Posts: 23"
+    - generic [ref=e165]:
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - link " Edit" [ref=e168] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273668/post/update/
+            - generic [ref=e169]: 
+            - text: Edit
+          - link "" [ref=e170] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273668/post/delete/
+            - generic [ref=e171]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e172]'
+        - paragraph [ref=e173]:
+          - generic [ref=e174]:
+            - generic [ref=e175]: 
+            - text: "By:"
+            - link "bibimooc" [ref=e176] [cursor=pointer]:
+              - /url: /forum/member/profile/433967/
+            - text: on Nov. 20, 2024, 4:11 p.m.
+        - generic [ref=e177]:
+          - paragraph [ref=e178]: Bonjour
+          - paragraph [ref=e179]
+          - paragraph [ref=e180]: Effectivement en postant 3 lignes de code
+          - paragraph [ref=e181]
+          - heading "JSON et les argonautes 40 of 10 possible points(40/10) 400%" [level=3] [ref=e182]:
+            - link "JSON et les argonautes 40 of 10 possible points" [ref=e183] [cursor=pointer]:
+              - /url: https://lms.fun-mooc.fr/courses/course-v1:MinesTelecom+04057+session01/courseware/ba1e4a1df58c4ab3b14dac8820203727/0c1aa63a62574af7a84ce8f3f847f531/
+            - text: (40/10) 400%
+          - paragraph [ref=e184]:
+            - text: Travaux pratiques
+            - emphasis [ref=e185]: Echéance le déc 20, 2024 at 23:00 UTC
+          - heading "Score aux exercices:" [level=3] [ref=e186]
+          - list [ref=e187]:
+            - listitem [ref=e188]: 40/10
+            - listitem [ref=e189]
+      - generic [ref=e190]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/433967/
+        - link "bibimooc" [ref=e192] [cursor=pointer]:
+          - /url: /forum/member/profile/433967/
+        - generic [ref=e193]: "Posts: 4"
+    - generic [ref=e196]:
+      - generic [ref=e197]:
+        - generic [ref=e198]:
+          - link " Edit" [ref=e199] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273797/post/update/
+            - generic [ref=e200]: 
+            - text: Edit
+          - link "" [ref=e201] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273797/post/delete/
+            - generic [ref=e202]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e203]'
+        - paragraph [ref=e204]:
+          - generic [ref=e205]:
+            - generic [ref=e206]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e207] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e208]:
+              - text: 
+              - generic [ref=e209]: Instructor
+            - text: on Nov. 21, 2024, 10:14 a.m.
+        - generic [ref=e210]:
+          - paragraph [ref=e211]: Ahah, je ne m'explique toujours pas ce comportement. Pour certain·es apprenant·es, ce TP est noté sur 10 et pour d'autres sur 100... Je continue d'investiguer...
+          - paragraph [ref=e212]
+          - paragraph [ref=e213]:
+            - text: Pouvez-vous poster ici votre code
+            - link "@bibimooc" [ref=e214] [cursor=pointer]:
+              - /url: /forum/member/profile/433967/
+            - text: "?"
+          - paragraph [ref=e215]
+          - paragraph [ref=e216]: Merci et bon MOOC,
+        - paragraph [ref=e218]: "--Baptiste"
+      - generic [ref=e219]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e221] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e222]: "Posts: 301"
+    - generic [ref=e225]:
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - link " Edit" [ref=e228] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273807/post/update/
+            - generic [ref=e229]: 
+            - text: Edit
+          - link "" [ref=e230] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273807/post/delete/
+            - generic [ref=e231]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e232]'
+        - paragraph [ref=e233]:
+          - generic [ref=e234]:
+            - generic [ref=e235]: 
+            - text: "By:"
+            - link "bibimooc" [ref=e236] [cursor=pointer]:
+              - /url: /forum/member/profile/433967/
+            - text: on Nov. 21, 2024, 10:31 a.m.
+        - generic [ref=e237]:
+          - paragraph [ref=e238]: "```python"
+          - paragraph [ref=e239]: from thingz import *
+          - paragraph [ref=e240]
+          - paragraph [ref=e241]: "# On importe le module json"
+          - paragraph [ref=e242]: import json
+          - paragraph [ref=e243]
+          - paragraph [ref=e244]: "# On utilise la fonction json.loads() pour convertir le texte en un dictionnaire python"
+          - paragraph [ref=e245]: objects_data = json.loads(json_string)
+          - paragraph [ref=e246]
+          - paragraph [ref=e247]: "# Extraction de la liste des plats"
+          - paragraph [ref=e248]: "while True:"
+          - paragraph [ref=e249]: "def display_menu():"
+          - paragraph [ref=e250]: "if button_a.is_pressed():"
+          - paragraph [ref=e251]: "for key in objects_data[\"results\"]:"
+          - paragraph [ref=e252]: print(key["produit"])
+          - paragraph [ref=e253]: "#if button_a.is_pressed():"
+          - paragraph [ref=e254]
+          - paragraph [ref=e255]: display_menu()
+          - paragraph [ref=e256]: "```"
+          - paragraph [ref=e257]: C'est court mais sur d'autres exercices je validais au coup par coup :-)
+        - generic [ref=e259]:
+          - generic [ref=e260]: 
+          - text: "Last edited by:"
+          - link "bibimooc" [ref=e261] [cursor=pointer]:
+            - /url: /forum/member/profile/433967/
+          - text: on Nov. 21, 2024, 10:32 a.m., edited 1 time in total.
+      - generic [ref=e262]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/433967/
+        - link "bibimooc" [ref=e264] [cursor=pointer]:
+          - /url: /forum/member/profile/433967/
+        - generic [ref=e265]: "Posts: 4"
+    - generic [ref=e268]:
+      - generic [ref=e269]:
+        - generic [ref=e270]:
+          - link " Edit" [ref=e271] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273826/post/update/
+            - generic [ref=e272]: 
+            - text: Edit
+          - link "" [ref=e273] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/273826/post/delete/
+            - generic [ref=e274]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e275]'
+        - paragraph [ref=e276]:
+          - generic [ref=e277]:
+            - generic [ref=e278]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e279] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e280]:
+              - text: 
+              - generic [ref=e281]: Instructor
+            - text: on Nov. 21, 2024, 12:30 p.m.
+        - generic [ref=e282]:
+          - paragraph [ref=e283]: Super, j'ai compris !
+          - paragraph [ref=e284]: "Cela vient d'une erreur dans l'autoccorecteur de cet exercie : je ne rapporte pas la note sur 1 mais sur 10 alors que fun attend une note entre 0 et 1. dans votre cas, vous obtenez un 4 sur 1 soit 40/10."
+          - paragraph [ref=e285]
+          - paragraph [ref=e286]: J'ai corrigé l'autocorrecteur, vous pouvez faire de nouveaux essais, vous êtes sur la bonne voie !
+          - paragraph [ref=e287]
+          - paragraph [ref=e288]: Bon MOOC,
+        - paragraph [ref=e290]: "--Baptiste"
+      - generic [ref=e291]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e293] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e294]: "Posts: 301"
+    - generic [ref=e297]:
+      - generic [ref=e298]:
+        - generic [ref=e299]:
+          - link " Edit" [ref=e300] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/274229/post/update/
+            - generic [ref=e301]: 
+            - text: Edit
+          - link "" [ref=e302] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/274229/post/delete/
+            - generic [ref=e303]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e304]'
+        - paragraph [ref=e305]:
+          - generic [ref=e306]:
+            - generic [ref=e307]: 
+            - text: "By:"
+            - link "bibimooc" [ref=e308] [cursor=pointer]:
+              - /url: /forum/member/profile/433967/
+            - text: on Nov. 23, 2024, 3:39 p.m.
+        - generic [ref=e309]:
+          - paragraph [ref=e310]: Bonjour
+          - paragraph [ref=e311]: J'ai remis quelques lignes de code qui correspond à une étape et effectivement j'ai maintenant 4 sur 10.
+          - paragraph [ref=e312]: Merci
+          - paragraph [ref=e313]: Cordialement
+      - generic [ref=e314]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/433967/
+        - link "bibimooc" [ref=e316] [cursor=pointer]:
+          - /url: /forum/member/profile/433967/
+        - generic [ref=e317]: "Posts: 4"
+    - generic [ref=e320]:
+      - generic [ref=e321]:
+        - generic [ref=e322]:
+          - link " Edit" [ref=e323] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/274244/post/update/
+            - generic [ref=e324]: 
+            - text: Edit
+          - link "" [ref=e325] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/274244/post/delete/
+            - generic [ref=e326]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e327]'
+        - paragraph [ref=e328]:
+          - generic [ref=e329]:
+            - generic [ref=e330]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e331] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e332]:
+              - text: 
+              - generic [ref=e333]: Instructor
+            - text: on Nov. 23, 2024, 4:55 p.m.
+        - generic [ref=e334]:
+          - paragraph [ref=e335]:
+            - text: Ravi de l'apprendre
+            - img "👍" [ref=e337]
+          - paragraph [ref=e338]
+        - paragraph [ref=e340]: "--Baptiste"
+      - generic [ref=e341]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e343] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e344]: "Posts: 301"
+    - generic [ref=e347]:
+      - generic [ref=e348]:
+        - generic [ref=e349]:
+          - link " Edit" [ref=e350] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/276601/post/update/
+            - generic [ref=e351]: 
+            - text: Edit
+          - link "" [ref=e352] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/276601/post/delete/
+            - generic [ref=e353]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e354]'
+        - paragraph [ref=e355]:
+          - generic [ref=e356]:
+            - generic [ref=e357]: 
+            - text: "By:"
+            - link "jcw67" [ref=e358] [cursor=pointer]:
+              - /url: /forum/member/profile/229685/
+            - text: on Dec. 4, 2024, 2:57 p.m.
+        - generic [ref=e359]:
+          - paragraph [ref=e360]: Bonjour,
+          - paragraph [ref=e361]
+          - paragraph [ref=e362]: "Je n'ai pas encore tenté la validation de cet exercice, mais j'ai une question importante (pour moi) :"
+          - paragraph [ref=e363]:
+            - strong [ref=e364]: y a-t-il un nombre illimité de validations pour un exercice ?
+          - paragraph [ref=e365]
+          - paragraph [ref=e366]: Je me souviens de MOOCs où il n'y en avait qu'un, et les critères de validation ici sont parfois étranges
+          - paragraph [ref=e367]: "- lampadaire niveau 4 (après plusieurs essais) : pour valider, il suffit de mettre le code du niveau 3 avec un seuil à 50"
+          - paragraph [ref=e368]: "- VACMA"
+          - paragraph [ref=e369]: "- énoncé \"attendre 10 s puis allumer la LED et tester\""
+          - paragraph [ref=e370]: "- correction : allumer la led, puis attendre en testant"
+          - paragraph [ref=e371]
+          - paragraph [ref=e372]: jc
+          - paragraph [ref=e373]
+        - generic [ref=e375]:
+          - generic [ref=e376]: 
+          - text: "Last edited by:"
+          - link "jcw67" [ref=e377] [cursor=pointer]:
+            - /url: /forum/member/profile/229685/
+          - text: on Dec. 4, 2024, 2:58 p.m., edited 1 time in total.
+      - generic [ref=e378]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/229685/
+        - link "jcw67" [ref=e380] [cursor=pointer]:
+          - /url: /forum/member/profile/229685/
+        - generic [ref=e381]: "Posts: 19"
+    - generic [ref=e384]:
+      - generic [ref=e385]:
+        - generic [ref=e386]:
+          - link " Edit" [ref=e387] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/277557/post/update/
+            - generic [ref=e388]: 
+            - text: Edit
+          - link "" [ref=e389] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/277557/post/delete/
+            - generic [ref=e390]: 
+        - 'heading "Re: Autocorrecteur Activité : Le menu du wagon bar" [level=4] [ref=e391]'
+        - paragraph [ref=e392]:
+          - generic [ref=e393]:
+            - generic [ref=e394]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e395] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e396]:
+              - text: 
+              - generic [ref=e397]: Instructor
+            - text: on Dec. 10, 2024, 4:09 p.m.
+        - generic [ref=e398]:
+          - paragraph [ref=e399]: Non, pas de limite de validations. C'est open (wagon) bar !
+          - paragraph [ref=e400]:
+            - text: L'idée est de proposer une solution que vous comprenez et qui soit valider par l'autocorrecteur
+            - img "👍" [ref=e402]
+          - paragraph [ref=e403]
+          - paragraph [ref=e404]: Bon MOOC,
+        - paragraph [ref=e406]: "--Baptiste"
+      - generic [ref=e407]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e409] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e410]: "Posts: 301"
+  - generic [ref=e412]:
+    - link " Post reply" [ref=e413] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/autocorrecteur-activit%C3%A9-le-menu-du-wagon-bar-133295/post/create/
+      - generic [ref=e414]: 
+      - text: Post reply
+    - button "" [ref=e416] [cursor=pointer]:
+      - generic [ref=e417]: 

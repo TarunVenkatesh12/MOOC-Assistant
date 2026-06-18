@@ -1,0 +1,642 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+  - search [ref=e14]:
+    - searchbox "Search" [ref=e15]
+    - button "Search" [ref=e16] [cursor=pointer]
+    - link "Advanced search" [ref=e17] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Forum général du cours " [level=1] [ref=e22]:
+    - text: Forum général du cours
+    - button "" [ref=e24] [cursor=pointer]:
+      - generic [ref=e25]: 
+  - generic [ref=e26]:
+    - link " New topic" [ref=e28] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/create/
+      - generic [ref=e29]: 
+      - text: New topic
+    - generic [ref=e30]:
+      - link " Mark topics read" [ref=e32] [cursor=pointer]:
+        - /url: /forum/tracking/mark/forum/8322/topics/
+        - generic [ref=e33]: 
+        - text: Mark topics read
+      - list [ref=e34]:
+        - listitem [ref=e35]:
+          - link "«":
+            - /url: ""
+        - listitem [ref=e36]:
+          - link "1" [ref=e37] [cursor=pointer]:
+            - /url: "?page=1"
+        - listitem [ref=e38]:
+          - link "2" [ref=e39] [cursor=pointer]:
+            - /url: "?page=2"
+        - listitem [ref=e40]:
+          - link "3" [ref=e41] [cursor=pointer]:
+            - /url: "?page=3"
+        - listitem [ref=e42]:
+          - link "»" [ref=e43] [cursor=pointer]:
+            - /url: "?page=2"
+  - generic [ref=e46]:
+    - generic [ref=e48]:
+      - heading "Announcements" [level=3] [ref=e50]
+      - generic [ref=e51]: Replies
+      - generic [ref=e52]: Views
+      - generic [ref=e53]: Last post
+    - generic [ref=e55]:
+      - table [ref=e57]:
+        - rowgroup [ref=e58]:
+          - 'row " Serveur de remplacement pour worldtimeapi By: bgaultier on Nov. 21, 2024, 12:50 p.m." [ref=e59]':
+            - cell "" [ref=e60]:
+              - generic [ref=e61]: 
+            - 'cell "Serveur de remplacement pour worldtimeapi By: bgaultier on Nov. 21, 2024, 12:50 p.m." [ref=e62]':
+              - link "Serveur de remplacement pour worldtimeapi" [ref=e63] [cursor=pointer]:
+                - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/
+              - generic [ref=e65]:
+                - text: "By:"
+                - link "bgaultier" [ref=e66] [cursor=pointer]:
+                  - /url: /forum/member/profile/8433/
+                - generic [ref=e67]:
+                  - text: 
+                  - generic [ref=e68]: Instructor
+                - text: on Nov. 21, 2024, 12:50 p.m.
+      - generic [ref=e69]: "5"
+      - generic [ref=e70]: "130"
+      - generic [ref=e71]:
+        - text: "By:"
+        - link "bgaultier" [ref=e72] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e73]:
+          - text: 
+          - generic [ref=e74]: Instructor
+        - link "" [ref=e75] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/serveur-de-remplacement-pour-worldtimeapi-133859/?post=274159#274159
+          - generic [ref=e76]: 
+        - text: Nov. 23, 2024, 7:42 a.m.
+  - generic [ref=e79]:
+    - generic [ref=e81]:
+      - heading "Topics" [level=3] [ref=e83]:
+        - link "Topics" [ref=e84] [cursor=pointer]:
+          - /url: "?o=-0"
+      - link "Replies" [ref=e86] [cursor=pointer]:
+        - /url: "?o=-1"
+      - link "Views" [ref=e88] [cursor=pointer]:
+        - /url: "?o=-2"
+      - generic [ref=e89]:
+        - link "Last post" [ref=e90] [cursor=pointer]:
+          - /url: "?o=3"
+        - link "Toggle sorting" [ref=e92] [cursor=pointer]:
+          - /url: "?o=3"
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - text: "[ Go to the page:"
+            - link "1" [ref=e97] [cursor=pointer]:
+              - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/?page=1
+            - text: ","
+            - link "2" [ref=e98] [cursor=pointer]:
+              - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/?page=2
+            - text: ","
+            - link "3" [ref=e99] [cursor=pointer]:
+              - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/?page=3
+            - text: "]"
+          - table [ref=e100]:
+            - rowgroup [ref=e101]:
+              - 'row " Accès au cours \"Programmer un objet avec MicroPython\" By: willysmile on Nov. 12, 2024, 7:07 p.m." [ref=e102]':
+                - cell "" [ref=e103]:
+                  - generic [ref=e104]: 
+                - 'cell "Accès au cours \"Programmer un objet avec MicroPython\" By: willysmile on Nov. 12, 2024, 7:07 p.m." [ref=e105]':
+                  - link "Accès au cours \"Programmer un objet avec MicroPython\"" [ref=e106] [cursor=pointer]:
+                    - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/
+                  - generic [ref=e108]:
+                    - text: "By:"
+                    - link "willysmile" [ref=e109] [cursor=pointer]:
+                      - /url: /forum/member/profile/657519/
+                    - text: on Nov. 12, 2024, 7:07 p.m.
+        - generic [ref=e110]: "44"
+        - generic [ref=e111]: "603"
+        - generic [ref=e112]:
+          - text: "By:"
+          - link "Qcourjeau" [ref=e113] [cursor=pointer]:
+            - /url: /forum/member/profile/596066/
+          - link "" [ref=e114] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/acc%C3%A8s-au-cours-programmer-un-objet-avec-micropython-132868/?post=281341#281341
+            - generic [ref=e115]: 
+          - text: Jan. 8, 2025, 7:51 p.m.
+      - generic [ref=e116]:
+        - table [ref=e118]:
+          - rowgroup [ref=e119]:
+            - 'row " Capteur de courant opto (Linky) By: tidjidi on Dec. 19, 2024, 11:46 a.m." [ref=e120]':
+              - cell "" [ref=e121]:
+                - generic [ref=e122]: 
+              - 'cell "Capteur de courant opto (Linky) By: tidjidi on Dec. 19, 2024, 11:46 a.m." [ref=e123]':
+                - link "Capteur de courant opto (Linky)" [ref=e124] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/
+                - generic [ref=e126]:
+                  - text: "By:"
+                  - link "tidjidi" [ref=e127] [cursor=pointer]:
+                    - /url: /forum/member/profile/633593/
+                  - text: on Dec. 19, 2024, 11:46 a.m.
+        - generic [ref=e128]: "5"
+        - generic [ref=e129]: "136"
+        - generic [ref=e130]:
+          - text: "By:"
+          - link "tidjidi" [ref=e131] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - link "" [ref=e132] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/capteur-de-courant-opto-linky-136561/?post=279278#279278
+            - generic [ref=e133]: 
+          - text: Dec. 23, 2024, 3:57 p.m.
+      - generic [ref=e134]:
+        - table [ref=e136]:
+          - rowgroup [ref=e137]:
+            - 'row " Remerciement By: ChrisCB on Dec. 16, 2024, 12:09 p.m." [ref=e138]':
+              - cell "" [ref=e139]:
+                - generic [ref=e140]: 
+              - 'cell "Remerciement By: ChrisCB on Dec. 16, 2024, 12:09 p.m." [ref=e141]':
+                - link "Remerciement" [ref=e142] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/remerciement-136344/
+                - generic [ref=e144]:
+                  - text: "By:"
+                  - link "ChrisCB" [ref=e145] [cursor=pointer]:
+                    - /url: /forum/member/profile/677082/
+                  - text: on Dec. 16, 2024, 12:09 p.m.
+        - generic [ref=e146]: "6"
+        - generic [ref=e147]: "72"
+        - generic [ref=e148]:
+          - text: "By:"
+          - link "bgaultier" [ref=e149] [cursor=pointer]:
+            - /url: /forum/member/profile/8433/
+          - generic [ref=e150]:
+            - text: 
+            - generic [ref=e151]: Instructor
+          - link "" [ref=e152] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/remerciement-136344/?post=279201#279201
+            - generic [ref=e153]: 
+          - text: Dec. 23, 2024, 8:24 a.m.
+      - generic [ref=e154]:
+        - table [ref=e156]:
+          - rowgroup [ref=e157]:
+            - 'row " S2 Etape 3 TCP et HTTP By: pierre_g on Dec. 21, 2024, 8:45 a.m." [ref=e158]':
+              - cell "" [ref=e159]:
+                - generic [ref=e160]: 
+              - 'cell "S2 Etape 3 TCP et HTTP By: pierre_g on Dec. 21, 2024, 8:45 a.m." [ref=e161]':
+                - link "S2 Etape 3 TCP et HTTP" [ref=e162] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s2-etape-3-tcp-et-http-136645/
+                - generic [ref=e164]:
+                  - text: "By:"
+                  - link "pierre_g" [ref=e165] [cursor=pointer]:
+                    - /url: /forum/member/profile/19334/
+                  - text: on Dec. 21, 2024, 8:45 a.m.
+        - generic [ref=e166]: "3"
+        - generic [ref=e167]: "82"
+        - generic [ref=e168]:
+          - text: "By:"
+          - link "Gilles57" [ref=e169] [cursor=pointer]:
+            - /url: /forum/member/profile/377300/
+          - link "" [ref=e170] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s2-etape-3-tcp-et-http-136645/?post=279059#279059
+            - generic [ref=e171]: 
+          - text: Dec. 22, 2024, 12:11 a.m.
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - text: "[ Go to the page:"
+            - link "1" [ref=e175] [cursor=pointer]:
+              - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/corrections-135610/?page=1
+            - text: ","
+            - link "2" [ref=e176] [cursor=pointer]:
+              - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/corrections-135610/?page=2
+            - text: "]"
+          - table [ref=e177]:
+            - rowgroup [ref=e178]:
+              - 'row " Corrections By: topnote on Dec. 6, 2024, 2:59 p.m." [ref=e179]':
+                - cell "" [ref=e180]:
+                  - generic [ref=e181]: 
+                - 'cell "Corrections By: topnote on Dec. 6, 2024, 2:59 p.m." [ref=e182]':
+                  - link "Corrections" [ref=e183] [cursor=pointer]:
+                    - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/corrections-135610/
+                  - generic [ref=e185]:
+                    - text: "By:"
+                    - link "topnote" [ref=e186] [cursor=pointer]:
+                      - /url: /forum/member/profile/688591/
+                    - text: on Dec. 6, 2024, 2:59 p.m.
+        - generic [ref=e187]: "17"
+        - generic [ref=e188]: "186"
+        - generic [ref=e189]:
+          - text: "By:"
+          - link "jcw67" [ref=e190] [cursor=pointer]:
+            - /url: /forum/member/profile/229685/
+          - link "" [ref=e191] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/corrections-135610/?post=278955#278955
+            - generic [ref=e192]: 
+          - text: Dec. 20, 2024, 4:39 p.m.
+      - generic [ref=e193]:
+        - table [ref=e195]:
+          - rowgroup [ref=e196]:
+            - 'row " S1 Le menu du wagon bar By: pierre_g on Dec. 16, 2024, 8:42 p.m." [ref=e197]':
+              - cell "" [ref=e198]:
+                - generic [ref=e199]: 
+              - 'cell "S1 Le menu du wagon bar By: pierre_g on Dec. 16, 2024, 8:42 p.m." [ref=e200]':
+                - link "S1 Le menu du wagon bar" [ref=e201] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s1-le-menu-du-wagon-bar-136382/
+                - generic [ref=e203]:
+                  - text: "By:"
+                  - link "pierre_g" [ref=e204] [cursor=pointer]:
+                    - /url: /forum/member/profile/19334/
+                  - text: on Dec. 16, 2024, 8:42 p.m.
+        - generic [ref=e205]: "6"
+        - generic [ref=e206]: "50"
+        - generic [ref=e207]:
+          - text: "By:"
+          - link "bgaultier" [ref=e208] [cursor=pointer]:
+            - /url: /forum/member/profile/8433/
+          - generic [ref=e209]:
+            - text: 
+            - generic [ref=e210]: Instructor
+          - link "" [ref=e211] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s1-le-menu-du-wagon-bar-136382/?post=278896#278896
+            - generic [ref=e212]: 
+          - text: Dec. 20, 2024, 8:42 a.m.
+      - generic [ref=e213]:
+        - table [ref=e215]:
+          - rowgroup [ref=e216]:
+            - 'row " TLS Dans le prochain métro By: martial86 on Dec. 19, 2024, 5:26 p.m." [ref=e217]':
+              - cell "" [ref=e218]:
+                - generic [ref=e219]: 
+              - 'cell "TLS Dans le prochain métro By: martial86 on Dec. 19, 2024, 5:26 p.m." [ref=e220]':
+                - link "TLS Dans le prochain métro" [ref=e221] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tls-dans-le-prochain-m%C3%A9tro-136584/
+                - generic [ref=e223]:
+                  - text: "By:"
+                  - link "martial86" [ref=e224] [cursor=pointer]:
+                    - /url: /forum/member/profile/12603/
+                  - text: on Dec. 19, 2024, 5:26 p.m.
+        - generic [ref=e225]: "2"
+        - generic [ref=e226]: "38"
+        - generic [ref=e227]:
+          - text: "By:"
+          - link "martial86" [ref=e228] [cursor=pointer]:
+            - /url: /forum/member/profile/12603/
+          - link "" [ref=e229] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tls-dans-le-prochain-m%C3%A9tro-136584/?post=278894#278894
+            - generic [ref=e230]: 
+          - text: Dec. 20, 2024, 8:12 a.m.
+      - generic [ref=e231]:
+        - table [ref=e233]:
+          - rowgroup [ref=e234]:
+            - 'row " Précision TP La barrière 2 , niveau 3 étoiles By: lauwette on Dec. 15, 2024, 2:24 p.m." [ref=e235]':
+              - cell "" [ref=e236]:
+                - generic [ref=e237]: 
+              - 'cell "Précision TP La barrière 2 , niveau 3 étoiles By: lauwette on Dec. 15, 2024, 2:24 p.m." [ref=e238]':
+                - link "Précision TP La barrière 2 , niveau 3 étoiles" [ref=e239] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/
+                - generic [ref=e241]:
+                  - text: "By:"
+                  - link "lauwette" [ref=e242] [cursor=pointer]:
+                    - /url: /forum/member/profile/379458/
+                  - text: on Dec. 15, 2024, 2:24 p.m.
+        - generic [ref=e243]: "11"
+        - generic [ref=e244]: "84"
+        - generic [ref=e245]:
+          - text: "By:"
+          - link "Gilles57" [ref=e246] [cursor=pointer]:
+            - /url: /forum/member/profile/377300/
+          - link "" [ref=e247] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/pr%C3%A9cision-tp-la-barri%C3%A8re-2-niveau-3-%C3%A9toiles-136303/?post=278816#278816
+            - generic [ref=e248]: 
+          - text: Dec. 19, 2024, 12:18 p.m.
+      - generic [ref=e249]:
+        - table [ref=e251]:
+          - rowgroup [ref=e252]:
+            - 'row " S3 L BARRIER 3 etoiles By: blabey on Dec. 17, 2024, 7:58 p.m." [ref=e253]':
+              - cell "" [ref=e254]:
+                - generic [ref=e255]: 
+              - 'cell "S3 L BARRIER 3 etoiles By: blabey on Dec. 17, 2024, 7:58 p.m." [ref=e256]':
+                - link "S3 L BARRIER 3 etoiles" [ref=e257] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/
+                - generic [ref=e259]:
+                  - text: "By:"
+                  - link "blabey" [ref=e260] [cursor=pointer]:
+                    - /url: /forum/member/profile/676988/
+                  - text: on Dec. 17, 2024, 7:58 p.m.
+        - generic [ref=e261]: "6"
+        - generic [ref=e262]: "50"
+        - generic [ref=e263]:
+          - text: "By:"
+          - link "blabey" [ref=e264] [cursor=pointer]:
+            - /url: /forum/member/profile/676988/
+          - link "" [ref=e265] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-l-barrier-3-etoiles-136459/?post=278730#278730
+            - generic [ref=e266]: 
+          - text: Dec. 18, 2024, 5:20 p.m.
+      - generic [ref=e267]:
+        - table [ref=e269]:
+          - rowgroup [ref=e270]:
+            - 'row " Amélioration pour la fonction setServoAngle() By: tidjidi on Dec. 17, 2024, 9:17 a.m." [ref=e271]':
+              - cell "" [ref=e272]:
+                - generic [ref=e273]: 
+              - 'cell "Amélioration pour la fonction setServoAngle() By: tidjidi on Dec. 17, 2024, 9:17 a.m." [ref=e274]':
+                - link "Amélioration pour la fonction setServoAngle()" [ref=e275] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/am%C3%A9lioration-pour-la-fonction-setservoangle-136403/
+                - generic [ref=e277]:
+                  - text: "By:"
+                  - link "tidjidi" [ref=e278] [cursor=pointer]:
+                    - /url: /forum/member/profile/633593/
+                  - text: on Dec. 17, 2024, 9:17 a.m.
+        - generic [ref=e279]: "4"
+        - generic [ref=e280]: "50"
+        - generic [ref=e281]:
+          - text: "By:"
+          - link "tidjidi" [ref=e282] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - link "" [ref=e283] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/am%C3%A9lioration-pour-la-fonction-setservoangle-136403/?post=278665#278665
+            - generic [ref=e284]: 
+          - text: Dec. 18, 2024, 12:05 p.m.
+      - generic [ref=e285]:
+        - table [ref=e287]:
+          - rowgroup [ref=e288]:
+            - 'row " Mise à l''heure de la carte Galaxia et autres réflexions By: tidjidi on Dec. 17, 2024, 4:59 p.m." [ref=e289]':
+              - cell "" [ref=e290]:
+                - generic [ref=e291]: 
+              - 'cell "Mise à l''heure de la carte Galaxia et autres réflexions By: tidjidi on Dec. 17, 2024, 4:59 p.m." [ref=e292]':
+                - link "Mise à l'heure de la carte Galaxia et autres réflexions" [ref=e293] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/mise-%C3%A0-lheure-de-la-carte-galaxia-et-autres-r%C3%A9flexions-136449/
+                - generic [ref=e295]:
+                  - text: "By:"
+                  - link "tidjidi" [ref=e296] [cursor=pointer]:
+                    - /url: /forum/member/profile/633593/
+                  - text: on Dec. 17, 2024, 4:59 p.m.
+        - generic [ref=e297]: "2"
+        - generic [ref=e298]: "34"
+        - generic [ref=e299]:
+          - text: "By:"
+          - link "tidjidi" [ref=e300] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - link "" [ref=e301] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/mise-%C3%A0-lheure-de-la-carte-galaxia-et-autres-r%C3%A9flexions-136449/?post=278664#278664
+            - generic [ref=e302]: 
+          - text: Dec. 18, 2024, 12:03 p.m.
+      - generic [ref=e303]:
+        - table [ref=e305]:
+          - rowgroup [ref=e306]:
+            - 'row " [Comportement Galaxia] Impossible d''envoyer une requête HTTP(S) By: tidjidi on Dec. 13, 2024, 6:48 p.m." [ref=e307]':
+              - cell "" [ref=e308]:
+                - generic [ref=e309]: 
+              - 'cell "[Comportement Galaxia] Impossible d''envoyer une requête HTTP(S) By: tidjidi on Dec. 13, 2024, 6:48 p.m." [ref=e310]':
+                - link "[Comportement Galaxia] Impossible d'envoyer une requête HTTP(S)" [ref=e311] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/
+                - generic [ref=e313]:
+                  - text: "By:"
+                  - link "tidjidi" [ref=e314] [cursor=pointer]:
+                    - /url: /forum/member/profile/633593/
+                  - text: on Dec. 13, 2024, 6:48 p.m.
+        - generic [ref=e315]: "8"
+        - generic [ref=e316]: "93"
+        - generic [ref=e317]:
+          - text: "By:"
+          - link "Gilles57" [ref=e318] [cursor=pointer]:
+            - /url: /forum/member/profile/377300/
+          - link "" [ref=e319] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/comportement-galaxia-136246/?post=278638#278638
+            - generic [ref=e320]: 
+          - text: Dec. 18, 2024, 9:05 a.m.
+      - generic [ref=e321]:
+        - table [ref=e323]:
+          - rowgroup [ref=e324]:
+            - 'row " TP Barrière 2 (Sem3) - partie 4 étoiles By: tidjidi on Dec. 17, 2024, 2:56 p.m." [ref=e325]':
+              - cell "" [ref=e326]:
+                - generic [ref=e327]: 
+              - 'cell "TP Barrière 2 (Sem3) - partie 4 étoiles By: tidjidi on Dec. 17, 2024, 2:56 p.m." [ref=e328]':
+                - link "TP Barrière 2 (Sem3) - partie 4 étoiles" [ref=e329] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-barri%C3%A8re-2-sem3-partie-4-%C3%A9toiles-136442/
+                - generic [ref=e331]:
+                  - text: "By:"
+                  - link "tidjidi" [ref=e332] [cursor=pointer]:
+                    - /url: /forum/member/profile/633593/
+                  - text: on Dec. 17, 2024, 2:56 p.m.
+        - generic [ref=e333]: "1"
+        - generic [ref=e334]: "35"
+        - generic [ref=e335]:
+          - text: "By:"
+          - link "tidjidi" [ref=e336] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - link "" [ref=e337] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-barri%C3%A8re-2-sem3-partie-4-%C3%A9toiles-136442/?post=278556#278556
+            - generic [ref=e338]: 
+          - text: Dec. 17, 2024, 3:27 p.m.
+      - generic [ref=e339]:
+        - table [ref=e341]:
+          - rowgroup [ref=e342]:
+            - 'row " TP Sem3 Envoi à emoncms échoué By: tidjidi on Dec. 15, 2024, 10:41 p.m." [ref=e343]':
+              - cell "" [ref=e344]:
+                - generic [ref=e345]: 
+              - 'cell "TP Sem3 Envoi à emoncms échoué By: tidjidi on Dec. 15, 2024, 10:41 p.m." [ref=e346]':
+                - link "TP Sem3 Envoi à emoncms échoué" [ref=e347] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/
+                - generic [ref=e349]:
+                  - text: "By:"
+                  - link "tidjidi" [ref=e350] [cursor=pointer]:
+                    - /url: /forum/member/profile/633593/
+                  - text: on Dec. 15, 2024, 10:41 p.m.
+        - generic [ref=e351]: "3"
+        - generic [ref=e352]: "51"
+        - generic [ref=e353]:
+          - text: "By:"
+          - link "tidjidi" [ref=e354] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - link "" [ref=e355] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/tp-sem3-envoi-%C3%A0-emoncms-136318/?post=278419#278419
+            - generic [ref=e356]: 
+          - text: Dec. 16, 2024, 4:46 p.m.
+      - generic [ref=e357]:
+        - table [ref=e359]:
+          - rowgroup [ref=e360]:
+            - 'row " Connexion Wifi sans effort By: tidjidi on Dec. 15, 2024, 6:34 p.m." [ref=e361]':
+              - cell "" [ref=e362]:
+                - generic [ref=e363]: 
+              - 'cell "Connexion Wifi sans effort By: tidjidi on Dec. 15, 2024, 6:34 p.m." [ref=e364]':
+                - link "Connexion Wifi sans effort" [ref=e365] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/connexion-wifi-sans-effort-136308/
+                - generic [ref=e367]:
+                  - text: "By:"
+                  - link "tidjidi" [ref=e368] [cursor=pointer]:
+                    - /url: /forum/member/profile/633593/
+                  - text: on Dec. 15, 2024, 6:34 p.m.
+        - generic [ref=e369]: "1"
+        - generic [ref=e370]: "39"
+        - generic [ref=e371]:
+          - text: "By:"
+          - link "bgaultier" [ref=e372] [cursor=pointer]:
+            - /url: /forum/member/profile/8433/
+          - generic [ref=e373]:
+            - text: 
+            - generic [ref=e374]: Instructor
+          - link "" [ref=e375] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/connexion-wifi-sans-effort-136308/?post=278318#278318
+            - generic [ref=e376]: 
+          - text: Dec. 16, 2024, 6:16 a.m.
+      - generic [ref=e377]:
+        - table [ref=e379]:
+          - rowgroup [ref=e380]:
+            - 'row " S3 Auto correcteur By: blabey on Dec. 14, 2024, 1:57 p.m." [ref=e381]':
+              - cell "" [ref=e382]:
+                - generic [ref=e383]: 
+              - 'cell "S3 Auto correcteur By: blabey on Dec. 14, 2024, 1:57 p.m." [ref=e384]':
+                - link "S3 Auto correcteur" [ref=e385] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/
+                - generic [ref=e387]:
+                  - text: "By:"
+                  - link "blabey" [ref=e388] [cursor=pointer]:
+                    - /url: /forum/member/profile/676988/
+                  - text: on Dec. 14, 2024, 1:57 p.m.
+        - generic [ref=e389]: "3"
+        - generic [ref=e390]: "45"
+        - generic [ref=e391]:
+          - text: "By:"
+          - link "bgaultier" [ref=e392] [cursor=pointer]:
+            - /url: /forum/member/profile/8433/
+          - generic [ref=e393]:
+            - text: 
+            - generic [ref=e394]: Instructor
+          - link "" [ref=e395] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s3-auto-correcteur-136271/?post=278315#278315
+            - generic [ref=e396]: 
+          - text: Dec. 16, 2024, 5:48 a.m.
+      - generic [ref=e397]:
+        - table [ref=e399]:
+          - rowgroup [ref=e400]:
+            - 'row " Semaine 2, paramètres Wifi sans carte Galaxia By: chamarejc on Nov. 25, 2024, 5:36 p.m." [ref=e401]':
+              - cell "" [ref=e402]:
+                - generic [ref=e403]: 
+              - 'cell "Semaine 2, paramètres Wifi sans carte Galaxia By: chamarejc on Nov. 25, 2024, 5:36 p.m." [ref=e404]':
+                - link "Semaine 2, paramètres Wifi sans carte Galaxia" [ref=e405] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/semaine-2-param%C3%A8tres-wifi-sans-carte-galaxia-134512/
+                - generic [ref=e407]:
+                  - text: "By:"
+                  - link "chamarejc" [ref=e408] [cursor=pointer]:
+                    - /url: /forum/member/profile/377287/
+                  - text: on Nov. 25, 2024, 5:36 p.m.
+        - generic [ref=e409]: "8"
+        - generic [ref=e410]: "109"
+        - generic [ref=e411]:
+          - text: "By:"
+          - link "bgaultier" [ref=e412] [cursor=pointer]:
+            - /url: /forum/member/profile/8433/
+          - generic [ref=e413]:
+            - text: 
+            - generic [ref=e414]: Instructor
+          - link "" [ref=e415] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/semaine-2-param%C3%A8tres-wifi-sans-carte-galaxia-134512/?post=277909#277909
+            - generic [ref=e416]: 
+          - text: Dec. 12, 2024, 10:06 a.m.
+      - generic [ref=e417]:
+        - table [ref=e419]:
+          - rowgroup [ref=e420]:
+            - 'row " S4 - WOKWI By: Gilles57 on Dec. 10, 2024, 6:54 p.m." [ref=e421]':
+              - cell "" [ref=e422]:
+                - generic [ref=e423]: 
+              - 'cell "S4 - WOKWI By: Gilles57 on Dec. 10, 2024, 6:54 p.m." [ref=e424]':
+                - link "S4 - WOKWI" [ref=e425] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/
+                - generic [ref=e427]:
+                  - text: "By:"
+                  - link "Gilles57" [ref=e428] [cursor=pointer]:
+                    - /url: /forum/member/profile/377300/
+                  - text: on Dec. 10, 2024, 6:54 p.m.
+        - generic [ref=e429]: "3"
+        - generic [ref=e430]: "35"
+        - generic [ref=e431]:
+          - text: "By:"
+          - link "bgaultier" [ref=e432] [cursor=pointer]:
+            - /url: /forum/member/profile/8433/
+          - generic [ref=e433]:
+            - text: 
+            - generic [ref=e434]: Instructor
+          - link "" [ref=e435] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-135948/?post=277908#277908
+            - generic [ref=e436]: 
+          - text: Dec. 12, 2024, 10:05 a.m.
+      - generic [ref=e437]:
+        - table [ref=e439]:
+          - rowgroup [ref=e440]:
+            - 'row " A propos de l''IDE France IOI By: tidjidi on Dec. 7, 2024, 11:50 p.m." [ref=e441]':
+              - cell "" [ref=e442]:
+                - generic [ref=e443]: 
+              - 'cell "A propos de l''IDE France IOI By: tidjidi on Dec. 7, 2024, 11:50 p.m." [ref=e444]':
+                - link "A propos de l'IDE France IOI" [ref=e445] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/a-propos-de-lide-france-ioi-135704/
+                - generic [ref=e447]:
+                  - text: "By:"
+                  - link "tidjidi" [ref=e448] [cursor=pointer]:
+                    - /url: /forum/member/profile/633593/
+                  - text: on Dec. 7, 2024, 11:50 p.m.
+        - generic [ref=e449]: "2"
+        - generic [ref=e450]: "43"
+        - generic [ref=e451]:
+          - text: "By:"
+          - link "tidjidi" [ref=e452] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - link "" [ref=e453] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/a-propos-de-lide-france-ioi-135704/?post=277872#277872
+            - generic [ref=e454]: 
+          - text: Dec. 11, 2024, 11:37 p.m.
+      - generic [ref=e455]:
+        - table [ref=e457]:
+          - rowgroup [ref=e458]:
+            - 'row " S4 - Wokwi - Méthode POST By: Gilles57 on Dec. 11, 2024, 9:10 a.m." [ref=e459]':
+              - cell "" [ref=e460]:
+                - generic [ref=e461]: 
+              - 'cell "S4 - Wokwi - Méthode POST By: Gilles57 on Dec. 11, 2024, 9:10 a.m." [ref=e462]':
+                - link "S4 - Wokwi - Méthode POST" [ref=e463] [cursor=pointer]:
+                  - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-m%C3%A9thode-post-136001/
+                - generic [ref=e465]:
+                  - text: "By:"
+                  - link "Gilles57" [ref=e466] [cursor=pointer]:
+                    - /url: /forum/member/profile/377300/
+                  - text: on Dec. 11, 2024, 9:10 a.m.
+        - generic [ref=e467]: "1"
+        - generic [ref=e468]: "39"
+        - generic [ref=e469]:
+          - text: "By:"
+          - link "tidjidi" [ref=e470] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - link "" [ref=e471] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/s4-wokwi-m%C3%A9thode-post-136001/?post=277871#277871
+            - generic [ref=e472]: 
+          - text: Dec. 11, 2024, 11:25 p.m.
+  - generic [ref=e473]:
+    - link " New topic" [ref=e475] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/create/
+      - generic [ref=e476]: 
+      - text: New topic
+    - generic [ref=e477]:
+      - link " Mark topics read" [ref=e479] [cursor=pointer]:
+        - /url: /forum/tracking/mark/forum/8322/topics/
+        - generic [ref=e480]: 
+        - text: Mark topics read
+      - list [ref=e481]:
+        - listitem [ref=e482]:
+          - link "«":
+            - /url: ""
+        - listitem [ref=e483]:
+          - link "1" [ref=e484] [cursor=pointer]:
+            - /url: "?page=1"
+        - listitem [ref=e485]:
+          - link "2" [ref=e486] [cursor=pointer]:
+            - /url: "?page=2"
+        - listitem [ref=e487]:
+          - link "3" [ref=e488] [cursor=pointer]:
+            - /url: "?page=3"
+        - listitem [ref=e489]:
+          - link "»" [ref=e490] [cursor=pointer]:
+            - /url: "?page=2"

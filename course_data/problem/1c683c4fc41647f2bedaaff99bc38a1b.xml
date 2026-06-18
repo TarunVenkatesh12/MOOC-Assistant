@@ -1,0 +1,55 @@
+<problem display_name="Autocorrecteur" markdown="null" weight="2.0">
+<p>
+  Collez ci-dessous votre clé d'API <strong>« Lecture uniquement »</strong> et cliquez sur le bouton « Valider » ! L'aucorrecteur va se connecter à emoncms et vérifier que vous avez créer au moins un flux et que celui-ci a été mis à jour dans les dix dernières minutes. C'est à vous ⬇️
+</p>    
+
+<script type="loncapa/python">
+import requests
+from datetime import datetime, timedelta
+
+def check_emoncms(expect,ans):
+    if len(ans) != 32:
+        return {
+            'input_list': [
+                {'ok': False, 'msg': 'Votre clé d\'API doit faire 32 caractères !'},
+            ]
+        }
+    try:
+        r = requests.get("https://emoncms.fr/feed/list.json?apikey=" + str(ans))
+        if r.status_code == 200:
+            if len(r.json()):
+                feed = r.json()[0]
+                if feed:
+                    return {
+                        'input_list': [
+                            {'ok': True, 'msg': 'Bravo, au moins un flux (' + str(r.json()[0]['name']) + ') a été créé !'},
+                        ]
+                    }
+            else:
+                return {
+                    'input_list': [
+                        {'ok': False, 'msg': 'Il semblerait que vous n\'ayez pas créé de flux !'},
+                    ]
+                }
+        else:
+            return {
+                'input_list': [
+                    {'ok': False, 'msg': 'La requête HTTP a échouée !'},
+                ]
+            }
+    except Exception as e:
+        return {
+            'input_list': [
+                {'ok': True, 'msg': 'Vos sources ont été créées il y a plus de 10 minutes !'},
+            ]
+        }
+</script>
+  <customresponse cfn="check_emoncms">
+    <textline size="42" label="Clé d'API lecture"/>
+  </customresponse>
+<solution>
+  <div class="detailed-solution">
+    <p>Bravo 👏 Votre clé d'API a permis de vérifier que vous avez bien créer un flux !</p>
+  </div>
+</solution>
+</problem>

@@ -1,0 +1,126 @@
+- generic [ref=e3]:
+  - navigation "breadcrumb" [ref=e6]:
+    - list [ref=e7]:
+      - listitem [ref=e8]:
+        - link "" [ref=e9] [cursor=pointer]:
+          - /url: /forum/
+          - generic [ref=e10]: 
+      - listitem [ref=e11]:
+        - text: /
+        - link "Forum général du cours" [ref=e12] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/
+      - listitem [ref=e13]:
+        - text: /
+        - link "Connexion Wifi sans effort" [ref=e14] [cursor=pointer]:
+          - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/connexion-wifi-sans-effort-136308/
+  - search [ref=e16]:
+    - searchbox "Search" [ref=e17]
+    - button "Search" [ref=e18] [cursor=pointer]
+    - link "Advanced search" [ref=e19] [cursor=pointer]:
+      - /url: /forum/search/
+  - heading "Connexion Wifi sans effort" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - link " Post reply" [ref=e27] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/connexion-wifi-sans-effort-136308/post/create/
+      - generic [ref=e28]: 
+      - text: Post reply
+    - button "" [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: 
+  - generic [ref=e34]:
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - link " Edit" [ref=e40] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/connexion-wifi-sans-effort-136308/update/
+            - generic [ref=e41]: 
+            - text: Edit
+          - link "" [ref=e42] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/connexion-wifi-sans-effort-136308/278261/post/delete/
+            - generic [ref=e43]: 
+        - heading "Connexion Wifi sans effort" [level=4] [ref=e44]
+        - paragraph [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: "By:"
+            - link "tidjidi" [ref=e48] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: on Dec. 15, 2024, 6:34 p.m.
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: Salut à tous,
+          - paragraph [ref=e51]: Bon! Je vous livre une petite astuce que je fais pour avoir la galaxia connectée dès le reboot.
+          - paragraph [ref=e52]: (ce n'est pas la trouvaille du siècle, mais ça peut servir)
+          - paragraph [ref=e53]: "J'ai fait un module mywifi.py qui contient le code suivant:"
+          - code [ref=e55]: "def do_connect(): import network as net import time itf = net.WLAN(net.STA_IF) itf.active(True) if itf.isconnected(): print('Already connected') else: itf.connect('ssid', 'keypass') while not itf.isconnected(): print('.',end='') time.sleep(0.5) return itf.ifconfig()[0] print(do_connect())"
+          - paragraph [ref=e56]: que j'ai déposé directement sur l'espace de la galaxia. (Mettre votre SSID et clé wifi)
+          - paragraph [ref=e57]: Puis j'ai édité le fichier boot.py, en y ajoutant
+          - code [ref=e59]: import mywifi
+          - paragraph [ref=e60]: Et voila! Lors du redémarrage suivant, la galaxia se connecte au réseau directement.
+          - paragraph [ref=e61]:
+            - emphasis [ref=e62]: Evidemment, après un flashage, le fichier disparait. N'oubliez pas d'en faire une sauvegarde.
+          - paragraph [ref=e63]: Fonctionne avec la version Micropython 2.0.0
+          - paragraph [ref=e64]: Perso, je m'en sers pour faire des expériences dans la console REPL.
+          - paragraph [ref=e65]
+          - paragraph [ref=e66]: Have fun!
+        - generic [ref=e68]:
+          - generic [ref=e69]: 
+          - text: "Last edited by:"
+          - link "tidjidi" [ref=e70] [cursor=pointer]:
+            - /url: /forum/member/profile/633593/
+          - text: on Dec. 16, 2024, 8:25 p.m., edited 8 times in total.
+      - generic [ref=e71]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/633593/
+        - link "tidjidi" [ref=e73] [cursor=pointer]:
+          - /url: /forum/member/profile/633593/
+        - generic [ref=e74]: "Posts: 53"
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - link " Edit" [ref=e80] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/connexion-wifi-sans-effort-136308/278318/post/update/
+            - generic [ref=e81]: 
+            - text: Edit
+          - link "" [ref=e82] [cursor=pointer]:
+            - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/connexion-wifi-sans-effort-136308/278318/post/delete/
+            - generic [ref=e83]: 
+        - 'heading "Re: Connexion Wifi sans effort" [level=4] [ref=e84]'
+        - paragraph [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]: 
+            - text: "By:"
+            - link "bgaultier" [ref=e88] [cursor=pointer]:
+              - /url: /forum/member/profile/8433/
+            - generic [ref=e89]:
+              - text: 
+              - generic [ref=e90]: Instructor
+            - text: on Dec. 16, 2024, 6:16 a.m.
+        - generic [ref=e91]:
+          - paragraph [ref=e92]:
+            - text: Excellente trouvaille
+            - link "@tidjidi" [ref=e93] [cursor=pointer]:
+              - /url: /forum/member/profile/633593/
+            - text: ", félicitations !"
+          - paragraph [ref=e94]:
+            - text: Je profite également de cette réponse pour vous parler du fichier
+            - strong [ref=e95]: boot.py
+            - text: que vous peut contenir un programme qui sera éxécuté avant
+            - strong [ref=e96]: main.py.
+            - text: Parfait pour établir une connexion WiFi ou vérifier la présence d'un fichier...
+          - paragraph [ref=e97]
+          - paragraph [ref=e98]: Merci pour cette trouvaille et bon courage pour la fin du MOOC,
+        - paragraph [ref=e100]: "--Baptiste"
+      - generic [ref=e101]:
+        - generic:
+          - link:
+            - /url: /forum/member/profile/8433/
+        - link "bgaultier" [ref=e103] [cursor=pointer]:
+          - /url: /forum/member/profile/8433/
+        - generic [ref=e104]: "Posts: 301"
+  - generic [ref=e106]:
+    - link " Post reply" [ref=e107] [cursor=pointer]:
+      - /url: /forum/forum/forum-g%C3%A9n%C3%A9ral-du-cours-8322/topic/connexion-wifi-sans-effort-136308/post/create/
+      - generic [ref=e108]: 
+      - text: Post reply
+    - button "" [ref=e110] [cursor=pointer]:
+      - generic [ref=e111]: 

@@ -1,0 +1,11 @@
+.env 
+__pycache__/ 
+*.pyc 
+*.pyo 
+*.pkl 
+.venv/ 
+venv/ 
+*.log 
+responses.json 
+rag_index.pkl 
+course_data/ 
