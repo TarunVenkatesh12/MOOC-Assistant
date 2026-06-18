@@ -1,4 +1,4 @@
-# MOOC Assistant — Third Semester
+# MOOC Assistant 
 
 A multi-agent pipeline that automatically extracts student questions from FUN-MOOC discussion forums, generates course-grounded responses using Retrieval-Augmented Generation, validates answer quality through a two-stage pipeline, and routes uncertain cases to a human instructor via a Streamlit dashboard.
 
