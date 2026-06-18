@@ -216,41 +216,6 @@ Click **Run Extraction** in the sidebar to start the pipeline.
 
 ---
 
-## Project Structure
-
-```
-mooc-assistant/
-├── agents/
-│   ├── orchestrator_agent.py   # Pipeline driver, aggregates results
-│   ├── extractor_agent.py      # Playwright-based forum scraper
-│   ├── solution_agent.py       # RAG retrieval + Groq LLM generation
-│   ├── validator_agent.py      # Two-stage validation pipeline
-│   └── rag_builder.py          # Course ingestion + index builder
-├── dashboard/
-│   └── app.py                  # Streamlit dashboard (3-view layout)
-├── course_data/                # edX course export (not committed)
-├── rag_index.pkl               # Serialised embedding index (not committed)
-├── responses.json              # Orchestrator output read by dashboard
-├── .env                        # API keys and credentials (not committed)
-└── requirements.txt
-```
-
----
-
-## Semester 1 Recap
-
-The first semester established the extraction and navigation foundation:
-
-- **MCP + Playwright**: browser automation to log into FUN-MOOC
-- **Forum navigation**: paginated listing pages → topic URL collection
-- **Post extraction**: DOM-parsed structured records (author, date, content)
-- **Multi-page topics**: pagination detection and sequential page traversal
-- **Basic AI responses**: early LLM responses with no RAG or validation
-
-No Retrieval-Augmented Generation or validation logic had been implemented at that stage.
-
----
-
 ## Future Enhancements
 
 **Live post monitoring** — The current system is batch-based (run manually). A scheduled polling approach (e.g. every 30–60 minutes using APScheduler) comparing new topic URLs and post counts against a persisted record would allow near-real-time response. A webhook from the Open edX API would eliminate polling overhead entirely.
@@ -274,12 +239,3 @@ No Retrieval-Augmented Generation or validation logic had been implemented at th
 | Language | Python 3.10+ |
 
 ---
-
-## References
-
-1. P. Lewis et al., "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks," NeurIPS, 2020. https://arxiv.org/abs/2005.11401  
-2. N. Reimers and I. Gurevych, "Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation," EMNLP, 2020. https://arxiv.org/abs/2004.09813  
-3. Z. Ji et al., "Survey of Hallucination in Natural Language Generation," ACM Computing Surveys, 2023. https://doi.org/10.1145/3571730  
-4. E. Kasneci et al., "ChatGPT for Good? On Opportunities and Challenges of Large Language Models for Education," Learning and Individual Differences, 2023. https://doi.org/10.1016/j.lindif.2023.102274  
-5. B. Gaultier, "MCP Browser Agent — Experimentations with RAGaRenn," IMT Atlantique, 2024. https://github.com/bgaultier/experimentations-ragarenn  
-6. Microsoft, "Playwright," GitHub, 2024. https://github.com/microsoft/playwright  
