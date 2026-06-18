@@ -1,4 +1,0 @@
-<vertical display_name="Demandez votre badge">
-  <html url_name="5413416ec98f4abab6a60745f3cf61fb"/>
-  <lti_consumer url_name="2e916c44834f44c3aebd67bfc945bb0e" xblock-family="xblock.v1" inline_height="0" display_name="Formulaire demande badge" ask_to_send_username="true" ask_to_send_email="true" lti_id="openbadge_request_production" launch_target="iframe" launch_url="https://obr.fun-mooc.fr/lti/"/>
-</vertical>
